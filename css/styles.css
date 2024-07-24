@@ -164,7 +164,7 @@ a:hover {
 
 
   button {
-    border: 1px solid rgba(96, 96, 96, 0.308);
+    border: 1px solid #666666;
     outline: none;
     border-radius: 50px;
     width: 120px;
@@ -255,7 +255,7 @@ navigation {
 
 
 navigation button {
-    border: 1.4px solid #666666;
+    border: 1.4px solid #6666668b;
     border-radius: 50px;
     width: 120px;
     height: 40px;
@@ -269,7 +269,7 @@ navigation button {
     /* backdrop-filter: none; */
     background-color: transparent;
     position: fixed;
-    top: 22px;
+    top: 12px;
     right: 16px;
     color: #666666;
 
@@ -376,7 +376,7 @@ navigation i {
 
 .overlay .closebtn {
     position: absolute;
-    top: 4px;
+    top: 8px;
     right: 8px;
     font-size: 2.5em;
     opacity: 1;
