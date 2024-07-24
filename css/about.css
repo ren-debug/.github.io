@@ -2,9 +2,9 @@
     padding: 0px 0px;
 }
 
-navigation {
+/* navigation {
     background-color: #66666609;
-}
+} */
 /* || Typography */
 
 
@@ -137,17 +137,28 @@ color: #666666;
     height: 60px;
   
     }
+
+
+    #skills .tooltip .tooltiptext {
+        visibility: hidden;
+        /* width: 160px; */
+        text-align: center;
+        border-radius: 6px;
+        padding: 24px 0px;
+        
+    
+    
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 1px;
+      right: 0%;
+    }
     
     #skills  .tooltiptext {
       visibility: hidden;
       display: inline-block;
-  
-      /* display: inline-block; */
-      
-      /* width: fit-content; */
-     
       font-size: .6rem;
-    
       z-index: 2000;
       width: 60px;
       height: 60px;
@@ -157,7 +168,7 @@ color: #666666;
     
     #skills    .tooltip:hover .tooltiptext {
       visibility: visible;
-      color: #666666; 
+      /* color: #666666; */
       bottom: 20%;
     }
   
@@ -200,6 +211,10 @@ color: #666666;
 
 /* Helpers */
 /**************************/
+.margin-top-10 {
+    padding-top: 10px;
+}
+
 .margin-top-20 {
     padding-top: 20px;
 }
