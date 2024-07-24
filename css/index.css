@@ -53,9 +53,9 @@ button a {
 .cta {
   display: flex;
   margin: auto;
-  width: 50%;
+  width: 38%;
   position: relative;
-  top: 60px;
+  top: 8vh;
   align-items: center;
   /* left: -1%; */
 }
@@ -66,7 +66,7 @@ button a {
 h1 {
     left: 49%;
     margin: auto;
-    top: 42vh;
+    top: 48vh;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -90,10 +90,10 @@ h1 {
 
 #sub-title {
     font-weight: 100;
-    letter-spacing: calc(0.3vw + 1rem);
+    letter-spacing: calc(0.4vw + 1.6rem);
     /* text-transform: uppercase; */
     position: relative;
-    top: 25px;
+    top: 4vh;
     /* font-family: 'Playfair Display'; */
 
 }
@@ -121,8 +121,8 @@ h1 {
 
 #index {
   margin: 0;
-  width: 50%;
-  bottom: 12%;
+  width: 80%;
+  bottom: 8%;
   left: 49%;
 position: absolute; 
 transform: translate(-50%, -50%);
@@ -183,6 +183,8 @@ right: 0%;
     display: flex;
     margin: auto;
     width: 60%;
+
+  
   }
 
 
