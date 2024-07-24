@@ -225,8 +225,8 @@ navigation {
     left: 0rem;
     right: 0rem;
     /* top: 12px; */
-    width: 100%;
-    height: 3rem;
+    /* width: 100%; */
+    height: 4rem;
     align-items: center;
     justify-content: space-between;
     -webkit-backdrop-filter: blur(4px);
@@ -255,8 +255,7 @@ navigation {
 
 
 navigation button {
-    border: 1px solid rgba(96, 96, 96, 0.308);
-    outline: none;
+    border: 1.4px solid #666666;
     border-radius: 50px;
     width: 120px;
     height: 40px;
@@ -270,10 +269,13 @@ navigation button {
     /* backdrop-filter: none; */
     background-color: transparent;
     position: fixed;
-    top: 8px;
-    right: 72px;
+    top: 22px;
+    right: 16px;
+    color: #666666;
 
 }
+
+
 
 navigation i {
     font-size: 1rem;
@@ -299,7 +301,7 @@ navigation i {
     top: 28px;
     text-align: center;
     bottom: 0px;
-    z-index: 990;
+    z-index: 3;
    
     font-weight: 400;
     letter-spacing: 0.7px;
@@ -321,7 +323,7 @@ navigation i {
     height: 100vh;
     position: fixed;
     margin-left: 3.1rem;
-    z-index: 999;
+    z-index: 3;
 
 }
 
@@ -360,7 +362,7 @@ navigation i {
 .overlay a {
     text-decoration: none;
     font-family: 'the_new_eleganceCnRg';
-    /* font-size: 11em; */
+    font-size: 11em;
     line-height: 1.4em;
     letter-spacing: 1px;
     transition: 0.6s;
