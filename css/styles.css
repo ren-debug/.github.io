@@ -616,6 +616,7 @@ footer {
         position: fixed;
         right: 30px;
         height: 24vh;
+        display: none;
         
     }
 
