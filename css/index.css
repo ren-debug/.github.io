@@ -35,14 +35,17 @@ body::-webkit-scrollbar {
 
 
 button {
-  background-color: black;
+  background-color: white;
+  border: 0px solid;
+
 
 }
 
 button a {
   text-decoration: none;
   cursor: pointer;
-  color:white;
+  color:#171717;
+  font-weight: 400;
 
 }
 
@@ -50,20 +53,20 @@ button a {
 .cta {
   display: flex;
   margin: auto;
-  width: 40%;
+  width: 50%;
   position: relative;
-  top: 40px;
+  top: 60px;
   align-items: center;
-  left: -1%;
+  /* left: -1%; */
 }
 
 
 
 
 h1 {
-    left: 49.8%;
+    left: 49%;
     margin: auto;
-    top: 51vh;
+    top: 42vh;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -119,8 +122,8 @@ h1 {
 #index {
   margin: 0;
   width: 50%;
-  bottom: 20%;
-  left: 50%;
+  bottom: 12%;
+  left: 49%;
 position: absolute; 
 transform: translate(-50%, -50%);
 
@@ -133,6 +136,30 @@ transform: translate(-50%, -50%);
 
 }
 
+
+#index .tooltip .tooltiptext {
+  visibility: hidden;
+  /* width: 160px; */
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 8px;
+  
+
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+top: 12px;
+right: 0%;
+}
+
+#index .tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: .9;
+  color: #666666;
+  font-size: 11px;
+  font-weight: 400;
+}
 
 
 

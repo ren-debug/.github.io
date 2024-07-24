@@ -100,6 +100,8 @@ ul {
 a {
     text-decoration: none;
     color: #666666;
+    cursor: pointer;
+
 
 
 
@@ -115,6 +117,8 @@ hr {
 a:hover {
     transition: 0.3s;
 }
+
+
 
 
 /* || Button */
@@ -200,7 +204,7 @@ navigation a {
 
 }
 
-navigation a:hover {
+a:hover {
     /* text-decoration: underline; */
     opacity: .6;
     cursor: pointer;
@@ -221,7 +225,7 @@ navigation {
     left: 0rem;
     right: 0rem;
     /* top: 12px; */
-    /* width: 100%; */
+    width: 100%;
     height: 3rem;
     align-items: center;
     justify-content: space-between;
@@ -234,10 +238,20 @@ navigation {
 
 }
 
-.navigation {
-    padding: 0px 0px;
+
+
+.fi-br-menu-burger {
+    padding: 0px 16px;
+    cursor: pointer;
+
 }
 
+.fi-sr-house-chimney {
+    padding: 0px 16px;
+    cursor: pointer;
+
+
+}
 
 
 navigation button {
@@ -263,9 +277,8 @@ navigation button {
 
 navigation i {
     font-size: 1rem;
-    line-height: 1rem;
+    /* line-height: 1rem; */
     color: rgb(155, 155, 155);
-    margin: 0 1.05rem;
 
 }
 
@@ -283,9 +296,9 @@ navigation i {
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 0px;
+    top: 28px;
     text-align: center;
-    bottom: 0%;
+    bottom: 0px;
     z-index: 990;
    
     font-weight: 400;
@@ -296,10 +309,11 @@ navigation i {
 }
 
 
-.menu li {
+.menu-wrapper li { 
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     width: 2rem;
+    font-size: 10px;
 }
 
 .vl {
@@ -395,7 +409,7 @@ footer i {
     writing-mode: vertical-lr;
     transform: rotate(0deg);
     width: 0px;
-    font-size: 12px;
+    font-size: 14px;
     transition: transform .2s;
     opacity: 1;
     -webkit-font-smoothing: antialiased;
