@@ -30,9 +30,8 @@ body {
     font-weight: 200;
     font-style: normal;
     line-height: 14px;
-
     text-align: justify;
-    color: rgb(155, 155, 155);
+    color: #666666;
 
 
 }
@@ -396,7 +395,7 @@ footer i {
     writing-mode: vertical-lr;
     transform: rotate(0deg);
     width: 0px;
-    font-size: .9rem;
+    font-size: 12px;
     transition: transform .2s;
     opacity: 1;
     -webkit-font-smoothing: antialiased;
@@ -547,6 +546,11 @@ footer {
         display: none;
       }
 
+
+    
+      .vl {
+        display: none;
+    }
 }
 
 
@@ -564,6 +568,12 @@ footer {
     navigation i {
         font-size: 1.2em;
     }
+
+
+    .vl {
+        display: none;
+    }
+
 
     footer {
         bottom: 1%;
@@ -594,12 +604,22 @@ footer {
         font-size: 1.2em;
     }
 
+
+
+    .vl {
+        display: none;
+    }
+
+
     footer {
         bottom: 1%;
         position: fixed;
         right: 30px;
         height: 24vh;
+        
     }
+
+
 
     .tooltip:hover .tooltiptext {
         display: none;

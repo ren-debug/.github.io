@@ -318,7 +318,7 @@ color: #666666;
 
 
 .opentab p {
-    padding-top: 6px;
+    padding-top: 2px;
     padding-bottom: 6px;
     margin: 0;
 }
@@ -394,12 +394,15 @@ button.tablinks {
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: rgb(126, 126, 126);
+    border: 0px solid;
+
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
     color: rgb(255, 255, 255);
     background-color: rgb(126, 126, 126);
+    border: 0px solid;
 }
 
 
@@ -415,6 +418,10 @@ button.tablinks {
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
 
+    #home .table {
+        padding-left: 64px;
+        width: 700px;
+    }
 
     #clients .table,
     #skills .table {
@@ -435,6 +442,13 @@ button.tablinks {
 
 
 @media screen and (max-width: 767px) {
+
+
+    #home .table {
+        padding-left: 34px;
+        width: 440px;
+        padding-right: 0;
+    }
 
 
     #clients .table,
@@ -480,6 +494,14 @@ button.tablinks {
 
 @media screen and (max-width: 600px) {
 
+    #home .table {
+        padding-left: 26px;
+        padding-right: 0px;
+        margin: 0;
+        width: 440px;
+    }
+
+
     #clients .table,
     #skills .table {
         padding-left: 26px;
@@ -501,6 +523,13 @@ button.tablinks {
 
 
 @media screen and (max-width: 479px) {
+
+   #home .table {
+        padding-left: 26px;
+        padding-right: 0px;
+        margin: 0;
+        width: 280px;
+    }
 
     #clients .table,
     #skills .table {
@@ -531,14 +560,23 @@ button.tablinks {
 
 @media screen and (max-width: 420px) {
 
+    #home .table {
+        padding-left: 20px;
+        padding-right: 0px;
+        margin: 0;
+        width: 300px;
+    }
 
+    .blur p {
+        font-size: 12px;
+    }
 
     #clients .table,
     #skills .table {
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 0px;
         margin: 0;
-        width: 360px;
+        width: 300px;
     }
 
     /* Section - Parallax */
@@ -558,13 +596,20 @@ button.tablinks {
 
 @media(max-width: 320px) {
 
+    #home .table {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0;
+        width: 200px;
+    }
+
 
     #clients .table,
     #skills .table {
-        padding-left: 0px;
-        padding-right: 20px;
+        padding-left: 60px;
+        padding-right: 0px;
         margin: 0;
-        width: 280px;
+        width: 200px;
     }
 
     /* Section - Parallax */
