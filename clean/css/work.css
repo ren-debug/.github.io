@@ -1,0 +1,84 @@
+body {
+  background-color: #171717;
+  color: white;
+  text-align: center;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  
+}
+
+
+navigation {
+  background: #171717;
+  /* border-bottom: 0.5px solid #9f9f9f75; */
+
+}
+
+navigation i {
+  color: rgb(255, 255, 255);
+  outline: none;
+
+}
+button a {
+  color:#171717; 
+}
+
+
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.6s;
+
+
+
+}
+
+
+
+a:hover {
+  text-decoration: none;
+  opacity: .6;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+h1 {
+  left: 50%;
+  margin: 0 auto;
+  top: 51vh;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  font-family: 'the_new_eleganceCnRg';
+  font-size: 9em;
+  line-height: 1.4em;
+  letter-spacing: 7px;
+  transition: 0.6s;
+  color: white;
+
+ 
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+
+}
+
+
+footer i {
+  color: white;
+  opacity: 1;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+}

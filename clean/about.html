@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/clean/css/styles.css">
+    <link rel="stylesheet" href="/clean/css/about.css">
+    <link rel="stylesheet" href="/clean/css/portfolio_layout.css">
+    <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/fonts/stylesheet.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/base.css"/> -->
+
+    <link rel="stylesheet" href="/fonts/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="preconnect" href="https://cdn.fonts.net">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+
+    <style>
+        .content-wrapper {
+            min-height: 100vh;
+            width: 100%;
+            overflow-y: scroll;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+
+        }
+    </style>
+        <script type="module" src="./js/effect-4/blurScrollEffect.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.6.4.js"
+        integrity="sha256-VJZPi1gK15WpYvsnBmcV0yga4a0Toov4rt1diFnrrjc=" crossorigin="anonymous"></script>
+    <script src="/js/jquery.scroll-spy.js"></script>
+    <script src="/js/jquery.scroll-spy.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className="js";</script>
+
+        	<!-- JavaScript dependencies -->
+		<!-- GSAP library -->
+		<script src="./js/gsap.min.js"></script>
+		<!-- GSAP ScrollTrigger plugin -->
+		<script src="./js/ScrollTrigger.min.js"></script>
+
+		<!-- SplitType for text manipulation: https://github.com/lukePeavey/SplitType -->
+		<script src="./js/split-type.min.js"></script>
+
+		<!-- Add (Lenis) smooth scroll -->
+		<script src="./js/lenis.min.js"></script>
+		<script src="./js/smoothscroll.js"></script>
+
+		<!-- Scripts for the effect -->
+		<script type="module" src="./js/index.js"></script>
+        <script type="module" src="./js/effect-4/blurScrollEffect.js"></script>
+
+
+</head>
+
+<body>
+
+    <navigation>
+        <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
+        <a href="about.html" class="active navigation">&nbsp;About&nbsp;</a>
+        <a href="work.html" class="navigation">&nbsp;Work&nbsp;</a>
+        <!-- <button class="hvr-push"><a href="about.html#contact">contact</a></button> -->
+        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
+    </navigation>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+        <div class="overlay-content">
+
+            <ul>
+                <li><a href="digital.html">digital</a>
+                <li>
+                <li><a href="websites.html">web</a>
+                <li>
+                <li><a href="print.html">print</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+<div class="content-wrapper">
+        <div class="menu-wrapper">
+            <ul class="menu">
+                <li><a href="#about">&nbsp;01. About&nbsp;</a></li>
+                <li><a href="#clients">&nbsp;02. Clients&nbsp;</a></li>
+                <li><a href="#skills">&nbsp;03. Skills&nbsp;</a></li>
+            </ul>
+            <div class="vl"></div>
+        </div>
+
+ <div class="content">
+
+    <div id="about">
+
+        
+        <div class="image-container">
+            <img src="/img/homepage.png" alt="image">
+            <div class="overlay-text">Design & Development Agency based in London</div>
+        </div>
+
+    </div>
+
+
+    <div id="home">
+
+        <div class="table">
+          <div class="blur" data-effect-4>
+              <p>I'm Irèn Spalletti, a Visual Designer and Front-End Developer with more than 12 years of
+                  experience. My passion for Visual Communication spans across both print and digital media,
+                  and it has made me appreciate the physical feel and look of materials. This unique
+                  perspective gives me an edge when crafting designs for the digital realm, which constantly
+                  excites and inspires me with its endless possibilities.
+
+                  <br><br>My journey has allowed me to grasp the fundamentals of traditional design
+                  principles, making it effortless for me to bring ideas to life across various platforms. My
+                  portfolio is all about attention to detail, offering a clean and timeless style. I'm all
+                  about putting typography at the forefront, creating designs that effortlessly blend elegance
+                  and functionality.
+              </p>
+          </div>
+        </div>
+
+      
+        <section>
+            <div class="parallax">
+            </div>
+        </section>
+    </div>
+<!--    
+            <div id="about">
+
+              <div class="table">
+                <div class="blur" data-effect-4>
+                    <p>I'm Irèn Spalletti, a Visual Designer and Front-End Developer with more than 12 years of
+                        experience. My passion for Visual Communication spans across both print and digital media,
+                        and it has made me appreciate the physical feel and look of materials. This unique
+                        perspective gives me an edge when crafting designs for the digital realm, which constantly
+                        excites and inspires me with its endless possibilities.
+
+                        <br><br>My journey has allowed me to grasp the fundamentals of traditional design
+                        principles, making it effortless for me to bring ideas to life across various platforms. My
+                        portfolio is all about attention to detail, offering a clean and timeless style. I'm all
+                        about putting typography at the forefront, creating designs that effortlessly blend elegance
+                        and functionality.
+                    </p>
+                </div>
+              </div>
+
+            </div> -->
+            
+          
+
+        <!-- <div id="about">
+
+                   <section>
+
+                    <div class="table">
+                        <div class="blur" data-effect-4>
+                            <p>I'm Irèn Spalletti, a Visual Designer and Front-End Developer with more than 12 years of
+                                experience. My passion for Visual Communication spans across both print and digital media,
+                                and it has made me appreciate the physical feel and look of materials. This unique
+                                perspective gives me an edge when crafting designs for the digital realm, which constantly
+                                excites and inspires me with its endless possibilities.
+    
+                                <br><br>My journey has allowed me to grasp the fundamentals of traditional design
+                                principles, making it effortless for me to bring ideas to life across various platforms. My
+                                portfolio is all about attention to detail, offering a clean and timeless style. I'm all
+                                about putting typography at the forefront, creating designs that effortlessly blend elegance
+                                and functionality.
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+        </div>
+   -->
+
+            <div id="clients">
+
+                <section>
+                    <div class="table">
+                        <p class="margin-top-60"></p>
+
+                        <h3>Industry Experience
+                            <!-- <hr> -->
+                        </h3>
+
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'beauty')"
+                                id="defaultOpen">beauty</button>
+                            <button class="tablinks" onclick="openCity(event, 'finance')">finance</button>
+                            <button class="tablinks" onclick="openCity(event, 'retail')">retail</button>
+                            <button class="tablinks" onclick="openCity(event, 'luxury')">luxury</button>
+                            <button class="tablinks" onclick="openCity(event, 'media')">media</button>
+                            <button class="tablinks" onclick="openCity(event, 'sport')">sport</button>
+                        </div>
+
+                        <div class="opentab margin-top-20">
+                            <!-- <p class="margin-top-60"></p> -->
+
+                            <div id="beauty" class="tabcontent">
+
+                                <ul>
+                                    <li><br>
+                                        <h4>Bausch & Lomb (AS&K)</h4>
+                                        <p>infographics – freelance
+                                            <hr>
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <h4>Elemis (Frontroom)</h4>
+                                        <p>photoshop / illustrator graphics – freelance
+                                            <hr>
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <h4>Lanc&#244;me (L&#8217;Or&#233;al)</h4>
+                                        <p>front-end dev / digital design – freelance
+                                            <hr>
+                                        </p>
+                                    </li>
+
+                                    <li>
+
+                                    <li>
+                                        <h4>The Body Shop</h4>
+                                        <p>brand guidelines – freelance
+                                            <hr>
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <h4>Yves Saint Laurent (L&#8217;Or&#233;al)</h4>
+                                        <p>front-end dev / digital design – freelance
+                                            <a href="digital.html#ysl" class="view">view project</a>
+                                            <hr>
+                                        </p>
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+
+                            <div id="finance" class="tabcontent">
+                                <p>
+                                    <ul>
+                                        <li>
+                                            <h4>ADA Economics</h4>
+                                            <p>visual identity - freelance
+                                                <hr>
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <h4>Blockchain Unlimited</h4>
+                                            <p>UX · UI consultant
+                                                <hr>
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <h4>FT Financial Times</h4>
+                                            <p>editorial design - freelance
+                                                <hr>
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <h4>Greenfinch</h4>
+                                            <p>UX · UI consultant
+                                                <hr>
+                                            </p>
+                                        </li>
+
+                                    </ul>
+                                </p>
+                            </div>
+
+                            <div id="retail" class="tabcontent">
+                                <p>
+                                    <ul>
+
+                                        <li>
+                                            <h4>Belvedere Vodka (Hue & Cry)</h4>
+                                            <p>branding – freelance
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Karolina Manns</h4>
+                                            <p>branding & packaging – art director
+                                                <a href="print.html#ks" class="view">view project</a>
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>McArthurGlen</h4>
+                                            <p>UX · UI, development, digital design – freelance
+                                                <a href="digital.html#mag" class="view">view project</a>
+                                                <hr>
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <h4>Mike Koedinger Editions</h4>
+                                            <p>editorial design – print designer
+                                                <hr>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                            <div id="luxury" class="tabcontent">
+                                <p>
+                                    <ul>
+                                        <li>
+                                            <h4>Babylon (Socrates)</h4>
+                                            <p>web design – freelance
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Burberry</h4>
+                                            <p>marketing & advertising - freelance
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Christie&#8217;s</h4>
+                                            <p>UX · UI, development – various
+                                                <a href="print.html#calder" class="view">view project</a>
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>The East India Company</h4>
+                                            <p>events · print design – freelance
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Yves Saint Laurent (L'Or&#233;al)</h4>
+                                            <p>front-end dev / digital design – freelance
+                                                <a href="digital.html#ysl" class="view">view project</a>
+                                                <hr>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                            <div id="media" class="tabcontent">
+                                <p>
+                                    <ul>
+
+                                        <li>
+                                            <h4>Pinzutu Films</h4>
+                                            <p>web design & front-end dev · art direction
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Pokerstars</h4>
+                                            <p>digital designer – freelance
+                                                <a href="digital.html#ps" class="view">view project</a>
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Sonos (Sense Worldwide)</h4>
+                                            <p>infographics & print design – freelance
+                                                <a href="#" class="view">view project</a>
+                                                <hr>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                            <div id="sport" class="tabcontent">
+                                <p>
+                                    <ul>
+                                        <li>
+                                            <h4>Atma Yoga</h4>
+                                            <p>web designer & front-end developer
+                                                <hr>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>England Rugby Football Union</h4>
+                                            <p>digital rebranding – freelance
+                                                <a href="digital.html#rfu" class="view">view project</a>
+                                                <hr>
+                                            </p>
+                                        </li>
+
+                                        <li>
+                                            <h4>LP Workouts</h4>
+                                            <p>web designer & front-end developer
+                                                <hr>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <a href="pdf/irene.spalletti_CV.pdf" download class="cv">
+                            <p>download full cv&nbsp;&nbsp;&nbsp;<i class="fi fi-br-download"></i></p>
+                        </a>
+
+                    </div>
+                </section>
+
+                <section>
+                    <div class="parallax">
+                    </div>
+                </section>
+
+            </div>
+
+            <div id="skills">
+
+                <section>
+                    <div class="table">
+                        <p class="margin-top-120"></p>
+                        <h3>Adobe Suite
+                            <hr>
+                        </h3>
+                        <div class="tooltip">
+                            <i class="fi fi-brands-photoshop"></i>
+                            <div class="tooltiptext">photoshop</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fi fi-brands-illustrator"></i>
+                            <div class="tooltiptext">illustrator</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fi fi-brands-indesign"></i>
+                            <div class="tooltiptext">inDesign</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fi fi-brands-xd"></i>
+                            <div class="tooltiptext">xd</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fi fi-brands-after-effects"></i>
+                            <div class="tooltiptext">after effects</div>
+                        </div>
+
+                        <p class="margin-top-10"></p>
+                        <h3>UX · UI & Prototyping
+                            <hr>
+                        </h3>
+                        <div class="tooltip">
+                            <i class="fa-brands fa-figma"></i>
+                            <div class="tooltiptext">figma</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fa-brands fa-sketch"></i>
+                            <div class="tooltiptext">sketch</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fa-brands fa-invision"></i>
+                            <div class="tooltiptext">invision</div>
+                        </div>
+
+                        <p class="margin-top-10"></p>
+                        <h3>Front-End Development
+                            <hr>
+                        </h3>
+                        <div class="tooltip">
+                            <i class="fa-brands fa-html5"></i>
+                            <div class="tooltiptext">html</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <div class="tooltiptext">css</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fa-brands fa-square-js"></i>
+                            <div class="tooltiptext">java script</div>
+                        </div>
+
+                        <div class="tooltip">
+                            <i class="fi fi-brands-github"></i>
+                            <div class="tooltiptext">github</div>
+                        </div>
+
+                        <p class="margin-top-20"></p>
+                        <h3>Languages
+                            <hr>
+                        </h3>
+                        <button class="tablinks">italian</button>
+                        <button class="tablinks">french</button>
+                        <button class="tablinks">english</button>
+                        <button class="tablinks">spanish</button>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="parallax">
+                    </div>
+                </section>
+
+            </div>
+        
+    </div>
+</div>
+    <footer>
+        <div class="tooltip">
+            <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
+            <div class="tooltiptext">irene.spalletti@gmail.com</div>
+        </div>
+        <div class="tooltip">
+            <a href="tel:+447412604767"><i class="fi fi-sr-phone-call"></i></a>
+            <div class="tooltiptext">+44 (0) 7412 604 767</div>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <div class="tooltiptext">linkedin</div>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.instagram.com/ireneishi/"><i class="fa-brands fa-instagram"></i></a>
+            <div class="tooltiptext">instagram</div>
+        </div>
+    </footer>
+</body>
+
+<script type="module" src="./js/effect-4/blurScrollEffect.js"></script>
+
+
+<script>
+    $('.content-wrapper').scrollSpy({
+        target: $('.menu a'),
+        activeClass: 'active'
+    }).scroll();
+</script>
+
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+</html>

@@ -1,0 +1,119 @@
+/* || Flip Buttons & Panels */
+
+#flip1,
+#flip2,
+#flip3,
+#flip4,
+#flip5,
+#flip6,
+#flip7,
+#flip8,
+#flip9 {
+    margin-top: 32px;
+    margin-bottom: 0px;
+    cursor: pointer;
+
+}
+
+#panel1,
+#panel2,
+#panel3,
+#panel4,
+#panel5,
+#panel6,
+#panel7,
+#panel8,
+#panel9 {
+    display: none;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+
+
+
+.zoom {
+    display: flex;
+    margin-top: 0vh;
+  }
+  .card {
+    width: 30%;
+    /* height: 195px; */
+    position: relative;
+    background-color: transparent;
+    /* display: inline; */
+    margin-left: 10vw;
+    margin-top: 0vw;
+
+  }
+
+
+  .card_1 {
+    /* width: 130px;
+    height: 195px; */
+    width: 30%;
+    background-color: transparent;
+
+    position: relative;
+    /* display: inline; */
+   float: right;
+   margin-left: 11vw;
+   margin-top: 0vw;
+   
+    /* margin: 0px; */
+  }
+
+
+
+  .card .img-top, .card_1 .img-top-1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    /* z-index: 99; */
+    background-color: transparent;
+
+  }
+  .card:hover .img-top {
+    display: inline;
+    background-color: transparent;
+    z-index: 0;
+
+  }
+  
+  
+  .card_1:hover .img-top-1 {
+    display: inline;
+    background-color: transparent;
+    z-index: 0;
+
+  }
+  
+  
+  html:not(.mobile) .zoom:hover {
+    cursor: zoom-in;
+    transition: .5s;
+    transition-delay: 90s; /* how long before the img automatically returns to original size */
+    transition-property: -webkit-transform;
+    -webkit-transform: scale(1); 
+    z-index: 0; 
+    position: sticky; /* this and z-index should ensure that the zoomed img is always displayed on top of any other element */
+  }
+  
+  html:not(.mobile) .zoom:active { 
+   cursor: zoom-out;
+   -overflow: auto; /* Enable scroll if needed */
+   transition: 0s;
+   transition-delay: 0.05s;
+   transition-property: -webkit-transform;
+   -webkit-transform: scale(1); /* set zoom level */
+  
+   background-color: transparent;
+
+   -webkit-transform-origin: center; /* set img position */
+   z-index: 1000; 
+  }
+

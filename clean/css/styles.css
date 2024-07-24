@@ -1,0 +1,592 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url("https://use.typekit.net/ezv7rpx.css");
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+/* || General styles */
+
+
+/* … */
+.content-wrapper {
+    width: 98%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+
+
+/* || Typography */
+
+body {
+    scroll-behavior: smooth;
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoothing: grayscale; */
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 14px;
+
+    text-align: justify;
+    color: rgb(155, 155, 155);
+
+
+}
+
+
+
+h2 {
+    font-family: 'the_new_eleganceCnRg';
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+h3 {
+
+  
+    /* font-family: 'the_new_eleganceCnRg'; */
+
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+}
+
+
+h4
+ {
+
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.8px;
+}
+
+
+p {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+
+}
+
+
+
+/* … */
+li {
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* || Links */
+
+a {
+    text-decoration: none;
+    color: #666666;
+
+
+
+}
+
+hr {
+    margin-bottom: 12px;
+    border: 0.5px solid #69696955;
+}
+
+
+
+a:hover {
+    transition: 0.3s;
+}
+
+
+/* || Button */
+
+@-webkit-keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  .hvr-push {
+    /* display: block; */
+    margin: auto;
+    margin-top: 0vh;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+    -webkit-animation-name: hvr-push;
+    animation-name: hvr-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+
+  button {
+    border: 1px solid rgba(96, 96, 96, 0.308);
+    outline: none;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0px 0px;
+    text-align: center;
+    /* backdrop-filter: none; */
+    background-color: white;
+   
+
+}
+
+/* … */
+
+/* || Navigation Links */
+
+.active {
+    transition: .3s ease-out;
+    opacity: .6; 
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.3px;
+    text-underline-offset: 0.3em;
+
+
+}
+
+navigation a:hover {
+    /* text-decoration: underline; */
+    opacity: .6;
+    cursor: pointer;
+
+}
+
+
+
+/* || Header and Main Navigation */
+
+/* … */
+
+
+navigation {
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    left: 0rem;
+    right: 0rem;
+    /* width: 100%; */
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    background-color: #7272720c;
+    /* background: linear-gradient(45deg, rgb(255, 255, 255), rgba(255, 255, 255, 0)); */
+    /* border-bottom: 0.5px solid #9f9f9f75; */
+
+}
+
+.navigation {
+    padding: 0px 0px;
+}
+
+
+
+navigation button {
+    border: 1px solid rgba(96, 96, 96, 0.308);
+    outline: none;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0px 0px;
+    text-align: center;
+    /* backdrop-filter: none; */
+    background-color: transparent;
+    position: fixed;
+    top: 8px;
+    right: 72px;
+
+}
+
+navigation i {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: rgb(155, 155, 155);
+    margin: 0 1rem;
+
+}
+
+
+i {
+    color: rgb(155, 155, 155);
+
+}
+
+/* || Aside */
+
+/* … */
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 28px;
+    text-align: center;
+    bottom: 0%;
+    z-index: 990;
+
+    justify-content: space-evenly;
+    /* margin: 0 auto; */
+
+}
+
+
+.menu li {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    width: 2rem;
+}
+
+.vl {
+    border-left: 0.5px solid #69696955;
+    height: 100vh;
+    position: fixed;
+    margin-left: 3.1rem;
+    z-index: 999;
+
+}
+
+.menu-wrapper a:hover {
+    color: black;
+    opacity: 1;
+    /* color: rgb(119, 119, 119); */
+    /* text-decoration: underline; */
+  }
+
+
+/* || Overlay */
+
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 89;
+    background-color: #171717;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+
+.overlay-content {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.overlay a {
+    text-decoration: none;
+    font-family: 'the_new_eleganceCnRg';
+    font-size: 11em;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    transition: 0.6s;
+    color: white;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #ffffff;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 2.5em;
+    opacity: 1;
+    color: white;
+    cursor: pointer;
+    z-index: 990;
+   
+}
+
+/* || Footer */
+
+footer {
+    /* padding: 0% 0;
+    text-align: center; */
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    /* bottom: calc(100vh - 28vh); */
+    bottom: 0;
+
+    position: fixed;
+    right: 2.4rem;
+    height: 28vh;
+    justify-content: space-evenly;
+    z-index: 1000;
+
+}
+
+
+footer i {
+    writing-mode: vertical-lr;
+    transform: rotate(0deg);
+    width: 0px;
+    font-size: .9rem;
+    transition: transform .2s;
+    opacity: 1;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+
+    
+
+}
+
+
+/* || Tooltip */
+
+  
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    /* width: 160px; */
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 10px;
+    
+
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 0%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: .5;
+}
+
+
+
+/* Media Queries */
+/**************************/
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+    .navigation {
+        padding: 0px 40px;
+        justify-content: space-evenly;
+    }
+}
+
+
+@media screen and (max-width: 959px) and (min-width: 769px) {
+    .navigation {
+        padding: 0px 24px;
+        justify-content: space-evenly;
+    }
+
+    /* || Footer */
+
+footer {
+    right: 30px;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 788px) {
+    .navigation {
+        padding: 0px 32px;
+        justify-content: space-evenly;
+    }
+
+    navigation button {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    footer {
+        right: 30px;
+    }
+
+    .tooltip:hover .tooltiptext {
+        display: none;
+      }
+}
+
+
+@media screen and (max-width: 620px) {
+    .navigation {
+        padding: 0px 32px;
+        justify-content: space-evenly;
+    }
+
+    navigation button {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    footer {
+        bottom: 1%;
+        position: fixed;
+        right: 30px;
+        height: 24vh;
+    }
+
+    .tooltip:hover .tooltiptext {
+        display: none;
+      }
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .navigation {
+        padding: 0px 32px;
+        justify-content: space-evenly;
+    }
+
+    navigation button {
+        display: none;
+    }
+
+    navigation i {
+        font-size: 1.2em;
+    }
+
+    footer {
+        bottom: 1%;
+        position: fixed;
+        right: 30px;
+        height: 24vh;
+    }
+
+    .tooltip:hover .tooltiptext {
+        display: none;
+      }
+
+}
+
+
+@media screen and (max-width: 420px) {
+    .navigation {
+        padding: 0px 6px;
+        justify-content: space-evenly;
+        font-size: 9px;
+    }
+
+    navigation button {
+        display: none;
+    }
+
+    navigation i {
+        font-size: 1.2em;
+    }
+
+    footer {
+        bottom: 1%;
+        position: fixed;
+        right: 30px;
+        height: 24vh;
+    }
+
+    .tooltip:hover .tooltiptext {
+        display: none;
+      }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .navigation {
+        padding: 0px 6px;
+        justify-content: space-evenly;
+        font-size: 9px;
+    }
+
+    navigation button {
+        display: none;
+    }
+
+    navigation i {
+        font-size: 1.2em;
+    }
+
+    footer {
+        bottom: 1%;
+        position: fixed;
+        right: 30px;
+        height: 24vh;
+    }
+
+    .tooltip:hover .tooltiptext {
+        display: none;
+      }
+}
