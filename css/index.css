@@ -116,6 +116,22 @@ h1 {
 }
 
 
+#index {
+  margin: 0;
+  width: 50%;
+  bottom: 20%;
+  left: 50%;
+position: absolute; 
+transform: translate(-50%, -50%);
+
+}
+
+#index i {
+  padding: 0px 10px;
+  font-size: 14px;
+
+
+}
 
 
 
