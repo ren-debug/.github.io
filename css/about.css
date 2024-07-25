@@ -543,7 +543,7 @@ button.tablinks {
 @media screen and (max-width: 600px) {
 
     #home .table {
-        padding-left: 20%;
+        padding-left: 14%;
         padding-right: 0px;
         margin: 0;
         width: 440px;
@@ -558,10 +558,10 @@ button.tablinks {
 
     #clients .table,
     #skills .table {
-        padding-left: 18%;
+        padding-left: 14%;
         padding-right: 0px;
         margin: 0;
-        width: 460px;
+        width: 440px;
     }
 
     /* Section - Parallax */
