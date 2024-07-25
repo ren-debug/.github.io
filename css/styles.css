@@ -199,9 +199,9 @@ navigation a {
     transition: .3s ease-out;
     opacity: 1; 
     font-weight: 400;
-    /* text-decoration-line: underline;
+    text-decoration-line: underline;
     text-decoration-thickness: 0.5px;
-    text-underline-offset: 0.5em; */
+    text-underline-offset: 0.5em;
 
 
 }
@@ -234,7 +234,7 @@ navigation {
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     background-color: #7272720c;
-    
+    font-size: 13px;
     /* background: linear-gradient(45deg, rgb(255, 255, 255), rgba(255, 255, 255, 0)); */
     /* border-bottom: 0.5px solid #9f9f9f75; */
 

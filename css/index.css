@@ -162,7 +162,9 @@ right: 0%;
 }
 
 
-
+footer i {
+  font-size: .8em;
+}
 
 
 /* Media Queries */
