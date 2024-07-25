@@ -547,17 +547,41 @@ button.tablinks {
         padding-left: 20px;
         padding-right: 0px;
         margin: 0;
-        width: 420px;
+        padding-top: 40px;
+        width: 460px;
+
     }
 
-    #clients .table,
+    .blur p {
+        font-size: 12px;
+    }
+
+    #clients .table {
+        padding-left: 20px;
+        padding-right: 0px;
+        margin: 0;
+        padding-top: 20px;
+        width: 460px;
+    }
+
     #skills .table {
         padding-left: 20px;
         padding-right: 0px;
         margin: 0;
-        width: 420px;
+        width: 460px;
     }
 
+    #clients,
+    #home {
+        min-height: 100vh;
+    }
+    
+    
+    #skills {
+        max-height: 100vh;
+    }
+
+    
     /* Section - Parallax */
     /**************************/
     .parallax {
@@ -567,34 +591,34 @@ button.tablinks {
         background-position: bottom right;
     }
 
-    button.tablinks {
+    /* button.tablinks {
         outline: none;
         width: 64px;
         height: 30px;
         margin: 3px 2px;
+    } */
+
+       
+             /* clients - Style the buttons inside the tab */
+
+             .tab button.tablinks {
+                outline: none;
+                width: 102px;
+                height: 36px;
+                margin: 4px 2px;
+            }
+    
+            .margin-top-10 {
+                padding-top: 0px;
+            }
+    
+            /* LANGUAGES - Style the buttons inside the tab */
+    button.tablinks {
+        width: 102px;
+        height: 36px;
+       
+      
     }
-
-                /* clients - Style the buttons inside the tab */
-
-                .tab button.tablinks {
-                    outline: none;
-                    width: 88px;
-                    height: 36px;
-                    margin: 8px 2px;
-                }
-        
-                .margin-top-10 {
-                    padding-top: 0px;
-                }
-        
-                /* LANGUAGES - Style the buttons inside the tab */
-        button.tablinks {
-         
-            width: 88px;
-            height: 36px;
-           
-          
-        }
 
 }
 

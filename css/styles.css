@@ -539,6 +539,8 @@ footer {
     .navigation {
         padding: 0px 12px;
         justify-content: space-evenly;
+        font-size: 13px;
+
     }
 
     navigation button {
@@ -546,7 +548,7 @@ footer {
     }
 
     navigation i {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
 
     footer {
