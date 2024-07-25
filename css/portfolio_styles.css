@@ -22,3 +22,7 @@ navigation i {
     opacity: 1;
 
 }
+
+navigation button {
+    display: none;
+}

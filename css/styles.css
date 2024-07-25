@@ -298,7 +298,7 @@ navigation i {
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 28px;
+    top: 42px;
     text-align: center;
     bottom: 0px;
     z-index: 3;
@@ -362,7 +362,8 @@ navigation i {
 .overlay a {
     text-decoration: none;
     font-family: 'the_new_eleganceCnRg';
-    font-size: 11em;
+    font-size: calc(6vw + 1.5rem);
+
     line-height: 1.4em;
     letter-spacing: 1px;
     transition: 0.6s;
@@ -402,7 +403,7 @@ footer {
     right: 2.4rem;
     height: 28vh;
     justify-content: space-evenly;
-    z-index: 1000;
+    z-index: 0;
 
 }
 
@@ -490,9 +491,6 @@ footer {
         justify-content: space-evenly;
     }
 
-    navigation button {
-        display: none;
-    }
 
     .vl {
         display: none;
@@ -510,13 +508,11 @@ footer {
 
 @media screen and (max-width: 620px) {
     .navigation {
-        padding: 0px 32px;
+        padding: 0px 16px;
         justify-content: space-evenly;
     }
 
-    navigation button {
-        display: none;
-    }
+  
 
     .menu {
         display: none;
@@ -539,7 +535,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .navigation {
-        padding: 0px 32px;
+        padding: 0px 12px;
         justify-content: space-evenly;
     }
 
@@ -572,14 +568,12 @@ footer {
 
 @media screen and (max-width: 420px) {
     .navigation {
-        padding: 0px 6px;
+        padding: 0px 0px;
         justify-content: space-evenly;
-        font-size: 9px;
+        font-size: 8.5px;
     }
 
-    navigation button {
-        display: none;
-    }
+ 
 
     navigation i {
         font-size: 1.2em;
@@ -607,14 +601,12 @@ footer {
 @media screen and (max-width: 320px) {
 
     .navigation {
-        padding: 0px 6px;
+        padding: 0px 2px;
         justify-content: space-evenly;
-        font-size: 9px;
+        font-size: 8px;
     }
 
-    navigation button {
-        display: none;
-    }
+  
 
     navigation i {
         font-size: 1.2em;
