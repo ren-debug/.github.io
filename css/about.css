@@ -483,7 +483,6 @@ button.tablinks {
 
     .view {
         font-size: 0.6rem;
-        font-weight: 600;
         letter-spacing: 0.5px;
     }
 
@@ -493,19 +492,19 @@ button.tablinks {
 @media screen and (max-width: 600px) {
 
     #home .table {
-        padding-left: 26px;
+        padding-left: 30px;
         padding-right: 0px;
         margin: 0;
-        width: 440px;
+        width: 526px;
     }
 
 
     #clients .table,
     #skills .table {
-        padding-left: 26px;
+        padding-left: 30px;
         padding-right: 0px;
         margin: 0;
-        width: 440px;
+        width: 526px;
     }
 
     /* Section - Parallax */
@@ -517,24 +516,46 @@ button.tablinks {
         background-position: bottom right;
     }
 
+                /* clients - Style the buttons inside the tab */
+
+                .tab button.tablinks {
+                    outline: none;
+                    width: 88px;
+                    height: 36px;
+                    margin: 8px 2px;
+                }
+        
+                .margin-top-10 {
+                    padding-top: 0px;
+                }
+        
+                /* LANGUAGES - Style the buttons inside the tab */
+        button.tablinks {
+         
+            width: 88px;
+            height: 36px;
+           
+          
+        }
+
 }
 
 
 @media screen and (max-width: 479px) {
 
    #home .table {
-        padding-left: 26px;
+        padding-left: 20px;
         padding-right: 0px;
         margin: 0;
-        width: 280px;
+        width: 420px;
     }
 
     #clients .table,
     #skills .table {
-        padding-left: 26px;
+        padding-left: 20px;
         padding-right: 0px;
         margin: 0;
-        width: 280px;
+        width: 420px;
     }
 
     /* Section - Parallax */
@@ -553,6 +574,28 @@ button.tablinks {
         margin: 3px 2px;
     }
 
+                /* clients - Style the buttons inside the tab */
+
+                .tab button.tablinks {
+                    outline: none;
+                    width: 88px;
+                    height: 36px;
+                    margin: 8px 2px;
+                }
+        
+                .margin-top-10 {
+                    padding-top: 0px;
+                }
+        
+                /* LANGUAGES - Style the buttons inside the tab */
+        button.tablinks {
+         
+            width: 88px;
+            height: 36px;
+           
+          
+        }
+
 }
 
 
@@ -562,7 +605,7 @@ button.tablinks {
         padding-left: 20px;
         padding-right: 0px;
         margin: 0;
-        width: 300px;
+        width: 310px;
     }
 
     .blur p {
@@ -574,6 +617,61 @@ button.tablinks {
         padding-left: 20px;
         padding-right: 0px;
         margin: 0;
+        width: 310px;
+    }
+
+    /* Section - Parallax */
+    /**************************/
+    .parallax {
+        padding-top: 124px;
+        padding-bottom: 144px;
+        margin-top: 64px;
+        background-position: bottom right;
+    }
+
+            /* clients - Style the buttons inside the tab */
+
+            .tab button.tablinks {
+                outline: none;
+                width: 88px;
+                height: 36px;
+                margin: 4px 2px;
+            }
+    
+            .margin-top-10 {
+                padding-top: 0px;
+            }
+    
+            /* LANGUAGES - Style the buttons inside the tab */
+    button.tablinks {
+     
+        width: 66px;
+        height: 32px;
+       
+      
+    }
+
+}
+
+
+
+/* Start @media(max-width:320px) */
+
+@media(max-width: 320px) {
+
+    #home .table {
+        padding-left: 20px;
+        padding-right: 0px;
+        margin: 0;
+        width: 300px;
+    }
+
+
+    #clients .table,
+    #skills .table {
+        padding-left: 20px;
+        padding-right: 0px;
+        margin: 0;
         width: 300px;
     }
 
@@ -586,37 +684,28 @@ button.tablinks {
         background-position: bottom right;
     }
 
+        /* clients - Style the buttons inside the tab */
+
+        .tab button.tablinks {
+            outline: none;
+            width: 88px;
+            height: 36px;
+            margin: 8px 2px;
+        }
+
+        .margin-top-10 {
+            padding-top: 0px;
+        }
+
+        /* LANGUAGES - Style the buttons inside the tab */
+button.tablinks {
+ 
+    width: 64px;
+    height: 34px;
+    border-radius: 28px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+  
 }
-
-
-
-/* Start @media(max-width:320px) */
-
-@media(max-width: 320px) {
-
-    #home .table {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin: 0;
-        width: 200px;
-    }
-
-
-    #clients .table,
-    #skills .table {
-        padding-left: 60px;
-        padding-right: 0px;
-        margin: 0;
-        width: 200px;
-    }
-
-    /* Section - Parallax */
-    /**************************/
-    .parallax {
-        padding-top: 124px;
-        padding-bottom: 144px;
-        margin-top: 64px;
-        background-position: bottom right;
-    }
 
 }
