@@ -474,6 +474,12 @@ footer i {
     .navigation {
         padding: 0px 24px;
         justify-content: space-evenly;
+        font-size: 13px;
+
+    }
+
+    navigation i {
+        font-size: 1.6em;
     }
 
     /* || Footer */
@@ -487,12 +493,17 @@ footer {
 }
 
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 768px) {
     .navigation {
         padding: 0px 32px;
         justify-content: space-evenly;
+        font-size: 13px;
+
     }
 
+    navigation i {
+        font-size: 1.6em;
+    }
 
     .vl {
         display: none;
@@ -512,13 +523,16 @@ footer {
     .navigation {
         padding: 0px 16px;
         justify-content: space-evenly;
+        font-size: 13px;
     }
 
-  
+    navigation i {
+        font-size: 1.6em;
+    }
 
-    .menu {
+    /* .menu {
         display: none;
-    }
+    } */
 
     footer {
         bottom: 1%;

@@ -2,6 +2,9 @@
     padding: 0px 0px;
 }
 
+
+
+
 /* navigation {
     background-color: #66666609;
 } */
@@ -12,6 +15,7 @@
     margin-top: 30vh;
     font-size: 1.4em;
     line-height: 2em;
+    padding-top: 10%;
 }
 
 .image-container {
@@ -103,6 +107,11 @@ color: #666666;
     padding-right: 12px;
 
 }
+
+.blur p {
+    font-size: 12px;
+}
+
 
 
 #skills .tooltip i {
@@ -417,14 +426,28 @@ button.tablinks {
 @media screen and (max-width: 959px) and (min-width: 768px) {
 
     #home .table {
-        padding-left: 64px;
-        width: 700px;
+        padding-left: 40px;
+        width: 620px;
+        padding-top: 60px;
+
+    }
+
+
+    .tab button.tablinks {
+        outline: none;
+        width: 92px;
+        height: 36px;
+        margin: 3px 2px;
+    }
+
+    .blur p {
+        font-size: 12px;
     }
 
     #clients .table,
     #skills .table {
-        padding-left: 64px;
-        width: 700px;
+        padding-left: 40px;
+        width: 620px;
     }
 
     /* Section - Parallax */
@@ -442,17 +465,25 @@ button.tablinks {
 @media screen and (max-width: 767px) {
 
 
+    .blur p {
+        font-size: 12px;
+    }
+
+
+
     #home .table {
-        padding-left: 34px;
-        width: 440px;
+        padding-left: 16px;
+        width: 500px;
         padding-right: 0;
+        padding-top: 24px;
+
     }
 
 
     #clients .table,
     #skills .table {
-        padding-left: 34px;
-        width: 440px;
+        padding-left: 16px;
+        width: 520px;
         padding-right: 0;
     }
 
@@ -486,25 +517,39 @@ button.tablinks {
         letter-spacing: 0.5px;
     }
 
+    #clients,
+    #home {
+        min-height: 100vh;
+    }
+    
+       
+  
+
 }
 
 
 @media screen and (max-width: 600px) {
 
     #home .table {
-        padding-left: 30px;
+        padding-left: 96px;
         padding-right: 0px;
         margin: 0;
-        width: 526px;
+        width: 500px;
+        padding-top: 40px;
+ 
+    }
+
+    .blur p {
+        font-size: 12px;
     }
 
 
     #clients .table,
     #skills .table {
-        padding-left: 30px;
+        padding-left: 80px;
         padding-right: 0px;
         margin: 0;
-        width: 526px;
+        width: 500px;
     }
 
     /* Section - Parallax */
@@ -516,27 +561,36 @@ button.tablinks {
         background-position: bottom right;
     }
 
-                /* clients - Style the buttons inside the tab */
+             /* clients - Style the buttons inside the tab */
 
-                .tab button.tablinks {
-                    outline: none;
-                    width: 88px;
-                    height: 36px;
-                    margin: 8px 2px;
-                }
-        
-                .margin-top-10 {
-                    padding-top: 0px;
-                }
-        
-                /* LANGUAGES - Style the buttons inside the tab */
-        button.tablinks {
-         
-            width: 88px;
-            height: 36px;
-           
-          
-        }
+             .tab button.tablinks {
+                outline: none;
+                width: 100px;
+                height: 36px;
+                margin: 4px 2px;
+            }
+    
+            .margin-top-10 {
+                padding-top: 0px;
+            }
+    
+            /* LANGUAGES - Style the buttons inside the tab */
+    button.tablinks {
+        width: 98px;
+        height: 36px;
+       
+      
+    }
+
+    #clients,
+    #home {
+        min-height: 100vh;
+    }
+    
+       
+    #skills {
+        max-height: 100vh;
+    }
 
 }
 
