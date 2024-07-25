@@ -602,10 +602,10 @@ button.tablinks {
 @media screen and (max-width: 420px) {
 
     #home .table {
-        padding-left: 20px;
+        padding-left: 34px;
         padding-right: 0px;
         margin: 0;
-        width: 310px;
+        width: 384px;
     }
 
     .blur p {
@@ -614,10 +614,10 @@ button.tablinks {
 
     #clients .table,
     #skills .table {
-        padding-left: 20px;
+        padding-left: 32px;
         padding-right: 0px;
         margin: 0;
-        width: 310px;
+        width: 386px;
     }
 
     /* Section - Parallax */
@@ -633,7 +633,7 @@ button.tablinks {
 
             .tab button.tablinks {
                 outline: none;
-                width: 88px;
+                width:84px;
                 height: 36px;
                 margin: 4px 2px;
             }
@@ -645,11 +645,21 @@ button.tablinks {
             /* LANGUAGES - Style the buttons inside the tab */
     button.tablinks {
      
-        width: 66px;
+        width: 82px;
         height: 32px;
        
       
     }
+
+    #clients,
+#home {
+    min-height: 100vh;
+}
+
+
+#skills {
+    max-height: 100vh;
+}
 
 }
 

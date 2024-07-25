@@ -2,6 +2,7 @@ body {
   background-color: #171717;
   color: white;
   text-align: center;
+  max-height: 100vh;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
@@ -13,10 +14,17 @@ body {
 navigation {
   background: #171717;
 
-
 } 
 
+navigation i {
+  color: white;
+  opacity: 1;
+}
 
+navigation a {
+  color: white;
+  opacity: 1;
+}
 
 a {
   cursor: pointer;

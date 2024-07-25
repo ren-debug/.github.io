@@ -442,6 +442,10 @@ section {
         align-self: flex-end;
     }
 
+    footer {
+        display: none;
+    }
+
 }
 
 
@@ -451,12 +455,15 @@ section {
 
     .container>* {
         padding-right: 5%;
-        padding-left: 6%;
+        padding-left: 7%;
         padding-top: 40px;
 
     }
 
 
+    footer {
+        display: none;
+    }
 
 
 

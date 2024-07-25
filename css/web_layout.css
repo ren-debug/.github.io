@@ -117,3 +117,12 @@
    z-index: 1000; 
   }
 
+  @media screen and (max-width: 320px) {
+
+
+.block {
+  margin-top: 0px;
+}
+
+
+  }
