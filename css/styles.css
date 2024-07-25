@@ -77,8 +77,10 @@ p {
     font-weight: 200;
     font-style: normal;
     font-size: 11px;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0.8px;
+    color: #666666;
+
 
 }
 
@@ -601,15 +603,15 @@ footer {
 @media screen and (max-width: 320px) {
 
     .navigation {
-        padding: 0px 2px;
+        padding: 0px 0px;
         justify-content: space-evenly;
-        font-size: 10px;
+        font-size: 12px;
     }
 
   
 
     navigation i {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
 
 

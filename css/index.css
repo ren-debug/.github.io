@@ -53,9 +53,9 @@ button a {
 .cta {
   display: flex;
   margin: auto;
-  width: 38%;
+  width: 50%;
   position: relative;
-  top: 8vh;
+  top: 5vh;
   align-items: center;
   /* left: -1%; */
 }
@@ -66,7 +66,7 @@ button a {
 h1 {
     left: 49%;
     margin: auto;
-    top: 48vh;
+    top: 42vh;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -80,7 +80,7 @@ h1 {
 
 
 .title-letter {
-    font-size: calc(6vw + 1.5rem);
+    font-size: calc(5.5vw + 1.2rem);
     margin-left: -2px;
     font-family: 'the_new_eleganceCnRg';
     font-weight: 100;
@@ -93,16 +93,14 @@ h1 {
     letter-spacing: calc(0.4vw + 1.6rem);
     /* text-transform: uppercase; */
     position: relative;
-    top: 4vh;
+    top: 2vh;
     /* font-family: 'Playfair Display'; */
 
 }
 
 
 #sub-title p {
-  font-size: large;
-  /* font-size: calc(2vw + 0.1rem); */
-  line-height: calc(1vw + 0.15rem);
+  font-size: calc(0.5vw + 0.9rem);
   font-weight: 300;
   font-family: "neue-haas-grotesk-display", sans-serif;
 
@@ -311,6 +309,64 @@ right: 0%;
     width: 96px;
     height: 36px;
   }
+
+
+
+.title-letter {
+  font-size: calc(5.5vw + 1.2rem);
+  margin-left: -2px;
+  font-family: 'the_new_eleganceCnRg';
+  font-weight: 100;
+  letter-spacing: 1px;
+
+}
+
+#sub-title {
+  font-weight: 100;
+  letter-spacing: calc(0.4vw + 1.6rem);
+  /* text-transform: uppercase; */
+  position: relative;
+  top: 1.5vh;
+  /* font-family: 'Playfair Display'; */
+
+}
+
+
+#sub-title p {
+font-size: calc(0.5vw + 0.7rem);
+font-weight: 300;
+font-family: "neue-haas-grotesk-display", sans-serif;
+
+}
+
+.cta {
+  display: flex;
+  width: 80%;
+  margin-top: 1vh;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+  h1 {
+    left: 49%;
+    margin: auto;
+    top: 45vh;
+  
+}
+
+
+.cta {
+  display: flex;
+  width: 90%;
+  margin-top: 1vh;
+
+}
+
 
 
 }

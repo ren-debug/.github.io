@@ -669,7 +669,7 @@ button.tablinks {
 
     #clients .table,
     #skills .table {
-        padding-left: 20px;
+        padding-left: 16px;
         padding-right: 0px;
         margin: 0;
         width: 300px;
@@ -688,9 +688,9 @@ button.tablinks {
 
         .tab button.tablinks {
             outline: none;
-            width: 88px;
+            width: 90px;
             height: 36px;
-            margin: 8px 2px;
+            margin: 4px 2px;
         }
 
         .margin-top-10 {
@@ -701,11 +701,25 @@ button.tablinks {
 button.tablinks {
  
     width: 64px;
-    height: 34px;
+    height: 32px;
     border-radius: 28px;
     letter-spacing: 0.5px;
     font-size: 10px;
   
+}
+
+#clients,
+#home {
+    min-height: 100vh;
+}
+
+
+#skills {
+    max-height: 100vh;
+}
+
+.view {
+    display: none;
 }
 
 }
