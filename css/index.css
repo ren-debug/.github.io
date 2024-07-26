@@ -49,6 +49,13 @@ button a {
 
 }
 
+button {
+  width: 140px;
+  height: 48px;
+  font-size: 13px;
+}
+
+
 
 .cta {
   display: flex;
@@ -193,6 +200,7 @@ footer i {
 
 
 
+  
 
 .title-letter {
   letter-spacing: 2px;
@@ -226,12 +234,23 @@ footer i {
   .cta {
     display: flex;
     margin: auto;
-    width: 70%;
-    top: 6vh;
+    width: 62%;
+    top: 7vh;
 
   }
 
+  .title-letter {
+    font-size: calc(6vw + 1.7rem);
+  
+  
+  }
+  
 
+  button {
+    width: 112px;
+    height: 42px;
+    font-size: 12px;
+  }
 
 }
 
@@ -263,12 +282,17 @@ footer i {
   .cta {
     display: flex;
     margin: auto;
-    width: 70%;
-    top: 6vh;
+    width: 68%;
+    top: 7vh;
     left: 0%;
 
   }
 
+  button {
+    width: 114px;
+    height: 42px;
+    font-size: 12px;
+  }
 
 }
 
@@ -276,23 +300,26 @@ footer i {
 @media screen and (max-width: 600px) {
 
   h1 {
-    /* left: 50%; */
-    margin: auto;
-    top: 44vh;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    top: 43vh;
+   
 }
 
-
   .cta {
-    display: flex;
-    margin: auto;
-    width: 70%;
+    width: 64%;
     top: 6vh;
-
   }
 
 
+  .title-letter {
+    font-size: calc(5.5vw + 1.4rem);
+    margin-left: -1px;
+  }
+
+  button {
+    width: 102px;
+    height: 40px;
+    font-size: 12px;
+  }
 
 }
 
@@ -302,7 +329,7 @@ footer i {
   h1 {
     /* left: 50%; */
     margin: auto;
-    top: 45vh;
+    top: 42vh;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -310,35 +337,49 @@ footer i {
 
   .cta {
     display: flex;
-    width: 80%;
+    width: 72%;
     margin-top: 5.5vh;
 
   }
 
+  .title-letter {
+    font-size: calc(5vw + 1.2rem);
+    margin-left: -1px;
+  }
 
+  button {
+    width: 96px;
+    height: 34px;
+  }
 
 }
 
 
 @media screen and (max-width: 420px) {
 
+  h1 {
+    top: 44vh;
+
+}
+
   .cta {
     display: flex;
     margin: auto;
-    width: 100%;
+    width: 92%;
   }
 
 
 
   button {
     width: 96px;
-    height: 36px;
+    height: 38px;
+    font-size: 11px;
   }
 
 
 
 .title-letter {
-  font-size: calc(5.5vw + 1.2rem);
+  font-size: calc(6.5vw + 1.2rem);
   margin-left: -2px;
   font-family: 'the_new_eleganceCnRg';
   font-weight: 100;
@@ -366,8 +407,8 @@ font-family: "neue-haas-grotesk-display", sans-serif;
 
 .cta {
   display: flex;
-  width: 80%;
-  margin-top: 1vh;
+  width: 72%;
+  margin-top: 0vh;
 
 }
 
@@ -378,9 +419,9 @@ font-family: "neue-haas-grotesk-display", sans-serif;
 @media screen and (max-width: 320px) {
 
   h1 {
-    left: 49%;
+    left: 50%;
     margin: auto;
-    top: 45vh;
+    top: 43vh;
   
 }
 
@@ -392,6 +433,17 @@ font-family: "neue-haas-grotesk-display", sans-serif;
 
 }
 
+.title-letter {
+  font-size: calc(5.5vw + 1.2rem);
 
+
+}
+
+
+button {
+  width: 92px;
+  height: 34px;
+  font-size: 11px;
+}
 
 }
