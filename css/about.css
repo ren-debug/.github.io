@@ -1,9 +1,23 @@
+* {
+    box-sizing: border-box;
+
+}
+
 .navigation {
     padding: 0px 0px;
 }
 
+.tablinks.active {
+    text-decoration: none;
+}
 
-
+footer {
+    bottom: 1%;
+    position: fixed;
+    left: 20px;
+    height: 14vh;
+    width: 50%;
+}
 
 /* navigation {
     background-color: #66666609;
@@ -12,7 +26,7 @@
 
 
 .blur p {
-    margin-top: 42vh;
+    /* margin-top: 42vh; */
     font-size: 1.7em;
     line-height: 2em;
 }
@@ -20,32 +34,32 @@
 .image-container {
     position: relative;
     display: inline-block;
-  }
-  
-  .image-container img {
+}
+
+.image-container img {
     display: block;
     width: 50%;
     height: auto;
-    margin: 14% auto;
-  }
-  
-  .overlay-text {
+    margin: 0 auto;
+}
+
+.overlay-text {
     position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: #fff; 
-    padding: 10px 20px; 
-    font-size: 30px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
     line-height: 40px;
     text-align: center;
-  }
-
-
-
-#clients, #skills {
-    min-height: 100vh;
 }
+
+
+
+/* #clients, #skills {
+    min-height: 100vh;
+} */
 
 
 /* a {
@@ -73,7 +87,7 @@
 
 
 navigation i {
-color: #666666;
+    color: #666666;
     /* -webkit-filter: invert(100%); */
     opacity: 1;
 
@@ -87,6 +101,7 @@ color: #666666;
     color: white;
 }
 
+/* 
 #about {
     background-color: #171717;
     color: white;
@@ -108,7 +123,7 @@ color: #666666;
     font-size: 1.2em;
     padding-right: 12px;
 
-}
+} */
 
 .blur p {
     font-size: 12px;
@@ -117,7 +132,7 @@ color: #666666;
 
 
 #skills .tooltip i {
- 
+
     /* position: absolute; */
     /* z-index: 1; */
     /* top: 9px; */
@@ -126,61 +141,61 @@ color: #666666;
     color: rgb(155, 155, 155);
     /* padding: 0px 0px 0px 0px; */
     /* border: 0.5px solid #e6dada3f; */
-   
+
     /* border-radius: 5px; */
-   
+
     /* background-color: #66666628; */
     border-radius: 10px;
-  
+
     font-weight: 200;
     transition: transform .2s;
-  }
-  
-  
-  
-  #skills  .tooltip {
-      position: relative;
+}
+
+
+
+#skills .tooltip {
+    position: relative;
     display: inline-block;
-  
+
     width: 40px;
     height: 60px;
-  
-    }
+
+}
 
 
-    #skills .tooltip .tooltiptext {
-        visibility: hidden;
-        /* width: 160px; */
-        text-align: center;
-        border-radius: 6px;
-        padding: 24px 0px;
-        
-    
-    
-      /* Position the tooltip */
-      position: absolute;
-      z-index: 1;
-      top: 1px;
-      right: 0%;
-    }
-    
-    #skills  .tooltiptext {
-      visibility: hidden;
-      display: inline-block;
-      font-size: .6rem;
-      z-index: 2000;
-      width: 60px;
-      height: 60px;
-    
-    }
-  
-    
-    #skills    .tooltip:hover .tooltiptext {
-      visibility: visible;
-      /* color: #666666; */
-      bottom: 20%;
-    }
-  
+#skills .tooltip .tooltiptext {
+    visibility: hidden;
+    /* width: 160px; */
+    text-align: center;
+    border-radius: 6px;
+    padding: 24px 0px;
+
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    right: 0%;
+}
+
+#skills .tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    font-size: .6rem;
+    z-index: 2000;
+    width: 60px;
+    height: 60px;
+
+}
+
+
+#skills .tooltip:hover .tooltiptext {
+    visibility: visible;
+    /* color: #666666; */
+    bottom: 20%;
+}
+
 
 
 /* Section - Parallax */
@@ -199,7 +214,7 @@ color: #666666;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
 
 
@@ -210,9 +225,9 @@ color: #666666;
     padding: 0;
 }
 
-.content-asset p {
-    margin: 0 auto;
-}
+/* .content-asset p {
+vertical-align: middle;
+} */
 
 .breadcrumb {
     display: none;
@@ -262,24 +277,26 @@ color: #666666;
     padding-bottom: 20px;
 }
 
+.margin-bot-40 {
+    padding-bottom: 40px;
+}
+
 .margin-bottom-120 {
     padding-bottom: 120px;
 
 }
 
 
-.block {
-
+/* .block {
     padding-right: 5%;
     padding-left: 8%;
-    padding-top: 0px;
 
-}
+} */
 
-#clients,
+/* #clients,
 #skills {
     min-height: 100vh;
-}
+} */
 
 
 
@@ -289,21 +306,31 @@ color: #666666;
 
 .table {
     background: white;
-    height: 100vh;
-    padding-left: 1.4rem;
-    width: 700px;
-    margin: 0 auto;
+    /* padding-left: 1.4rem; */
+    width: 820px;
     text-align: justify;
+    align-content: center;
+    margin: auto;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 4%;
+    
+
+
+
 }
 
 
 #bio p {
-    margin-top: 40vh;
+    padding-top: 0vh;
 }
 
-#clients {
-    margin-top: 20vh;
-}
+/* section {
+    height: 100vh;
+
+} */
+
+
 
 /* Tabs */
 /**************************/
@@ -347,7 +374,7 @@ button.tablinks {
     border-radius: 50px;
     transition: 0.3s;
     padding-left: 0px;
-   
+
     letter-spacing: 0.5px;
     font-size: 11px;
     font-family: "neue-haas-grotesk-display", sans-serif;
@@ -379,9 +406,9 @@ button.tablinks {
 .tab button.tablinks {
     border: 1px solid rgba(0, 0, 0, 0.195);
     outline: none;
-    width: 102px;
+    width: 106px;
     margin: 12px 2px;
-    height: 40px;
+    height: 38px;
     border-radius: 50px;
     transition: 0.3s;
     padding-left: 0px;
@@ -389,7 +416,7 @@ button.tablinks {
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 200;
     font-style: normal;
-   
+
     letter-spacing: 0.5px;
     padding: 0px;
     color: rgb(0, 0, 0);
@@ -431,37 +458,26 @@ button.tablinks {
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
 
-  
 
 
-    #about {
+
+    /* #about {
         padding-top: 50vh;
-     } 
+     }  */
 
-    #home .table {
-        padding-left: 20px;
-        width: 600px;
-        padding-top: 60px;
+    .table {
+        width: 740px;
+
 
     }
 
 
-    .tab button.tablinks {
-        outline: none;
-        width: 92px;
-        height: 36px;
-        margin: 3px 2px;
-    }
 
     .blur p {
         font-size: 12px;
     }
 
-    #clients .table,
-    #skills .table {
-        padding-left: 20px;
-        width: 600px;
-    }
+
 
     /* Section - Parallax */
     /**************************/
@@ -486,35 +502,29 @@ button.tablinks {
 
 
 
-    #home .table {
-        padding-left: 16px;
+    .table {
+      
         width: 500px;
-        padding-right: 0;
-        padding-top: 0px;
+       
 
     }
 
 
-    #clients .table,
-    #skills .table {
-        padding-left: 16px;
-        width: 520px;
-        padding-right: 0;
-    }
+
 
     /* Section - Parallax */
     /**************************/
     .parallax {
-        padding-top: 124px;
+        /* padding-top: 124px;
         padding-bottom: 144px;
-        margin-top: 44px;
+        margin-top: 44px; */
         background-position: bottom right;
     }
 
     button.tablinks {
         outline: none;
-        width: 92px;
-        height: 36px;
+        width: 106px;
+        height: 38px;
         margin: 3px 2px;
     }
 
@@ -522,8 +532,8 @@ button.tablinks {
 
     .tab button.tablinks {
         outline: none;
-        width: 92px;
-        height: 36px;
+        width: 106px;
+        height: 38px;
         margin: 3px 2px;
     }
 
@@ -533,22 +543,22 @@ button.tablinks {
     }
 
 
-    
-       
-  
+    /* footer {
+        display: none;
+    } */
+
+ 
+
 
 }
 
 
 @media screen and (max-width: 600px) {
 
-    #home .table {
-        padding-left: 14%;
-        padding-right: 0px;
-        margin: 0;
-        width: 440px;
-        padding-top: 0px;
- 
+    .table {
+        width: 380px;
+       
+        
     }
 
     .blur p {
@@ -556,70 +566,57 @@ button.tablinks {
     }
 
 
-    #clients .table,
-    #skills .table {
-        padding-left: 14%;
-        padding-right: 0px;
-        margin: 0;
-        width: 440px;
-    }
+
+
+
 
     /* Section - Parallax */
     /**************************/
     .parallax {
-        padding-top: 44px;
-        padding-bottom: 74px;
-        margin-top: 64px;
+        /* padding-top: 44px;
+        padding-bottom: 74px; */
+        /* margin-top: 64px; */
+        
         background-position: bottom right;
     }
 
-             /* clients - Style the buttons inside the tab */
+    /* clients - Style the buttons inside the tab */
 
-             .tab button.tablinks {
-                outline: none;
-                width: 96px;
-                height: 36px;
-                margin: 4px 2px;
-            }
-    
-            .margin-top-10 {
-                padding-top: 0px;
-            }
-    
-            /* LANGUAGES - Style the buttons inside the tab */
-    button.tablinks {
-        width: 80px;
+    .tab button.tablinks {
+        outline: none;
+        width: 87px;
         height: 36px;
-       
-      
+        margin: 4px 2px;
     }
 
-    /* #clients,
-    #home {
-        min-height: 100vh;
+    .margin-top-10 {
+        padding-top: 0px;
     }
-    
-       
-    #skills {
-        max-height: 100vh;
-    } */
+
+    /* LANGUAGES - Style the buttons inside the tab */
+    button.tablinks {
+        width: 87px;
+        height: 36px;
+
+
+    }
+
 
 }
 
 
 @media screen and (max-width: 479px) {
-    .menu {
+    /* .menu {
         display: none;
-    }
+    } */
 
+ .vl, .menu {
+    display: none;
+ }
 
-
-   #home .table {
-        padding-left: 80px;
-        padding-right: 0px;
-        margin: 0;
-        padding-top: 40px;
-        width: 400px;
+    .table {
+       width: 360px;
+       
 
     }
 
@@ -627,7 +624,7 @@ button.tablinks {
         font-size: 12px;
     }
 
-    #clients .table {
+    /* #clients .table {
         padding-left: 80px;
         padding-right: 0px;
         margin: 0;
@@ -636,29 +633,25 @@ button.tablinks {
     }
 
     #skills .table {
-        padding-left: 40px;
-        padding-right: 0px;
-        margin: 0;
-        width: 400px;
-    }
-
-    /* #clients,
-    #home {
-        min-height: 100vh;
-    }
-    
-    
-    #skills {
+        padding-left: 0px;
+        margin: 0 auto;
         max-height: 100vh;
+        padding-top: 40%;
     } */
 
-    
+
+
+
+
+
+
+
     /* Section - Parallax */
     /**************************/
     .parallax {
-        padding-top: 124px;
+        /* padding-top: 124px;
         padding-bottom: 144px;
-        margin-top: 64px;
+        margin-top: 64px; */
         background-position: bottom right;
     }
 
@@ -669,26 +662,26 @@ button.tablinks {
         margin: 3px 2px;
     } */
 
-       
-             /* clients - Style the buttons inside the tab */
 
-             .tab button.tablinks {
-                outline: none;
-                width: 86px;
-                height: 36px;
-                margin: 4px 2px;
-            }
-    
-            .margin-top-10 {
-                padding-top: 0px;
-            }
-    
-            /* LANGUAGES - Style the buttons inside the tab */
+    /* clients - Style the buttons inside the tab */
+
+    .tab button.tablinks {
+        outline: none;
+        width: 84px;
+        height: 36px;
+        margin: 2px 2px;
+    }
+
+    .margin-top-10 {
+        padding-top: 0px;
+    }
+
+    /* LANGUAGES - Style the buttons inside the tab */
     button.tablinks {
         width: 84px;
         height: 36px;
-       
-      
+
+
     }
 
 }
@@ -696,54 +689,52 @@ button.tablinks {
 
 @media screen and (max-width: 420px) {
 
-    #home .table {
-        padding-left: 32px;
-        padding-right: 0px;
-        margin: 0;
-        width: 340px;
+    .menu, .vl {
+        display: none;
+    }
+
+
+    .table {
+        /* padding-left: 32px;
+        padding-right: 0px; */
+        width: 320px;
     }
 
     .blur p {
         font-size: 12px;
     }
 
-    #clients .table,
-    #skills .table {
-        padding-left: 20px;
-        padding-right: 0px;
-        margin: 0;
-        width: 340px;
-    }
+
 
     /* Section - Parallax */
     /**************************/
     .parallax {
-        padding-top: 124px;
-        padding-bottom: 144px;
-        margin-top: 64px;
+        /* padding-top: 124px; */
+        /* padding-bottom: 144px; */
+        /* margin-top: 0px; */
         background-position: bottom right;
     }
 
-            /* clients - Style the buttons inside the tab */
+    /* clients - Style the buttons inside the tab */
 
-            .tab button.tablinks {
-                outline: none;
-                width:76px;
-                height: 36px;
-                margin: 4px 2px;
-            }
-    
-            .margin-top-10 {
-                padding-top: 0px;
-            }
-    
-            /* LANGUAGES - Style the buttons inside the tab */
+    .tab button.tablinks {
+        outline: none;
+        width: 76px;
+        height: 36px;
+        margin: 4px 2px;
+    }
+
+    .margin-top-10 {
+        padding-top: 0px;
+    }
+
+    /* LANGUAGES - Style the buttons inside the tab */
     button.tablinks {
-     
+
         width: 72px;
         height: 32px;
-       
-      
+
+
     }
 
     /* #clients,
@@ -765,13 +756,12 @@ button.tablinks {
 @media(max-width: 320px) {
 
 
-       
-#clients {
-    min-height: 100vh;
-}
+   .menu {
+        display: none;
+    }
 
 
-    #home .table {
+    .table {
         padding-left: 20px;
         padding-right: 0px;
         margin: 0;
@@ -779,48 +769,52 @@ button.tablinks {
     }
 
 
-    #clients .table,
-    #skills .table {
-        padding-left: 16px;
-        padding-right: 0px;
-        margin: 0;
-        width: 300px;
-    }
 
     /* Section - Parallax */
     /**************************/
     .parallax {
-        padding-top: 124px;
+        /* padding-top: 124px;
         padding-bottom: 144px;
-        margin-top: 64px;
+        margin-top: 64px; */
         background-position: bottom right;
     }
 
-        /* clients - Style the buttons inside the tab */
+    /* clients - Style the buttons inside the tab */
 
-        .tab button.tablinks {
-            outline: none;
-            width: 90px;
-            height: 36px;
-            margin: 4px 2px;
-        }
+    .tab button.tablinks {
+        outline: none;
+        width: 64px;
+        height: 32px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        margin: 4px 2px;
+    }
 
-        .margin-top-10 {
-            padding-top: 0px;
-        }
-
-        /* LANGUAGES - Style the buttons inside the tab */
-button.tablinks {
- 
-    width: 64px;
-    height: 32px;
-    border-radius: 28px;
-    letter-spacing: 0.5px;
-    font-size: 10px;
   
-}
 
-/* #clients,
+
+
+    .margin-top-10 {
+        padding-top: 0px;
+    }
+
+    .margin-bot-20 {
+        padding-bottom: 10px;
+    }
+
+    /* LANGUAGES - Style the buttons inside the tab */
+    button.tablinks {
+
+        width: 64px;
+        height: 32px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+
+    }
+
+    /* #clients,
 #home {
     min-height: 100vh;
 }
@@ -830,8 +824,8 @@ button.tablinks {
     max-height: 100vh;
 } */
 
-.view {
-    display: none;
-}
+    .view {
+        display: none;
+    }
 
 }

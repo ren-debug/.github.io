@@ -10,6 +10,7 @@
 /* … */
 .content-wrapper {
     width: 98%;
+    height: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -402,8 +403,8 @@ footer {
     bottom: 0;
 
     position: fixed;
-    right: 2.4rem;
-    height: 28vh;
+    right: 5%;
+    height: 20%;
     justify-content: space-evenly;
     z-index: 0;
 
@@ -479,15 +480,16 @@ footer i {
     }
 
     navigation i {
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
 
     /* || Footer */
-
+/* 
 footer {
-    right: 30px;
+    right: 5%;
+    height: 20%;
 
-}
+} */
 
 
 }
@@ -497,21 +499,19 @@ footer {
     .navigation {
         padding: 0px 32px;
         justify-content: space-evenly;
-        font-size: 13px;
+        font-size: 11px;
 
     }
 
     navigation i {
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
 
-    .vl {
+    /* .vl {
         display: none;
-    }
+    } */
 
-    footer {
-        right: 30px;
-    }
+ 
 
     .tooltip:hover .tooltiptext {
         display: none;
@@ -534,12 +534,12 @@ footer {
         display: none;
     } */
 
-    footer {
+    /* footer {
         bottom: 1%;
         position: fixed;
         right: 30px;
         height: 24vh;
-    }
+    } */
 
     .tooltip:hover .tooltiptext {
         display: none;
@@ -565,22 +565,22 @@ footer {
         font-size: 1.6em;
     }
 
-    footer {
+    /* footer {
         bottom: 1%;
         position: fixed;
         right: 30px;
         height: 24vh;
-    }
+    } */
 
     .tooltip:hover .tooltiptext {
         display: none;
       }
 
 
-    
+/*     
       .vl {
         display: none;
-    }
+    } */
 }
 
 
@@ -598,9 +598,9 @@ footer {
     }
 
 
-    .vl {
+    /* .vl {
         display: none;
-    }
+    } */
 
 
     footer {
@@ -632,9 +632,7 @@ footer {
 
 
 
-    .vl {
-        display: none;
-    }
+   
 
 
     footer {
