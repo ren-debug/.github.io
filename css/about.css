@@ -13,6 +13,13 @@
     text-decoration: none;
 }
 
+.lingue button  {
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 126, 126);
+    border: 0px solid;
+    font-weight: 300;
+}
+
 
 footer {
     bottom: 1%;
@@ -22,7 +29,15 @@ footer {
     width: 50%;
 }
 
+.tech h3 {
+    font-weight: 200;
+    padding-bottom: 0px;
+    padding-top: 6px;
+}
 
+.tech {
+    padding-bottom: 40px;
+}
 
 /* navigation {
     background-color: #66666609;
@@ -135,15 +150,19 @@ navigation i {
 }
 
 
+#clients .table hr {
+    margin-bottom: 20px; 
 
-#skills .tooltip i {
+ }
+
+#clients .tooltip i {
 
     /* position: absolute; */
     /* z-index: 1; */
     /* top: 9px; */
     /* margin-left: 8px; */
     font-size: 1.25rem;
-    color: rgb(155, 155, 155);
+    color: rgba(126, 126, 126, 0.909);
     /* padding: 0px 0px 0px 0px; */
     /* border: 0.5px solid #e6dada3f; */
 
@@ -158,17 +177,17 @@ navigation i {
 
 
 
-#skills .tooltip {
+#clients .tooltip {
     position: relative;
     display: inline-block;
 
     width: 40px;
-    height: 60px;
+    height: 32px;
 
 }
 
 
-#skills .tooltip .tooltiptext {
+#clients .tooltip .tooltiptext {
     visibility: hidden;
     /* width: 160px; */
     text-align: center;
@@ -184,7 +203,7 @@ navigation i {
     right: 0%;
 }
 
-#skills .tooltiptext {
+#clients .tooltiptext {
     visibility: hidden;
     display: inline-block;
     font-size: .6rem;
@@ -195,7 +214,7 @@ navigation i {
 }
 
 
-#skills .tooltip:hover .tooltiptext {
+#clients .tooltip:hover .tooltiptext {
     visibility: visible;
     /* color: #666666; */
     bottom: 20%;
@@ -240,6 +259,11 @@ vertical-align: middle;
 
 /* Helpers */
 /**************************/
+.margin-top-5 {
+    padding-top: 5px;
+}
+
+
 .margin-top-10 {
     padding-top: 10px;
 }
@@ -282,7 +306,7 @@ vertical-align: middle;
     padding-bottom: 20px;
 }
 
-.margin-bot-60 {
+.margin-bot-30 {
     padding-bottom: 30px;
 
 }
@@ -327,10 +351,7 @@ vertical-align: middle;
 
 }
 
-section {
-    display: flex;
-    min-height: calc(100svh + 20px);
-}
+
 
 
 
