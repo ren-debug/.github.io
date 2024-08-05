@@ -1,14 +1,35 @@
 @media screen and (max-width: 600px) {
  
 
+
+    .container {
+        position: relative;
+        height: calc(100svh + 40px);
+        margin-bottom: 20%;
+
+    }
+
+    .container .table {
+        margin: auto;
+        position: absolute;
+        top: 59%;
+        transform: translateY(-50%);
+        padding-left: 17%;
+        align-self: center;
+        width: 302px;
+       
+    }
+
+
+
     #clients {
         margin-top: 20px;
 
     }
 
     
-    section:nth-child(1) {
-        padding-top: 20%;
+    #clients section:nth-child(1) {
+        padding-top: 17%;
 
     }
 
@@ -18,15 +39,6 @@
     }
 
 
-    /* section:nth-child(2) {
-        padding-top: 0%;
-
-    }
-
-    section:nth-child(3) {
-        padding-top: 0%;
-
-    } */
 
  
     .margin-bot-20 {
@@ -95,9 +107,8 @@
 
 
     .table {
-        padding-top: 6%;
         padding-left: 11%;
-        align-self: normal;
+        /* align-self: normal; */
         width: 300px;
 
 
@@ -133,12 +144,43 @@
 @media screen and (max-width: 479px) {}
 
 
-@media screen and (max-width: 420px) {}
+@media screen and (max-width: 420px) {
+
+    .container .table {
+    
+        padding-left: 17%;
+        width: 316px;
+       
+    }
+
+}
 
 
 
 
 @media(max-width: 360px) {
+
+
+
+
+    .container {
+        position: relative;
+        height: calc(100svh + 40px);
+        margin-bottom: 20%;
+
+    }
+
+    .container .table {
+        margin: auto;
+        position: absolute;
+        top: 59%;
+        transform: translateY(-50%);
+        padding-left: 19%;
+        align-self: center;
+        width: 260px;
+       
+    }
+
 
     button.tablinks {
         outline: none;
@@ -160,8 +202,8 @@
     }
 
     .table {
-        padding-top: 3%;
-        padding-left: 11%;
+      
+        padding-left: 12%;
         align-self: normal;
         width: 274px;
 
@@ -169,5 +211,10 @@
     }
 
 
+    
+    #clients section:nth-child(1) {
+        padding-top: 16%;
+
+    }
 
 }

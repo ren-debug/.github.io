@@ -11,18 +11,18 @@
 
     navigation {
         height: 60px;
+
         padding: 0 3%;
     }
 
     .fi-br-menu-burger {
-        padding: 0px;
+       
         cursor: pointer;
         font-size: 20px;
     }
 
     .fi-sr-house-chimney {
-        padding: 0px;
-        font-size: 16px;
+        font-size: 18px;
         cursor: pointer;
     }
 
