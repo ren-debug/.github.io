@@ -1,0 +1,106 @@
+@media screen and (max-width: 601px) {
+
+    .navigation {
+        padding: 0px 0px;
+        justify-content: space-evenly;
+        font-size: 12px;
+
+    }
+
+  
+  
+    navigation {
+        height: 60px;
+        padding: 0 3%;
+    }
+
+
+    .fi-br-menu-burger {
+        padding: 0px;
+        cursor: pointer;
+        font-size: 20px;
+    
+    }
+    
+    .fi-sr-house-chimney {
+        padding: 0px;
+        font-size: 16px;
+        cursor: pointer;
+    
+    
+    }
+
+    .vl {
+     
+        margin-left: 11%;
+    
+    }
+
+    .menu { 
+        left: -1.5%;
+    }
+
+
+   
+/* || Footer */
+
+/* footer {
+    bottom: 80px;
+    right: 3.7%;
+    height: 140px;
+   
+
+}
+
+
+footer i {
+    font-size: 14px;
+  
+
+    
+
+} */
+
+
+    /* footer {
+        bottom: 10%;
+        position: fixed;
+        right: 30px;
+        height: 24vh;
+        display: none;
+        
+    } */
+
+
+
+    .tooltip:hover .tooltiptext {
+        display: none;
+      }
+
+}
+
+
+@media screen and (max-width: 479px) {
+ 
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+ 
+
+}
+
+
+
+/* Start @media(max-width:320px) */
+
+@media(max-width: 360px) {
+
+    .menu { 
+        left: -2%;
+    }
+ 
+
+}
