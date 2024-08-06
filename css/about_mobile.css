@@ -146,22 +146,48 @@
 
 @media screen and (max-width: 420px) {
 
-    .container .table {
+    #clients section:nth-child(1) {
+        padding-top: 26%;
+
+    }
+
+    .divider {
+        margin-bottom: 60px;
+    }
+
+
+    #clients .tooltip {
+        height: 24px;
     
-        padding-left: 17%;
-        width: 316px;
+    }
+
+    .container .table {
+        top: 67%;
+        padding-left: 19%;
+        width: 300px;
        
     }
 
+    .lingue button  {
+        margin-bottom: 100px;
+    }
 }
 
 
 
 
-@media(max-width: 360px) {
+@media screen and (max-width: 393px) and (min-width: 361px)   {
 
+ 
 
+    .divider {
+        margin-bottom: 40px;
+    }
 
+    #clients section:nth-child(1) {
+        padding-top: 46%;
+
+    }
 
     .container {
         position: relative;
@@ -173,23 +199,22 @@
     .container .table {
         margin: auto;
         position: absolute;
-        top: 59%;
+        top: 64%;
         transform: translateY(-50%);
-        padding-left: 19%;
-        align-self: center;
-        width: 260px;
+        padding-left: 9%;
+        width: 320px;
        
     }
 
 
     button.tablinks {
         outline: none;
-        width: 66px;
+        width: 77px;
         height: 28px;
         border-radius: 28px;
         letter-spacing: 0.5px;
         font-size: 9px;
-        margin: 4px 0px 0px 0px;
+        margin: 4px 1px 0px 0px;
     }
 
 
@@ -198,23 +223,66 @@
         background-color: rgb(126, 126, 126);
         border: 0px solid;
         font-weight: 300;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
 
     .table {
       
-        padding-left: 12%;
+        padding-left: 0%;
         align-self: normal;
-        width: 274px;
+        width: 320px;
 
 
     }
 
 
     
-    #clients section:nth-child(1) {
-        padding-top: 16%;
 
+
+}
+
+
+@media screen and (max-width: 360px)   {
+
+
+    .divider {
+        margin-bottom: 32px;
+    }
+
+    #clients section:nth-child(1) {
+        padding-top: 26%;
+
+    }
+
+    .container {
+        position: relative;
+        height: calc(100svh + 40px);
+        margin-bottom: 20%;
+
+    }
+
+    .container .table {
+        margin: auto;
+        position: absolute;
+        top: 66%;
+        transform: translateY(-50%);
+        padding-left: 8%;
+        align-self: center;
+        width: 300px;
+       
+    }
+
+    .table {
+      
+        padding-left: 0%;
+        align-self: normal;
+        width: 300px;
+
+
+    }
+
+    .lingue button  {
+        margin-bottom: 80px;
     }
 
 }

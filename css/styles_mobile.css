@@ -11,8 +11,9 @@
 
     navigation {
         height: 60px;
-
         padding: 0 3%;
+        left: 0px;
+        right: 1px;
     }
 
     .fi-br-menu-burger {
@@ -47,14 +48,32 @@
 
 @media screen and (max-width: 420px) {}
 
+@media screen and (max-width: 394px) and (min-width: 361px)   {
+   
+    navigation {
+        height: 60px;
+        padding: 0 3%;
+        left: 0px;
+        right: 1px;
+    }
 
+
+    .menu, .vl {
+        display: none;
+    }
+
+
+}
 
 /* Start @media(max-width:320px) */
 
 @media(max-width: 360px) {
 
-    .menu {
-        left: -2%;
+ 
+
+
+    .menu, .vl {
+        display: none;
     }
 
 
