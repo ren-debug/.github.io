@@ -357,7 +357,7 @@ button.tablinks {
     .container .table {
         padding-top:24%;
         padding-bottom:13%;
-        padding-left: 6%;
+        padding-left: 0%;
 
         width: 720px;
     }
@@ -421,7 +421,7 @@ button.tablinks {
 
     .table {
 
-        padding-left: 3%;
+        padding-left: 4%;
         align-self: normal;
         width: 720px;
 
