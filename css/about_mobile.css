@@ -22,6 +22,52 @@
 
 
 
+#clients .tooltip i {
+    font-size: 1.25rem;
+    color: rgba(126, 126, 126, 0.909);
+    border-radius: 10px;
+    font-weight: 200;
+    transition: transform .2s;
+}
+
+
+
+#clients .tooltip {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+
+}
+
+
+#clients .tooltip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 0px 0px 0px;
+    color: rgb(126, 126, 126);
+
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0%;
+}
+
+#clients .tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    font-size: 8px;
+    z-index: 2000;
+    width: 60px;
+    height: 0px;
+
+}
+
+
     #clients {
         margin-top: 20px;
 
@@ -146,46 +192,23 @@
 
 @media screen and (max-width: 420px) {
 
-    #clients section:nth-child(1) {
-        padding-top: 26%;
-
-    }
-
-    .divider {
-        margin-bottom: 60px;
-    }
-
-
-    #clients .tooltip {
-        height: 24px;
-    
-    }
-
-    .container .table {
-        top: 67%;
-        padding-left: 19%;
-        width: 300px;
-       
-    }
-
-    .lingue button  {
-        margin-bottom: 100px;
-    }
-}
-
-
-
-
-@media screen and (max-width: 393px) and (min-width: 361px)   {
-
- 
-
+   
+   
     .divider {
         margin-bottom: 40px;
     }
 
+
+    .margin-bot-20 {
+        padding-bottom: 12px;
+    }
+
+    .opentab {
+        margin-top: 40px;
+    }
+
     #clients section:nth-child(1) {
-        padding-top: 46%;
+        padding-top: 26%;
 
     }
 
@@ -199,42 +222,209 @@
     .container .table {
         margin: auto;
         position: absolute;
-        top: 64%;
+        top: 58%;
         transform: translateY(-50%);
-        padding-left: 9%;
-        width: 320px;
+        padding-left: 19.5%;
+        align-self: center;
+        width: 72%;
        
     }
+
+    .table {
+      
+        padding-left: 12%;
+        align-self: normal;
+        width: 72%;
+
+
+    }
+
 
 
     button.tablinks {
         outline: none;
-        width: 77px;
-        height: 28px;
+        width: 32%;
+        height: 34px;
         border-radius: 28px;
         letter-spacing: 0.5px;
         font-size: 9px;
-        margin: 4px 1px 0px 0px;
+        margin: 6px 2px 0px 0px;
     }
 
 
+
     .lingue button  {
-        color: rgb(255, 255, 255);
-        background-color: rgb(126, 126, 126);
-        border: 0px solid;
-        font-weight: 300;
-        margin-bottom: 100px;
+        width: 23.5%;
+        height: 30px;
+        margin: 0px 2px 160px 0px;
+
+    }
+
+
+#clients .tooltip i {
+    font-size: 1.2rem;
+    color: rgba(126, 126, 126, 0.909);
+    border-radius: 10px;
+    font-weight: 200;
+    transition: transform .2s;
+}
+
+
+
+#clients .tooltip {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 36px;
+
+}
+
+
+#clients .tooltip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 0px 8px 0px;
+    color: rgb(126, 126, 126);
+
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0%;
+}
+
+#clients .tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    font-size: 8px;
+    z-index: 2000;
+    width: 46px;
+    height: 0px;
+
+}
+}
+
+
+
+
+@media screen and (max-width: 393px) and (min-width: 361px)   {
+
+ 
+   
+    .divider {
+        margin-bottom: 40px;
+    }
+
+
+    .margin-bot-20 {
+        padding-bottom: 12px;
+    }
+
+    .opentab {
+        margin-top: 40px;
+    }
+
+    #clients section:nth-child(1) {
+        padding-top: 26%;
+
+    }
+
+    .container {
+        position: relative;
+        height: calc(100svh + 40px);
+        margin-bottom: 20%;
+
+    }
+
+    .container .table {
+        margin: auto;
+        position: absolute;
+        top: 62%;
+        transform: translateY(-50%);
+        padding-left: 6%;
+        align-self: center;
+        width: 88%;
+       
     }
 
     .table {
       
         padding-left: 0%;
         align-self: normal;
-        width: 320px;
+        width: 88%;
 
 
     }
 
+
+
+    button.tablinks {
+        outline: none;
+        width: 31.5%;
+        height: 34px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 9px;
+        margin: 6px 4px 0px 0px;
+    }
+
+
+
+    .lingue button  {
+        width: 23.8%;
+        height: 30px;
+        margin: 0px 2px 160px 0px;
+
+    }
+
+
+#clients .tooltip i {
+    font-size: 1.2rem;
+    color: rgba(126, 126, 126, 0.909);
+    border-radius: 10px;
+    font-weight: 200;
+    transition: transform .2s;
+}
+
+
+
+#clients .tooltip {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+
+}
+
+
+#clients .tooltip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 0px 8px 0px;
+    color: rgb(126, 126, 126);
+
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0%;
+}
+
+#clients .tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    font-size: 8px;
+    z-index: 2000;
+    width: 52px;
+    height: 0px;
+
+}
 
     
 
@@ -245,8 +435,18 @@
 @media screen and (max-width: 360px)   {
 
 
+   
     .divider {
-        margin-bottom: 32px;
+        margin-bottom: 40px;
+    }
+
+
+    .margin-bot-20 {
+        padding-bottom: 16px;
+    }
+
+    .opentab {
+        margin-top: 40px;
     }
 
     #clients section:nth-child(1) {
@@ -264,11 +464,11 @@
     .container .table {
         margin: auto;
         position: absolute;
-        top: 66%;
+        top: 62%;
         transform: translateY(-50%);
-        padding-left: 8%;
+        padding-left: 6%;
         align-self: center;
-        width: 300px;
+        width: 88%;
        
     }
 
@@ -276,13 +476,76 @@
       
         padding-left: 0%;
         align-self: normal;
-        width: 300px;
+        width: 88%;
 
 
     }
+
+
+
+    button.tablinks {
+        outline: none;
+        width: 31.5%;
+        height: 32px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 9px;
+        margin: 6px 4px 0px 0px;
+    }
+
+
 
     .lingue button  {
-        margin-bottom: 80px;
+        width: 23.8%;
+        height: 30px;
+        margin: 0px 2px 120px 0px;
+
     }
+
+
+#clients .tooltip i {
+    font-size: 1.2rem;
+    color: rgba(126, 126, 126, 0.909);
+    border-radius: 10px;
+    font-weight: 200;
+    transition: transform .2s;
+}
+
+
+
+#clients .tooltip {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+
+}
+
+
+#clients .tooltip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 0px 8px 0px;
+    color: rgb(126, 126, 126);
+
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0%;
+}
+
+#clients .tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    font-size: 8px;
+    z-index: 2000;
+    width: 52px;
+    height: 0px;
+
+}
 
 }

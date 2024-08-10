@@ -9,12 +9,12 @@
         font-size: 12px;
     }
 
-    navigation {
+    /* navigation {
         height: 60px;
         padding: 0 3%;
         left: 0px;
         right: 1px;
-    }
+    } */
 
     .fi-br-menu-burger {
        
@@ -46,16 +46,36 @@
 @media screen and (max-width: 479px) {}
 
 
-@media screen and (max-width: 420px) {}
+@media screen and (max-width: 420px) {
+    navigation i {
+
+        margin-left: 13px;
+        margin-right: 13px;
+    
+    
+    
+    }
+
+
+.fi-sr-house-chimney {
+    font-size: 16px;
+  
+}
+
+.fi-br-menu-burger {
+    font-size: 18px;
+}
+    
+}
 
 @media screen and (max-width: 394px) and (min-width: 361px)   {
    
-    navigation {
+    /* navigation {
         height: 60px;
         padding: 0 3%;
         left: 0px;
         right: 1px;
-    }
+    } */
 
 
     .menu, .vl {

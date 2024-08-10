@@ -95,7 +95,7 @@
     visibility: hidden;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 0px 0px 0px;
+    padding: 22px 0px 0px 0px;
     color: rgb(126, 126, 126);
 
 
@@ -337,13 +337,79 @@ button.tablinks {
     color: inherit; */
 }
 
-.container {
+#clients {
     min-height: calc(100svh + 40px);
-    display: flex;
+
 
 }
 
 
+
+
+#clients section:nth-child(1) {
+    padding-top: 10%;
+
+
+}
+
+
+.divider {
+    margin-bottom: 60px;
+}
+
+.margin-top-10 {
+    padding-top: 20px;
+}
+
+.margin-bot-20 {
+    padding-bottom: 10px;
+}
+
+
+
+.opentab {
+    margin-top: 40px;
+}
+
+button.tablinks {
+outline: none;
+    width: 16%;
+    height: 32px;
+    border-radius: 28px;
+    letter-spacing: 0.5px;
+    font-size: 9.5px;
+    margin: 4px 1px 0px 0px;
+    font-weight: 300;
+    color: rgb(126, 126, 126);
+}
+
+
+.lingue button  {
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 126, 126);
+    border: 0px solid;
+    font-weight: 300;
+    width: 89px;
+    height: 34px;
+    margin: 4px 2px 212px 0px;
+}
+
+.fi-br-download {
+    font-size: 14px;
+    line-height: 60px;
+    color: rgb(126, 126, 126);
+
+
+}
+
+
+.table {
+
+    padding-left: 0%;
+    width: 37%;
+
+
+}
 
 
 /* Media Queries */
@@ -578,7 +644,7 @@ button.tablinks {
 
 
 
-@media screen and (max-width: 1280px) and (min-width: 960px) {
+@media screen and (max-width: 1279px) and (min-width: 960px) {
    
     .container {
         min-height: calc(100svh + 40px);
@@ -587,10 +653,10 @@ button.tablinks {
     }
 
     .container .table {
-        padding-top:23.5%;
+        padding-top: 28%;
         padding-bottom:28%;
         padding-right: 0%;
-        width: 48px;
+        width: 40%;
     }
 
    
@@ -607,9 +673,7 @@ button.tablinks {
     }
   
 
- /* .second {
-    padding-top: 5%;
- } */
+
 
     #clients section:nth-child(1) {
         padding-top: 10%;
@@ -670,7 +734,7 @@ button.tablinks {
 
     .table {
 
-        padding-left: 0%;
+        padding-left: 6%;
         width: 480px;
 
 
