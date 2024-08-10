@@ -10,6 +10,7 @@
 }
 
 
+
 /* footer {
     bottom: 1%;
     position: fixed;
@@ -336,11 +337,18 @@ button.tablinks {
     color: inherit; */
 }
 
+.container {
+    min-height: calc(100svh + 40px);
+    display: flex;
+
+}
+
+
 
 
 /* Media Queries */
 /**************************/
-@media screen and (min-width: 1281px) {
+/* @media screen and (max-width: 1600px) {
 
     .container {
         min-height: calc(100svh + 40px);
@@ -352,7 +360,7 @@ button.tablinks {
         padding-top:23.5%;
         padding-bottom:28%;
         padding-right: 0%;
-        width: 36%;
+        width: 3%;
     }
 
    
@@ -369,9 +377,7 @@ button.tablinks {
     }
   
 
- /* .second {
-    padding-top: 5%;
- } */
+ 
 
     #clients section:nth-child(1) {
         padding-top: 10%;
@@ -433,7 +439,7 @@ button.tablinks {
     .table {
 
         padding-left: 0%;
-        width: 36%;
+        width: 3%;
 
 
     }
@@ -456,17 +462,16 @@ button.tablinks {
     
     
     
-        /* Position the tooltip */
         position: absolute;
         z-index: 1;
         top: 0px;
         right: 0%;
     }
 
-}
+} */
 
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
 
     .container {
         min-height: calc(100svh + 40px);
@@ -477,8 +482,8 @@ button.tablinks {
     .container .table {
         padding-top:23.5%;
         padding-bottom:28%;
-        padding-right: 0%;
-        width: 36%;
+        padding-right: 2%;
+        width: 34%;
     }
 
    
@@ -492,14 +497,11 @@ button.tablinks {
         min-height: calc(100svh + 40px);
  
 
-    }
+    } */
   
 
- /* .second {
-    padding-top: 5%;
- } */
 
-    #clients section:nth-child(1) {
+    /* #clients section:nth-child(1) {
         padding-top: 10%;
     
 
@@ -572,11 +574,11 @@ button.tablinks {
     
     }
 
-}
+} */
 
 
 
-@media screen and (max-width: 1279px) and (min-width: 960px) {
+@media screen and (max-width: 1280px) and (min-width: 960px) {
    
     .container {
         min-height: calc(100svh + 40px);
@@ -588,7 +590,7 @@ button.tablinks {
         padding-top:23.5%;
         padding-bottom:28%;
         padding-right: 0%;
-        width: 480px;
+        width: 48px;
     }
 
    

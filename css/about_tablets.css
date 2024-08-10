@@ -19,11 +19,11 @@
     .container .table {
         margin: auto;
         position: absolute;
-        top: 49%;
+        top: 51%;
         transform: translateY(-50%);
         align-self: center;
-        padding-left: 14%;
-        width: 640px;
+        padding-left: 22%;
+        width: 480px;
        
     }
 
@@ -56,9 +56,9 @@
     }
 
     button.tablinks {
-        width: 102px;
-        height: 36px;
-        margin: 0px 2px 6px 0px;
+        width: 78px;
+        height: 34px;
+        margin: 0px 0px 6px 0px;
     }
 
 
@@ -68,6 +68,7 @@
         border: 0px solid;
         font-weight: 300;
         margin-bottom: 120px;
+        margin-right: 2px;
     }
 
     .fi-br-download {
@@ -89,7 +90,7 @@
 
         padding-left: 5%;
         align-self: normal;
-        width: 640px;
+        width: 480px;
 
 
     }
@@ -109,8 +110,8 @@
 
     .container .table {
         top: 52%;
-        padding-left: 13%;
-        width: 640px;
+        padding-left: 22%;
+        width: 480px;
        
     }
 
@@ -124,9 +125,24 @@
     }
 
 
+    button.tablinks {
+        width: 89px;
+        height: 36px;
+        margin: 0px 2px 6px 0px;
+    }
 
  
+    .lingue button  {
 
+        margin-bottom: 200px;
+    }
+
+    .table {
+
+        padding-left: 4.5%;
+        align-self: normal;
+        width: 560px;
+    }
 
 }
 
@@ -139,7 +155,7 @@
 
     .container .table {
         top: 55%;
-        padding-left: 16.5%;
+        padding-left: 16%;
         width: 560px;
        
     }
@@ -150,7 +166,7 @@
 
 
     .margin-bot-20 {
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
 
     .opentab {
@@ -205,7 +221,7 @@
 
     .table {
 
-        padding-left: 5%;
+        padding-left: 4.5%;
         align-self: normal;
         width: 560px;
     }
@@ -215,7 +231,32 @@
         background-color: rgb(126, 126, 126);
         border: 0px solid;
         font-weight: 300;
-        margin-bottom: 60px;
+        margin-bottom: 140px;
+    }
+
+    #clients .tooltip {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    
+    }
+    
+    
+    #clients .tooltip .tooltiptext {
+        visibility: hidden;
+        text-align: center;
+        border-radius: 6px;
+        padding: 20px 0px 0px 0px;
+        color: rgb(126, 126, 126);
+    
+    
+    
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        right: 0%;
     }
 }
 
@@ -229,8 +270,8 @@
 
     .container .table {
         top: 55%;
-        padding-left: 16.5%;
-        width: 460px;
+        padding-left: 14.5%;
+        width: 472px;
        
     }
 
@@ -240,7 +281,7 @@
 
 
     .margin-bot-20 {
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
 
     .opentab {
@@ -264,7 +305,7 @@
 
     .table {
 
-        padding-left: 9%;
+        padding-left: 8%;
         align-self: normal;
         width: 472px;
     }
@@ -274,7 +315,32 @@
         background-color: rgb(126, 126, 126);
         border: 0px solid;
         font-weight: 300;
-        margin-bottom: 60px;
+        margin-bottom: 120px;
+    }
+
+    #clients .tooltip {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    
+    }
+    
+    
+    #clients .tooltip .tooltiptext {
+        visibility: hidden;
+        text-align: center;
+        border-radius: 6px;
+        padding: 20px 0px 0px 0px;
+        color: rgb(126, 126, 126);
+    
+    
+    
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        right: 0%;
     }
 
 }

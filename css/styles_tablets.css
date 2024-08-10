@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 820px) and (min-width: 769px) {
 
-    .navigation {
+    /* .navigation {
         padding: 0px 24px;
         font-size: 13px;
     }
@@ -13,7 +13,18 @@
         height: 60px;
         
         font-size: 20px;
+    } */
+
+    navigation i {
+
+        margin-left: 12px;
+        margin-right: 12px;
+    
+    
+    
     }
+
+
 
     navigation a,
     .menu .li {
@@ -25,13 +36,13 @@
     }
 
     .fi-br-menu-burger {
-        padding: 0px 17px;
+        
         cursor: pointer;
         font-size: 22px;
     }
 
     .fi-sr-house-chimney {
-        padding: 0px 17px;
+      
         cursor: pointer;
         font-size: 20px;
     }
@@ -48,17 +59,17 @@
 
 
     .navigation {
-        padding: 0px 16px;
+        /* padding: 0px 16px; */
         font-size: 13px;
     }
 
-    navigation {
+    /* navigation {
         height: 60px;
         padding: 0% 2.7%;
         left: 0px;
         right: 1px;
 
-    }
+    } */
 
     .fi-sr-house-chimney {
         font-size: 18px;
