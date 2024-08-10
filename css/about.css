@@ -24,11 +24,6 @@
 
 
 
-.blur p {
-    font-size: 1.7em;
-    line-height: 2em;
-}
-
 .image-container {
     position: relative;
     display: inline-block;
@@ -73,9 +68,6 @@
 
 
 
-.blur p {
-    font-size: 12px;
-}
 
 
 
@@ -93,7 +85,7 @@
     position: relative;
     display: inline-block;
     width: 40px;
-    height: 32px;
+    height: 48px;
 
 }
 
@@ -102,31 +94,32 @@
     visibility: hidden;
     text-align: center;
     border-radius: 6px;
-    padding: 24px 0px;
+    padding: 20px 0px 0px 0px;
+    color: rgb(126, 126, 126);
 
 
 
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: 1px;
+    top: 0px;
     right: 0%;
 }
 
 #clients .tooltiptext {
     visibility: hidden;
     display: inline-block;
-    font-size: .6rem;
+    font-size: 8px;
     z-index: 2000;
     width: 60px;
-    height: 60px;
+    height: 0px;
 
 }
 
 
 #clients .tooltip:hover .tooltiptext {
     visibility: visible;
-    bottom: 20%;
+    bottom: 0%;
 }
 
 
@@ -239,7 +232,7 @@ vertical-align: middle;
 
 .table {
     background: white;
-    width: 820px;
+    width: 30%;
     text-align: justify;
     align-self: center;
     margin: 0 auto;
@@ -260,11 +253,17 @@ vertical-align: middle;
 .opentab p {
     line-height: 0px;
     padding: 0px 0px 12px 0px;
+    color: rgb(126, 126, 126);
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    /* font-style: italic; */
 }
 
 .opentab h4 {
     line-height: 14px;
     padding: 0px 0px 0px 0px;
+    color:  rgb(126, 126, 126);
 }
 
 .opentab.hr {
@@ -276,7 +275,7 @@ vertical-align: middle;
 
 /* LANGUAGES - Style the buttons inside the tab */
 button.tablinks {
-    border: 1px solid rgba(0, 0, 0, 0.195);
+    border: 1px solid #9a9a9a37;
     outline: none;
     width: 106px;
     margin: 2px 2px;
@@ -290,9 +289,9 @@ button.tablinks {
     font-size: 11px;
     line-height: 18px;
     padding: 0px;
-    color: rgb(0, 0, 0);
+    color: rgb(126, 126, 126);
     background: transparent;
-    font-weight: 200;
+    font-weight: 300;
     transition: transform .2s;
     opacity: 1;
 }
@@ -332,22 +331,17 @@ button.tablinks {
 
 
 .view {
-    float: right;
-    color: inherit;
+    display: none;
+    /* float: right;
+    color: inherit; */
 }
 
 
 
 /* Media Queries */
 /**************************/
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
 
- #clients {
-        min-height: calc(100svh + 40px);
-
-    }
-  
-  
     .container {
         min-height: calc(100svh + 40px);
         display: flex;
@@ -355,151 +349,29 @@ button.tablinks {
     }
 
     .container .table {
-        padding-top:24%;
-        padding-bottom:13%;
-        padding-left: 0%;
-
-        width: 720px;
+        padding-top:23.5%;
+        padding-bottom:28%;
+        padding-right: 0%;
+        width: 36%;
     }
 
- 
-
-    #clients section:nth-child(1) {
-        padding-top: 8%;
-    
-
-    }
-
-
-
-    .divider {
-        margin-bottom: 72px;
-    }
-
-    .margin-top-10 {
-        padding-top: 20px;
-    }
-
-    .margin-bot-20 {
-        padding-bottom: 10px;
-    }
-
-
-
-    .opentab {
-        margin-top: 28px;
-    }
-
-    button.tablinks {
-   outline: none;
-        width: 102px;
-        height: 36px;
-        border-radius: 28px;
-        letter-spacing: 0.5px;
-        font-size: 10px;
-        margin: 0px 2px 6px 0px;
-    }
-
-    .lingue button  {
-        color:  rgb(126, 126, 126);
-        background-color:white;
-        border: 0.5px solid rgb(126, 126, 126);
-        font-weight: 500;
-        width: 102px;
-        height: 36px;
-        font-size: 10px;
-
-        margin: 0px 2px 240px 0px;
-        }
-
-    .fi-br-download {
-        font-size: 14px;
-        line-height: 40px;
-    }
-
-    
-
-    .table {
-
-        padding-left: 4%;
-        align-self: normal;
-        width: 720px;
-
-
-    }
-
-      /* Tabs */
-    /**************************/
-
-
-    .opentab p {
-        line-height: 0px;
-        padding: 0px 0px 8px 0px;
-    }
-
-    .opentab h4 {
-        line-height: 4px;
-        padding: 8px 0px 2px 0px;
-    }
-
-    .opentab.hr {
-        line-height: 0px;
-        border: 0.5px solid #9a9a9a37;
-    }
-
-    #clients .tooltip {
-        position: relative;
-        display: inline-block;
-        width: 40px;
-        height: 34px;
-    
-    }
-
- 
-
-    
-    /* .blur p {
-        font-size: 12px;
-        margin-bottom: 14%;
-    } */
-
-
-
-    /* Section - Parallax */
-    /**************************/
-    .parallax {
-        /* padding-top: 244px;
-        padding-bottom: 244px;
-        margin-top: 44px; */
-        background-position: bottom right;
-    }
-
-
-
-}
-
-@media screen and (max-width: 1280px) and (min-width: 960px) {
+   
+   .blur p {
+ font-size: 12px;
+ font-weight: 200;
+   }
+   
+   
     #clients {
         min-height: calc(100svh + 40px);
-
-    }
-  
-  
-    .container {
-        min-height: calc(100svh + 40px);
-        display: flex;
-
-    }
-
-    .container .table {
-        padding-top:24%;
-        padding-bottom:13%;
-        padding-left: 4%;
-
-        width: 560px;
-    }
-
  
+
+    }
+  
+
+ /* .second {
+    padding-top: 5%;
+ } */
 
     #clients section:nth-child(1) {
         padding-top: 10%;
@@ -508,9 +380,8 @@ button.tablinks {
     }
 
 
-
     .divider {
-        margin-bottom: 48px;
+        margin-bottom: 60px;
     }
 
     .margin-top-10 {
@@ -524,17 +395,19 @@ button.tablinks {
 
 
     .opentab {
-        margin-top: 28px;
+        margin-top: 32px;
     }
 
     button.tablinks {
    outline: none;
-        width: 86px;
+        width: 76px;
         height: 32px;
         border-radius: 28px;
         letter-spacing: 0.5px;
-        font-size: 9px;
-        margin: 4px 2px 0px 0px;
+        font-size: 9.5px;
+        margin: 4px 0px 0px 0px;
+        font-weight: 300;
+        color: rgb(126, 126, 126);
     }
 
 
@@ -543,21 +416,260 @@ button.tablinks {
         background-color: rgb(126, 126, 126);
         border: 0px solid;
         font-weight: 300;
-        
-        margin: 0px 6px 120px 0px;
+        width: 89px;
+        height: 34px;
+        margin: 4px 2px 212px 0px;
     }
 
     .fi-br-download {
         font-size: 14px;
-        line-height: 60px;
+        line-height: 40px;
+        color: rgb(126, 126, 126);
+
+
     }
 
 
     .table {
 
-        padding-left: 4%;
-        align-self: normal;
-        width: 560px;
+        padding-left: 0%;
+        width: 36%;
+
+
+    }
+
+    #clients .tooltip {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 32px;
+    
+    }
+    
+    
+    #clients .tooltip .tooltiptext {
+        visibility: hidden;
+        text-align: center;
+        border-radius: 6px;
+        padding: 20px 0px 0px 0px;
+        color: rgb(126, 126, 126);
+    
+    
+    
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        right: 0%;
+    }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        min-height: calc(100svh + 40px);
+        display: flex;
+
+    }
+
+    .container .table {
+        padding-top:23.5%;
+        padding-bottom:28%;
+        padding-right: 0%;
+        width: 36%;
+    }
+
+   
+   .blur p {
+ font-size: 12px;
+ font-weight: 200;
+   }
+   
+   
+    #clients {
+        min-height: calc(100svh + 40px);
+ 
+
+    }
+  
+
+ /* .second {
+    padding-top: 5%;
+ } */
+
+    #clients section:nth-child(1) {
+        padding-top: 10%;
+    
+
+    }
+
+
+    .divider {
+        margin-bottom: 60px;
+    }
+
+    .margin-top-10 {
+        padding-top: 20px;
+    }
+
+    .margin-bot-20 {
+        padding-bottom: 10px;
+    }
+
+
+
+    .opentab {
+        margin-top: 32px;
+    }
+
+    button.tablinks {
+   outline: none;
+        width: 16%;
+        height: 32px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 9.5px;
+        margin: 4px 0px 0px 0px;
+        font-weight: 300;
+        color: rgb(126, 126, 126);
+    }
+
+
+    .lingue button  {
+        color: rgb(255, 255, 255);
+        background-color: rgb(126, 126, 126);
+        border: 0px solid;
+        font-weight: 300;
+        width: 89px;
+        height: 34px;
+        margin: 4px 2px 212px 0px;
+    }
+
+    .fi-br-download {
+        font-size: 14px;
+        line-height: 40px;
+        color: rgb(126, 126, 126);
+
+
+    }
+
+
+    .table {
+
+        padding-left: 0%;
+        width: 37%;
+
+
+    }
+
+    #clients .tooltip {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 32px;
+    
+    }
+
+}
+
+
+
+@media screen and (max-width: 1279px) and (min-width: 960px) {
+   
+    .container {
+        min-height: calc(100svh + 40px);
+        display: flex;
+
+    }
+
+    .container .table {
+        padding-top:23.5%;
+        padding-bottom:28%;
+        padding-right: 0%;
+        width: 480px;
+    }
+
+   
+   .blur p {
+ font-size: 12px;
+ font-weight: 200;
+   }
+   
+   
+    #clients {
+        min-height: calc(100svh + 40px);
+ 
+
+    }
+  
+
+ /* .second {
+    padding-top: 5%;
+ } */
+
+    #clients section:nth-child(1) {
+        padding-top: 10%;
+    
+
+    }
+
+
+    .divider {
+        margin-bottom: 60px;
+    }
+
+    .margin-top-10 {
+        padding-top: 20px;
+    }
+
+    .margin-bot-20 {
+        padding-bottom: 10px;
+    }
+
+
+
+    .opentab {
+        margin-top: 32px;
+    }
+
+    button.tablinks {
+   outline: none;
+        width: 78px;
+        height: 32px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 9.5px;
+        margin: 4px 0px 0px 0px;
+        font-weight: 300;
+        color: rgb(126, 126, 126);
+    }
+
+
+    .lingue button  {
+        color: rgb(255, 255, 255);
+        background-color: rgb(126, 126, 126);
+        border: 0px solid;
+        font-weight: 300;
+        width: 89px;
+        height: 34px;
+        margin: 4px 2px 212px 0px;
+    }
+
+    .fi-br-download {
+        font-size: 14px;
+        line-height: 40px;
+        color: rgb(126, 126, 126);
+
+
+    }
+
+
+    .table {
+
+        padding-left: 0%;
+        width: 480px;
 
 
     }
@@ -569,6 +681,7 @@ button.tablinks {
     .opentab p {
         line-height: 0px;
         padding: 0px 0px 8px 0px;
+        
     }
 
     .opentab h4 {
@@ -602,9 +715,9 @@ button.tablinks {
     /* Section - Parallax */
     /**************************/
     .parallax {
-        /* padding-top: 244px;
+        padding-top: 244px;
         padding-bottom: 244px;
-        margin-top: 44px; */
+        margin-bottom: 44px;
         background-position: bottom right;
     }
 
