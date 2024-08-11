@@ -196,7 +196,11 @@
 }
 
 
-@media screen and (max-width: 479px) {}
+@media screen and (max-width: 479px) {
+
+
+    
+}
 
 
 @media screen and (max-width: 420px) {
@@ -446,7 +450,7 @@
 
    
     .divider {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
 
@@ -494,20 +498,20 @@
 
     button.tablinks {
         outline: none;
-        width: 31.5%;
+        width: 32%;
         height: 32px;
         border-radius: 28px;
         letter-spacing: 0.5px;
         font-size: 9px;
-        margin: 6px 4px 0px 0px;
+        margin: 6px 2px 0px 0px;
     }
 
 
 
     .lingue button  {
-        width: 23.8%;
+        width: 24%;
         height: 30px;
-        margin: 0px 2px 120px 0px;
+        margin: 0px 1px 120px 0px;
 
     }
 

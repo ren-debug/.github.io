@@ -3,11 +3,11 @@
 
 @media screen and (max-width: 600px) {
 
-    .navigation {
+    /* .navigation {
         padding: 0px 0px;
         justify-content: space-evenly;
         font-size: 12px;
-    }
+    } */
 
     /* navigation {
         height: 60px;
@@ -16,7 +16,7 @@
         right: 1px;
     } */
 
-    .fi-br-menu-burger {
+    /* .fi-br-menu-burger {
        
         cursor: pointer;
         font-size: 20px;
@@ -33,7 +33,7 @@
 
     .menu {
         left: -1.5%;
-    }
+    } */
 
 
     .tooltip:hover .tooltiptext {
@@ -47,24 +47,39 @@
 
 
 @media screen and (max-width: 420px) {
-    navigation i {
+    /* navigation i {
 
-        margin-left: 13px;
-        margin-right: 13px;
+        margin-left: 60%;
+        margin-right: 60%;
     
     
     
     }
+    .vl {
+        margin-left: 9%;
+    } */
+/* 
+    .menu {
+        left: -2.5%;
+        font-size: 10px;
+        letter-spacing: 0.25px;
+        font-weight: 300;
+        color:  rgba(126, 126, 126, 0.443);
+
+    } */
+
+    
 
 
-.fi-sr-house-chimney {
+
+/* .fi-sr-house-chimney {
     font-size: 16px;
   
 }
 
 .fi-br-menu-burger {
     font-size: 18px;
-}
+} */
     
 }
 
