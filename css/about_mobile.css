@@ -1,3 +1,11 @@
+.blur p {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+      }
+
+
 @media screen and (max-width: 600px) {
  
 
@@ -161,6 +169,7 @@
     }
 
 
+ 
 
     /* .blur p {
         font-size: 12px;

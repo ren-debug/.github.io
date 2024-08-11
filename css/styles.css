@@ -174,7 +174,7 @@ a:hover {
 
 .navigation {
     padding: 0px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 navigation {
@@ -245,6 +245,11 @@ navigation i {
     width: 29px;
     
 }
+
+
+
+
+
 
 .vl {
     border-left: 0.5px solid #69696955;

@@ -65,6 +65,7 @@
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+    height: 100%;
 }
 
 
@@ -147,18 +148,18 @@
 
 
 /* Override UGG site */
-/* #content {
+#content {
     width: 100%;
     padding: 0;
-} */
+}
 
-/* .content-asset p {
+.content-asset p {
 vertical-align: middle;
-} */
+}
 
-/* .breadcrumb {
+.breadcrumb {
     display: none;
-} */
+}
 
 /* Helpers */
 /**************************/
@@ -337,13 +338,26 @@ button.tablinks {
     color: inherit; */
 }
 
-#clients {
+.container {
     min-height: calc(100svh + 40px);
-
+    display: flex;
 
 }
 
+.container .table {
+    padding-top: 23%;
+    padding-bottom:28%;
+    padding-right: 0%;
+    width: 37%;
+}
 
+   
+.blur p {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 200;
+    letter-spacing: 1px;
+      }
 
 
 #clients section:nth-child(1) {
@@ -657,6 +671,7 @@ outline: none;
         padding-bottom:28%;
         padding-right: 0%;
         width: 40%;
+        padding-left: 2%;
     }
 
    
