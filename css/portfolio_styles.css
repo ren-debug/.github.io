@@ -2,7 +2,7 @@ navigation button, button {
     border: 1.4px solid #6666668b;
     top: 12px;
     right: 66px;
-    /* color: #666666; */
+    color: #666666;
   
 
 }
@@ -10,15 +10,15 @@ navigation button, button {
 
 
 navigation {
-    /* background-color: #d4d4d40c; */
-    /* color: #666666; */
+    background-color: #d4d4d40c;
+    color: #666666;
     opacity: 1;
 
 }
 
 
 navigation i {
-    /* color: #666666; */
+    color: #666666;
     opacity: 1;
 
 }

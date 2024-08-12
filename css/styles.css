@@ -5,10 +5,7 @@
 @import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
 /* || General styles */
-/* html {
-    color: rgb(126, 126, 126);
 
-} */
 
 /* … */
 .content-wrapper {
@@ -35,8 +32,7 @@ body {
     font-style: normal;
     line-height: 13px;
     text-align: justify;
-    color: rgb(126, 126, 126);
-
+    color:  rgb(126, 126, 126);
 
 
 }
@@ -69,6 +65,7 @@ h4 {
     font-style: normal;
     font-size: 11px;
     line-height: 18px;
+    color:  rgb(126, 126, 126);
 
 
 }
@@ -121,8 +118,8 @@ ul {
 
 a {
     text-decoration: none;
-    cursor: pointer;
     color: rgb(126, 126, 126);
+    cursor: pointer;
 
 
 
@@ -130,10 +127,9 @@ a {
 }
 
 hr {
-    margin-bottom: 0px;
-    margin-top: 4px;
-    border: 0.5px solid rgba(177, 177, 177, 0.251);
-    ;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 0.5px solid #b1b1b136;
 }
 
 
@@ -177,10 +173,8 @@ a:hover {
 /* … */
 
 .navigation {
-    width: auto;
-    text-align: center;
-    padding-left: 40px;
-    font-size: 11px;
+    padding: 0px;
+    font-size: 12px;
 }
 
 navigation {
@@ -204,27 +198,24 @@ navigation {
 
 }
 
-/* navigation i {
+navigation i {
 
-    margin-left: 11px;
-    margin-right: 12px;
+    margin-left: 18px;
+    margin-right: 18px;
 
 
 
-} */
+}
 
 
 
 .fi-sr-house-chimney {
-    font-size: 17px;
-    margin-left: 11px;
+    font-size: 18px;
   
 }
 
 .fi-br-menu-burger {
-    font-size: 18px;
-    margin-right: 11px;
-
+    font-size: 20px;
 }
 
 /* || Aside */
@@ -239,9 +230,9 @@ navigation {
     text-align: center;
     z-index: 3;
     left: 0;
-    height: 90%;
+    height: 100%;
     /* font-weight: 400; */
-    letter-spacing: 0.6px;
+    letter-spacing: 0.7px;
     justify-content: space-around;
     /* margin: 0 auto; */
 
@@ -251,8 +242,7 @@ navigation {
 .menu-wrapper li {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    width: 21px;
-    
+    width: 29px;
     
 }
 
@@ -262,10 +252,10 @@ navigation {
 
 
 .vl {
-    border-left: 0.5px solid rgba(126, 126, 126, 0.358);
+    border-left: 0.5px solid #69696955;
     height: 100vh;
     position: fixed;
-    margin-left: 40px;
+    margin-left: 56px;
     z-index: 3;
 
 }
@@ -328,7 +318,7 @@ navigation {
 
 
 button {
-    border: 1px solid rgb(126, 126, 126);
+    border: 1px solid #666666;
     outline: none;
     border-radius: 50px;
     width: 120px;
@@ -464,13 +454,12 @@ footer i {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: .9;
+    color: #666666;
     font-size: 11px;
     font-weight: 400;
 }
 
-.tooltip i{
-    font-size: 60px;
-}
+
 
 /* Media Queries */
 /**************************/

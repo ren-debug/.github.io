@@ -4,7 +4,7 @@
 
 .lingue button {
     color: rgb(255, 255, 255);
-    /* background-color: rgb(126, 126, 126); */
+    background-color: rgb(126, 126, 126);
     border: 0px solid;
     font-weight: 300;
 }
@@ -75,6 +75,7 @@
 
 #clients .tooltip i {
     font-size: 1.25rem;
+    color: rgba(126, 126, 126, 0.909);
     border-radius: 10px;
     font-weight: 200;
     transition: transform .2s;
@@ -96,6 +97,7 @@
     text-align: center;
     border-radius: 6px;
     padding: 22px 0px 0px 0px;
+    color: rgb(126, 126, 126);
 
 
 
@@ -252,22 +254,24 @@ vertical-align: middle;
 
 .opentab p {
     line-height: 0px;
-    padding: 0px 0px 4px 0px;
-    font-size: 11px;
+    padding: 0px 0px 12px 0px;
+    color: rgb(126, 126, 126);
+    font-size: 10px;
     font-weight: 300;
     letter-spacing: 0.5px;
     /* font-style: italic; */
 }
 
 .opentab h4 {
-    line-height: 6px;
-    padding: 12px 0px 0px 0px;
+    line-height: 14px;
+    padding: 0px 0px 0px 0px;
+    color:  rgb(126, 126, 126);
 }
 
 .opentab.hr {
     line-height: 0px;
     margin: 0px 0px 0px 0px;
-    /* border: 0.5px solid #9a9a9a37; */
+    border: 0.5px solid #9a9a9a37;
 
 }
 
@@ -287,6 +291,7 @@ button.tablinks {
     font-size: 11px;
     line-height: 18px;
     padding: 0px;
+    color: rgb(126, 126, 126);
     background: transparent;
     font-weight: 300;
     transition: transform .2s;
@@ -340,14 +345,19 @@ button.tablinks {
 }
 
 .container .table {
-    padding-top: 20%;
+    padding-top: 23%;
     padding-bottom:28%;
-    padding-left: 40px;
-    width: 40%;
+    padding-right: 0%;
+    width: 37%;
 }
 
    
-
+.blur p {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 200;
+    letter-spacing: 1px;
+      }
 
 
 #clients section:nth-child(1) {
@@ -366,13 +376,13 @@ button.tablinks {
 }
 
 .margin-bot-20 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
 
 .opentab {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 button.tablinks {
@@ -384,6 +394,7 @@ outline: none;
     font-size: 9.5px;
     margin: 4px 1px 0px 0px;
     font-weight: 300;
+    color: rgb(126, 126, 126);
 }
 
 
@@ -400,20 +411,251 @@ outline: none;
 .fi-br-download {
     font-size: 14px;
     line-height: 60px;
+    color: rgb(126, 126, 126);
 
 
 }
 
 
 .table {
-    padding-right: 40px;
-    width: 40%;
+
+    padding-left: 0%;
+    width: 37%;
+
 
 }
 
 
 /* Media Queries */
 /**************************/
+/* @media screen and (max-width: 1600px) {
+
+    .container {
+        min-height: calc(100svh + 40px);
+        display: flex;
+
+    }
+
+    .container .table {
+        padding-top:23.5%;
+        padding-bottom:28%;
+        padding-right: 0%;
+        width: 3%;
+    }
+
+   
+   .blur p {
+ font-size: 12px;
+ font-weight: 200;
+   }
+   
+   
+    #clients {
+        min-height: calc(100svh + 40px);
+ 
+
+    }
+  
+
+ 
+
+    #clients section:nth-child(1) {
+        padding-top: 10%;
+    
+
+    }
+
+
+    .divider {
+        margin-bottom: 60px;
+    }
+
+    .margin-top-10 {
+        padding-top: 20px;
+    }
+
+    .margin-bot-20 {
+        padding-bottom: 10px;
+    }
+
+
+
+    .opentab {
+        margin-top: 32px;
+    }
+
+    button.tablinks {
+   outline: none;
+        width: 76px;
+        height: 32px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 9.5px;
+        margin: 4px 0px 0px 0px;
+        font-weight: 300;
+        color: rgb(126, 126, 126);
+    }
+
+
+    .lingue button  {
+        color: rgb(255, 255, 255);
+        background-color: rgb(126, 126, 126);
+        border: 0px solid;
+        font-weight: 300;
+        width: 89px;
+        height: 34px;
+        margin: 4px 2px 212px 0px;
+    }
+
+    .fi-br-download {
+        font-size: 14px;
+        line-height: 40px;
+        color: rgb(126, 126, 126);
+
+
+    }
+
+
+    .table {
+
+        padding-left: 0%;
+        width: 3%;
+
+
+    }
+
+    #clients .tooltip {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 32px;
+    
+    }
+    
+    
+    #clients .tooltip .tooltiptext {
+        visibility: hidden;
+        text-align: center;
+        border-radius: 6px;
+        padding: 20px 0px 0px 0px;
+        color: rgb(126, 126, 126);
+    
+    
+    
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        right: 0%;
+    }
+
+} */
+
+
+/* @media screen and (max-width: 1280px) {
+
+    .container {
+        min-height: calc(100svh + 40px);
+        display: flex;
+
+    }
+
+    .container .table {
+        padding-top:23.5%;
+        padding-bottom:28%;
+        padding-right: 2%;
+        width: 34%;
+    }
+
+   
+   .blur p {
+ font-size: 12px;
+ font-weight: 200;
+   }
+   
+   
+    #clients {
+        min-height: calc(100svh + 40px);
+ 
+
+    } */
+  
+
+
+    /* #clients section:nth-child(1) {
+        padding-top: 10%;
+    
+
+    }
+
+
+    .divider {
+        margin-bottom: 60px;
+    }
+
+    .margin-top-10 {
+        padding-top: 20px;
+    }
+
+    .margin-bot-20 {
+        padding-bottom: 10px;
+    }
+
+
+
+    .opentab {
+        margin-top: 32px;
+    }
+
+    button.tablinks {
+   outline: none;
+        width: 16%;
+        height: 32px;
+        border-radius: 28px;
+        letter-spacing: 0.5px;
+        font-size: 9.5px;
+        margin: 4px 0px 0px 0px;
+        font-weight: 300;
+        color: rgb(126, 126, 126);
+    }
+
+
+    .lingue button  {
+        color: rgb(255, 255, 255);
+        background-color: rgb(126, 126, 126);
+        border: 0px solid;
+        font-weight: 300;
+        width: 89px;
+        height: 34px;
+        margin: 4px 2px 212px 0px;
+    }
+
+    .fi-br-download {
+        font-size: 14px;
+        line-height: 40px;
+        color: rgb(126, 126, 126);
+
+
+    }
+
+
+    .table {
+
+        padding-left: 0%;
+        width: 37%;
+
+
+    }
+
+    #clients .tooltip {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 32px;
+    
+    }
+
+} */
+
 
 
 @media screen and (max-width: 1279px) and (min-width: 960px) {
@@ -423,22 +665,20 @@ outline: none;
         display: flex;
 
     }
+
     .container .table {
-        padding-top: 20%;
+        padding-top: 28%;
         padding-bottom:28%;
-        padding-left: 40px;
-        /* margin-left: auto; */
-        margin-right: auto;
+        padding-right: 0%;
         width: 40%;
+        padding-left: 2%;
     }
 
    
-    .blur p {
-        font-size: 14px;
-        line-height: 60px;
-        font-weight: 200;
-        letter-spacing: 1px;
-          }
+   .blur p {
+ font-size: 12px;
+ font-weight: 200;
+   }
    
    
     #clients {
@@ -484,6 +724,7 @@ outline: none;
         font-size: 9.5px;
         margin: 4px 0px 0px 0px;
         font-weight: 300;
+        color: rgb(126, 126, 126);
     }
 
 
@@ -500,18 +741,17 @@ outline: none;
     .fi-br-download {
         font-size: 14px;
         line-height: 40px;
+        color: rgb(126, 126, 126);
 
 
     }
 
 
     .table {
-        padding-top: 0%;
-        padding-bottom:28%;
-        padding-left: 40px;
-        /* margin-left: auto; */
-        margin-right: auto;
-        width: 40%;
+
+        padding-left: 6%;
+        width: 480px;
+
 
     }
 
@@ -532,7 +772,7 @@ outline: none;
 
     .opentab.hr {
         line-height: 0px;
-        
+        border: 0.5px solid #9a9a9a37;
     }
 
     #clients .tooltip {
@@ -584,7 +824,7 @@ outline: none;
         padding-bottom:13%;
         padding-left: 4%;
 
-        width: 40%;
+        width: 440px;
     }
 
  
@@ -649,8 +889,6 @@ outline: none;
 
 
     }
-
-
 
       /* Tabs */
     /**************************/
