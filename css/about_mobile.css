@@ -1,9 +1,13 @@
+
+
+
 .blur p {
     font-size: 11px;
     line-height: 20px;
     font-weight: 200;
     letter-spacing: 1px;
       }
+
 
 
 @media screen and (max-width: 600px) {
@@ -19,10 +23,10 @@
 
     .container .table {
         margin: auto;
-        position: absolute;
+        /* position: absolute; */
         top: 59%;
-        transform: translateY(-50%);
-        padding-left: 17%;
+        /* transform: translateY(-50%); */
+        /* padding-left: 17%; */
         align-self: center;
         width: 302px;
        
@@ -161,7 +165,7 @@
 
 
     .table {
-        padding-left: 11%;
+      
         /* align-self: normal; */
         width: 300px;
 
@@ -196,7 +200,11 @@
 }
 
 
-@media screen and (max-width: 479px) {}
+@media screen and (max-width: 479px) {
+
+
+    
+}
 
 
 @media screen and (max-width: 420px) {
@@ -233,7 +241,7 @@
         position: absolute;
         top: 58%;
         transform: translateY(-50%);
-        padding-left: 19.5%;
+      
         align-self: center;
         width: 72%;
        
@@ -241,7 +249,7 @@
 
     .table {
       
-        padding-left: 12%;
+       
         align-self: normal;
         width: 72%;
 
@@ -353,7 +361,7 @@
         position: absolute;
         top: 62%;
         transform: translateY(-50%);
-        padding-left: 6%;
+      
         align-self: center;
         width: 88%;
        
@@ -361,7 +369,7 @@
 
     .table {
       
-        padding-left: 0%;
+ 
         align-self: normal;
         width: 88%;
 
@@ -446,7 +454,7 @@
 
    
     .divider {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
 
@@ -472,10 +480,10 @@
 
     .container .table {
         margin: auto;
-        position: absolute;
+        /* position: absolute; */
         top: 62%;
-        transform: translateY(-50%);
-        padding-left: 6%;
+        /* transform: translateY(-50%); */
+        
         align-self: center;
         width: 88%;
        
@@ -483,7 +491,7 @@
 
     .table {
       
-        padding-left: 0%;
+      
         align-self: normal;
         width: 88%;
 
@@ -494,20 +502,20 @@
 
     button.tablinks {
         outline: none;
-        width: 31.5%;
+        width: 32%;
         height: 32px;
         border-radius: 28px;
         letter-spacing: 0.5px;
         font-size: 9px;
-        margin: 6px 4px 0px 0px;
+        margin: 6px 2px 0px 0px;
     }
 
 
 
     .lingue button  {
-        width: 23.8%;
+        width: 24%;
         height: 30px;
-        margin: 0px 2px 120px 0px;
+        margin: 0px 1px 120px 0px;
 
     }
 
