@@ -361,13 +361,7 @@ img {
 
 }
 
-@media screen and (max-width: 820px) and (min-width: 601px) and (orientation: landscape) {
-  .content-wrapper {
-        width: 100%;
 
-    }
-
-}
 
 
 @media screen and (max-width: 820px) and (min-width: 601px) and (orientation: portrait) {
@@ -376,6 +370,8 @@ img {
         width: 96%;
 
     }
+
+  
 
 
     .container {
@@ -567,9 +563,12 @@ img {
 @media screen and (max-width: 820px) and (min-width: 601px) and (orientation: landscape) {
 
 
+    .content {
+        width: 90%;
+    }
     .container {
         /* margin-top: 2.5%; */
-        margin-left: 0%;
+        margin-left: 8%;
         padding: 0% 5%;
         padding-top: 52px;
 
