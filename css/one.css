@@ -1,0 +1,367 @@
+html {
+    box-sizing: border-box;
+   
+
+}
+
+nav {
+    background-color: rgba(235, 235, 235, 0.076);
+}
+
+body {
+    font-size: 9px;
+    line-height: 20px;
+    font-weight: 200;
+    letter-spacing: 0.75px;
+    color: rgb(143, 143, 143);
+}
+
+.content-wrapper {
+
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.content {
+    height: 100%;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+h3 hr {
+    margin-bottom: 4%;
+}
+
+
+
+
+section {  
+    height: 100vh; 
+    
+}
+
+
+.blur {
+    margin: 0 auto;
+    height: 100vh;  
+}
+
+
+.blur p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#second {
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#first >* {
+    width: 40%; 
+    height: 100vh;
+    background-color: aqua;
+}
+
+
+#second >* {
+    width: 40%; 
+    background-color: aqua;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    height: 45%;
+  
+    
+}
+
+.container-items {
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    /* top: 50%;
+    transform: translateY(-50%); */
+   
+}
+
+
+.skills-icons {
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+  
+    height: fit-content;
+ 
+ 
+}
+
+
+.skills-icons .table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+
+.tooltip i {
+    font-size: 1.1rem;
+    padding: 0%;
+    border-radius: 10px;
+    font-weight: 200;
+    transition: transform 0.2s;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    text-align: center;
+    border-radius: 6px;
+    padding: 14px 0px 0px 0px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0%;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    font-size: 8px;
+    z-index: 2000;
+    width: 56px;
+    height: 0px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    bottom: 0%;
+}
+
+i.fi.fi-brands-github {
+    font-size: 1.1rem;
+}
+
+i.fa-brands.fa-square-js {
+    font-size: 1.1rem;
+}
+
+i.fa-brands.fa-html5 {
+    font-size: 1.2rem;
+}
+
+i.fa-brands.fa-css3-alt {
+    font-size: 1.2rem;
+}
+
+
+.lingue {
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+    height: 10%;
+    
+   
+    
+}
+
+.lingue .table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+
+
+/* Tabs */
+/**************************/
+
+.opentab p {
+    line-height: 0px;
+    padding: 0px 0px 10px 0px;
+
+}
+
+.opentab h4 {
+    line-height: 0px;
+    padding: 8px 0px 4px 0px;
+}
+
+.opentab {
+    padding-top: 4%;
+}
+
+.tab {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* button.tablinks >* {
+    flex: 0 0 60px;
+} */
+
+button {
+    border: 1px solid #9a9a9a37;
+    outline: none;
+    width: 90px;
+    height: 34px;
+    margin: 2px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    background: transparent;
+    font-weight: 300;
+    transition: transform 0.2s;
+    color: rgb(126, 126, 126);
+}
+
+button .tablinks {
+    border: 1px solid #9a9a9a37;
+    outline: none;
+    width: 66x;
+    height: 32px;
+    margin: 4px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    background: transparent;
+    font-weight: 300;
+    transition: transform 0.2s;
+    color: rgb(126, 126, 126);
+}
+
+
+
+/* Section - Parallax */
+/**************************/
+.parallax {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/homepage.png");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+
+@media screen and (max-width: 1920px) and (min-width: 1601px) {
+
+    #skills >* {
+        width: 35%; 
+        background-color: aqua;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1399px) {
+    #skills >* {
+        width: 42%; 
+        background-color: aqua;
+    }
+
+
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1280px) {
+    #skills >* {
+        width: 45%; 
+        background-color: aqua;
+    }
+
+}
+
+@media screen and (max-width: 962px) and (min-width: 916px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 915px) and (min-width: 821px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 820px) and (min-width: 800px) and (orientation: portrait) {
+
+  
+}
+
+
+@media screen and (max-width: 799px) and (min-width: 601px) and (orientation: portrait) {
+
+
+}
+
+
+@media screen and (max-width: 820px) and (min-width: 601px) and (orientation: landscape) {
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    padding-left: 4%;
+}
+
+button.tablinks {
+    width: 90px;
+    height: 32px;
+
+}
+   
+
+
+   
+}
+
+@media screen and (max-width: 390px) {}

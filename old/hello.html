@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/hello.css">
+  <link rel="stylesheet" href="./css/menu.css">
+
+  <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.typekit.net/ezv7rpx.css">
+  <link rel="stylesheet" href="/fonts/stylesheet.css">
+  <link rel="stylesheet" href="/fonts/fontawesome-free-6.5.2-web/css/all.css">
+  <link rel="preconnect" href="https://cdn.fonts.net">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+
+  <script src="/js/jquery.scroll-spy.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+  <!-- JavaScript dependencies -->
+  <!-- GSAP library -->
+  <script src="./js/gsap.min.js"></script>
+  <!-- GSAP ScrollTrigger plugin -->
+  <script src="./js/ScrollTrigger.min.js"></script>
+
+  <!-- SplitType for text manipulation: https://github.com/lukePeavey/SplitType -->
+  <script src="./js/split-type.min.js"></script>
+
+  <!-- Add (Lenis) smooth scroll -->
+  <script src="./js/lenis.min.js"></script>
+  <script src="./js/smoothscroll.js"></script>
+
+  <!-- Scripts for the effect -->
+  <script type="module" src="./js/index.js"></script>
+  <script type="module" src="./js/effect-4/blurScrollEffect.js"></script>
+
+</head>
+
+<body>
+  <nav role="navigation">
+    <ul>
+      <li><a href="./index.html"><i class="fi fi-sr-house-chimney"></i></a></li>
+      <li style="padding-left: 8%;"><a href="./hello.html">About</a></li>
+      <li class="nav-center"><a href="./work.html">Work</a>
+        <ul class="dropdown">
+          <li><a href="./work-print.html">Print Design</a></li>
+          <li><a href="./work-web.html">Web Design</a></li>
+          <li><a href="./work-digital.html">Digital Design</a></li>
+        </ul>
+      </li>
+      <li style="padding-right: 7%;"><a href="#">Contact</a></li>
+      <li><span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span></li>
+
+    </ul>
+  </nav>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+    <div class="overlay-content">
+      <ul>
+        <li><a href="./index.html">about</a>
+        <li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="work.html">contact</a></li>
+      </ul>
+      <div class="icons">
+        <div class="tooltip">
+          <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
+          <div class="tooltiptext">irene.spalletti@gmail.com</div>
+        </div>
+        <div class="tooltip">
+          <a href="tel:+447412604767"><i class="fi fi-sr-phone-call"></i></a>
+          <div class="tooltiptext">+44&nbsp;(0)&nbsp;7412&nbsp;604&nbsp;767</div>
+        </div>
+        <div class="tooltip">
+          <a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fa-brands fa-linkedin-in"
+              style="font-size: 16px;"></i></a>
+          <div class="tooltiptext">linkedin</div>
+        </div>
+        <div class="tooltip">
+          <a href="https://www.instagram.com/ireneishi/"><i class="fa-brands fa-instagram"
+              style="font-size: 16px;"></i></a>
+          <div class="tooltiptext">instagram</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+
+  <div class="content-wrapper">
+    <div class="menu-wrapper">
+
+      <ul class="menu">
+        <li><a href="#about">01.&nbsp;Hello!</a></li>
+        <li><a href="#cv">02.&nbsp;Clients & CV</a></li>
+      </ul>
+      <div class="vl"></div>
+    </div>
+
+    <div class="content">
+      <section id="about">
+        <div class="container">
+          <div class="blur" data-effect-4>
+            <p> My passion for Visual Communication spans across both print and digital media,
+              and it has made me appreciate the physical feel and look of materials. This unique
+              perspective gives me an edge when crafting designs for the digital realm, which constantly
+              excites and inspires me with its endless possibilities.
+              <br><br>My journey has allowed me to grasp the fundamentals of traditional design
+              principles, making it effortless for me to bring ideas to life across various platforms. My
+              portfolio is all about attention to detail, offering a clean and timeless style. I'm all
+              about putting typography at the forefront, creating designs that effortlessly blend elegance
+              and functionality.
+            </p>
+          </div>
+        </div>
+
+      </section>
+      <section class="parallax"></section>
+
+      <section id="cv">
+<div class="container">
+        <div class="first-container">
+          <h3>01. Industry Experience
+            <hr>
+          </h3>
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'beauty')" id="defaultOpen">beauty</button>
+            <button class="tablinks" onclick="openCity(event, 'finance')">finance</button>
+            <button class="tablinks" onclick="openCity(event, 'luxury')">luxury</button>
+            <button class="tablinks" onclick="openCity(event, 'media')">media</button>
+            <button class="tablinks" onclick="openCity(event, 'retail')">retail</button>
+            <button class="tablinks" onclick="openCity(event, 'sport')">sport</button>
+          </div>
+
+          <div class="opentab">
+
+            <div id="beauty" class="tabcontent">
+
+              <ul>
+                <li>
+                  <h4>Bausch & Lomb (AS&K)</h4>
+                  <p>infographics – freelance</p>
+
+                </li>
+                <hr>
+                <li>
+                  <h4>Elemis (Frontroom)</h4>
+                  <p>photoshop / illustrator graphics – freelance
+
+                  </p>
+                </li>
+                <hr>
+                <li>
+                  <h4>Lanc&#244;me (L&#8217;Or&#233;al)</h4>
+                  <p>front-end dev / digital design – freelance
+
+                  </p>
+                </li>
+                <hr>
+                <li>
+
+                <li>
+                  <h4>The Body Shop</h4>
+                  <p>brand guidelines – freelance
+
+                  </p>
+                </li>
+                <hr>
+                <li>
+                  <h4>Yves Saint Laurent (L&#8217;Or&#233;al)</h4>
+                  <p>front-end dev / digital design – freelance
+                    <a href="digital.html#ysl" class="view">view project</a>
+
+                  </p>
+                </li>
+                <hr>
+              </ul>
+
+            </div>
+
+            <div id="finance" class="tabcontent">
+
+              <ul>
+                <li>
+                  <h4>ADA Economics</h4>
+                  <p>visual identity - freelance
+
+                  </p>
+                  <hr>
+                </li>
+
+                <li>
+                  <h4>Blockchain Unlimited</h4>
+                  <p>UX · UI consultant
+                  </p>
+                  <hr>
+                </li>
+
+                <li>
+                  <h4>FT Financial Times</h4>
+                  <p>editorial design - freelance
+                  </p>
+                  <hr>
+                </li>
+
+                <li>
+                  <h4>Greenfinch</h4>
+                  <p>UX · UI consultant
+                  </p>
+                  <hr>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div id="retail" class="tabcontent">
+
+              <ul>
+
+                <li>
+                  <h4>Belvedere Vodka (Hue & Cry)</h4>
+                  <p>branding – freelance
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>Karolina Manns</h4>
+                  <p>branding & packaging – art director
+                    <a href="print.html#ks" class="view">view project</a>
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>McArthurGlen</h4>
+                  <p>UX · UI, development, digital design – freelance
+                    <a href="digital.html#mag" class="view">view project</a>
+                  </p>
+                  <hr>
+                </li>
+
+                <li>
+                  <h4>Mike Koedinger Editions</h4>
+                  <p>editorial design – print designer
+                  </p>
+                  <hr>
+                </li>
+              </ul>
+
+            </div>
+
+            <div id="luxury" class="tabcontent">
+
+              <ul>
+                <li>
+                  <h4>Babylon (Socrates)</h4>
+                  <p>web design – freelance
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>Burberry</h4>
+                  <p>marketing & advertising - freelance
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>Christie&#8217;s</h4>
+                  <p>UX · UI, development – various
+                    <a href="print.html#calder" class="view">view project</a>
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>The East India Company</h4>
+                  <p>events · print design – freelance
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>Yves Saint Laurent (L'Or&#233;al)</h4>
+                  <p>front-end dev / digital design – freelance
+                    <a href="digital.html#ysl" class="view">view project</a>
+                  </p>
+                  <hr>
+                </li>
+              </ul>
+
+            </div>
+
+            <div id="media" class="tabcontent">
+
+              <ul>
+
+                <li>
+                  <h4>Pinzutu Films</h4>
+                  <p>web design & front-end dev · art direction
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>Pokerstars</h4>
+                  <p>digital designer – freelance
+                    <a href="digital.html#ps" class="view">view project</a>
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>Sonos (Sense Worldwide)</h4>
+                  <p>infographics & print design – freelance
+                    <a href="#" class="view">view project</a>
+                  </p>
+                  <hr>
+                </li>
+              </ul>
+
+            </div>
+
+            <div id="sport" class="tabcontent">
+
+              <ul>
+                <li>
+                  <h4>Atma Yoga</h4>
+                  <p>web designer & front-end developer
+                  </p>
+                  <hr>
+                </li>
+                <li>
+                  <h4>England Rugby Football Union</h4>
+                  <p>digital rebranding – freelance
+                    <a href="digital.html#rfu" class="view">view project</a>
+                  </p>
+                  <hr>
+                </li>
+
+                <li>
+                  <h4>LP Workouts</h4>
+                  <p>web designer & front-end developer
+                  </p>
+                  <hr>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="cv">
+            <a href="pdf/irene.spalletti_CV.pdf">
+              <p><i class="fi fi-br-download"></i>
+              </p>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="second-container">
+          <h3>02. Technical Skills
+            <hr>
+          </h3>
+          <div class="table">
+            <div>
+              <div class="tooltip">
+                <i class="fi fi-brands-photoshop"></i>
+                <div class="tooltiptext">photoshop</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fi fi-brands-illustrator"></i>
+                <div class="tooltiptext">illustrator</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fi fi-brands-indesign"></i>
+                <div class="tooltiptext">inDesign</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fi fi-brands-xd"></i>
+                <div class="tooltiptext">xd</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fi fi-brands-after-effects"></i>
+                <div class="tooltiptext">after&nbsp;effects</div>
+              </div>
+            </div>
+            <div style="padding-top: 4px;">
+              <div class="tooltip">
+                <i class="fa-brands fa-figma"></i>
+                <div class="tooltiptext">figma</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fa-brands fa-sketch"></i>
+                <div class="tooltiptext">sketch</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fa-brands fa-invision"></i>
+                <div class="tooltiptext">invision</div>
+              </div>
+            </div>
+            <div>
+              <div class="tooltip">
+                <i class="fa-brands fa-square-js"></i>
+                <div class="tooltiptext">java&nbsp;script</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fi fi-brands-github"></i>
+                <div class="tooltiptext">github</div>
+              </div>
+              <div class="tooltip">
+                <i class="fa-brands fa-html5"></i>
+                <div class="tooltiptext">html</div>
+              </div>
+
+              <div class="tooltip">
+                <i class="fa-brands fa-css3-alt"></i>
+                <div class="tooltiptext">css</div>
+              </div>
+
+            </div>
+          </div>
+
+<div class="spacer"></div>
+          <div class="table">
+          
+            <h3>03. Languages<hr>
+            </h3>
+            <div class="lingue">
+              <button class="tablinks">Italian</button>
+              <button class="tablinks">French</button>
+              <button class="tablinks">English</button>
+              <button class="tablinks">Spanish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="parallax"></section>
+
+    </div>
+
+    <!-- <footer>
+        <ul>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+        </ul>
+    </footer> -->
+
+</body>
+<script>
+  $('.content-wrapper').scrollSpy({
+    target: $('.menu a'),
+    activeClass: 'active'
+  }).scroll();
+</script>
+
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+</script>
+
+</html>

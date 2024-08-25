@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/template.css">
+    <link rel="stylesheet" href="./css/web-new.css">
+    <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/ezv7rpx.css">
+    <link rel="stylesheet" href="/fonts/stylesheet.css">
+    <link rel="stylesheet" href="/fonts/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="preconnect" href="https://cdn.fonts.net">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+
+    <style> 
+
+    
+    </style>
+    <script src="https://code.jquery.com/jquery-1.6.4.js"
+        integrity="sha256-VJZPi1gK15WpYvsnBmcV0yga4a0Toov4rt1diFnrrjc=" crossorigin="anonymous"></script>
+    <script src="/js/jquery.scroll-spy.js"></script>
+
+</head>
+
+<body>
+    <nav role="navigation">
+        <ul>
+        <li><a href="./index.html"><i class="fi fi-sr-house-chimney"></i></a></li>
+          <li><a href="./hello.html">About</a></li>
+          <li class="nav-center active"><a href="./work.html">Work</a>
+            <ul class="dropdown">
+              <li><a href="./work-print.html">Print Design</a></li>
+              <li class="active"><a href="./work-web.html">Web Design</a></li>
+              <li><a href="./work-digital.html">Digital Design</a></li>
+            </ul>
+          </li>
+         
+        <li><span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span></li>
+
+        </ul>
+      </nav>
+  
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+        <div class="overlay-content">
+            <ul>
+                <li><a href="./hello.html">About</a><li>
+                <li><a href="/work.html">Work</a></li>
+                
+            </ul>
+            <div class="icons">
+                <div class="tooltip">
+                    <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
+                  
+                </div>
+                <div class="tooltip">
+                    <a href="tel:+447412604767"><i class="fi fi-sr-phone-call"></i></a>
+                   
+                </div>
+                <div class="tooltip">
+                    <a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fa-brands fa-linkedin-in"></i></a>
+                   
+                </div>
+                <div class="tooltip">
+                    <a href="https://www.instagram.com/ireneishi/"><i class="fa-brands fa-instagram"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+        
+    </script>
+
+    <div class="content-wrapper">
+        <div class="menu-wrapper">
+
+            <ul class="menu">
+                <li><a href="#first">01.&nbsp;McArthurGlen</a></li>
+                <li><a href="#second">02.&nbsp;Pinzutu Production</a></li>
+                <li><a href="#third">03.&nbsp;Christie's</a></li>
+            </ul>
+            <div class="vl"></div>
+        </div>
+
+        <div class="content">
+            <section id="first">               
+                <div class="container">
+                    <div class="video-block-1">
+                        
+                        <video width="100%" autoplay muted >
+                            <source src="./mp4/media_pack.mp4" type="video/mp4">
+                        </video>
+                    
+                    </div>
+                    <div class="spacer-2"></div>
+                    <div class="text-block">
+                        <div class="copy-left">
+                            <ul>
+                                <hr>
+                                <li>client:&nbsp;&nbsp;<span class="right">McArthurGlen</span></li>
+                                <li>role:&nbsp;&nbsp;<span class="right">UX · UI Designer</span></li>
+                                <li>collaborators:&nbsp;&nbsp;<span class="right">Manuele Rosario Pennisi
+                                </span></li>
+                                
+                            </ul>
+                        </div>
+                        
+                        <div class="copy-right">
+                            <p>Redesign McArthurGlen’s marketing guidelines with focus on user needs and UX methods.
+                                The earlier version of the digital guidelines suffered from a lack of well-defined
+                                informative content, including design specifications and visuals. It was developed
+                                without considering the business requirements and user needs.
+                         
+                            </p>
+                            
+                            <button id="flip1">read more</button>
+                        </div>
+                    </div>
+                                            
+                    <div id="panel1" class="text-block">
+
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li><strong>the challenge</strong></li>
+                                    <li>problem to solve</li>
+                                    <li>solution</li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right">
+                                    <p> Upon joining the company, I noticed a significant
+                                        communication and understanding gap between account managers and designers during
+                                        the briefing process. The absence
+                                        of a focus on UX and the failure to consider end-user needs resulted in an
+                                        uninformative and inefficient process.
+                                        Consequently, user tasks became time-consuming and needlessly prolonged. In order to
+                                        address these issues, the product underwent a complete redesign and involved the
+                                        addition of new functionalities.
+                                    </p>
+                                </div>
+
+                                <div class="spacer-1"></div>
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li>the challenge</li>
+                                    <li><strong>problem to solve</strong></li>
+                                    <li>solution</li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right bullet">
+                                    <p>
+                                    <ul>
+                                        <li>
+                                            Redesign the guidelines according to the user needs (B2B).
+                                        </li>
+                                        <li>
+                                            Align members of the business within different departments in the
+                                            understanding of the briefing process to designers.
+                                        </li>
+                                        <li>
+                                            Recreate the content of the guidelines that would include clear and
+                                            informative specifications
+                                            and visuals.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                           
+                                <div class="spacer-1"></div>
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li>the challenge</li>
+                                    <li>problem to solve</li>
+                                    <li><strong>solution</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right">
+                                    <p>Apply an evidence-based methodology that involves end-users
+                                        throughout the design process in order to design a solution that is easier to
+                                        use, speeds up the briefing process, communication and understanding between all
+                                        parties of the company. The skeleton and navigation were redesigned as well as the
+                                        information architecture.
+                                    </p>
+                                </div>
+                    </div>
+                    <div class="spacer-1"></div>
+                    
+                    <div class="zoom">
+                        <div class="card">
+                            <img src="./img/mag_social_ipad.jpg" alt="Card Back" width="100%">
+                            <img src="./img/mag_full_social.jpg" class="img-top" alt="Card Front" width="100%">
+                        </div>
+                    </div>
+                    
+                    <div class="zoom">
+                        <div class="card_1">
+                            <img src="./img/mag_gdn_ipad.jpg" alt="Card Back" width="100%">
+                            <img src="./img/mag_full_gdn.jpg" class="img-top-1" alt="Card Front" width="100%">
+                        </div>
+                    </div>
+                   
+        
+                    <div class="spacer-3"></div>
+                    <div class="text-block">
+                        <div class="copy-left">
+                            <ul>
+                                <hr>
+                                <li>The Process: Think, Make, Check</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="copy-right">
+                            <p> The think make check process, also known as tmc, is a systematic approach to problem-solving
+                                and product development. it emphasizes rapid iteration and validation of ideas through three
+                                key stages: think, make, and check.
+                                <br><br>In the think stage, teams brainstorm and analyze
+                                potential solutions to a given problem, considering various perspectives and possibilities.
+                                once ideas are generated, the make stage involves creating prototypes or minimum viable
+                                products (mvps) to test these ideas in real-world contexts. this stage prioritizes speed and
+                                agility, allowing teams to quickly bring ideas to life for evaluation. finally, in the check
+                                stage, teams gather feedback from users or stakeholders to assess the effectiveness of the
+                                prototypes. this feedback informs further iterations or refinements, ensuring that the final
+                                solution meets user needs and aligns with project goals.
+                                <br><br>The think make check process encourages a continuous cycle of learning and improvement, driving innovation and efficient
+                                problem-solving.
+                            </p>
+                            
+                            <button id="flip2">read more</button>
+                        </div>
+                    </div>
+                                            
+                    <div id="panel2" class="text-block">
+                            <div class="copy-left">
+                                <ul><hr>
+                                <li>The Process: <strong>Think,</strong> Make, Check</li>
+                                </ul>
+                            </div>
+                            <div class="copy-right bullet">
+                                <p><ul>
+                                    <li>
+                                        <strong>Card Sorting:</strong>
+                                        We used card sorting to organize insights from interviews. This was the
+                                        starting point for creating an information architecture and develop new
+                                        functionalities.
+                                    </li>
+                                    <li>
+                                        <strong>User Flows:</strong>
+                                        We created user flows for every task that users would perform on the
+                                        website. This allowed account managers to see where the old version failed and
+                                        why the company should dedicate time and costs towards the project.
+                                    </li>
+                                    <li>
+                                        <strong>Heat Maps:</strong>
+                                        Heat maps provided us visual data on where our users were focusing their
+                                        attention when visiting our pages. Users were set up in various scenarios and
+                                        were then asked to complete certain tasks.
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+
+                        <div class="spacer"></div>
+                        <div class="copy-left">
+                            <ul><hr>
+                            <li>The Process: Think,<strong>Make,</strong> , Check</li>
+                            </ul>
+                        </div>
+                        <div class="copy-right bullet">
+                            <p><ul>
+                                <li>Ideation & Sketching</li>
+                                <li>Wireframes</li>
+                                <li>MVP (minimum viable product)</li>
+                                <li>Iteration</li>
+                                <li>Prototypes</li>                            
+                            </ul>
+                            </p>
+                        </div>
+
+                        <div class="spacer-1"></div>
+                        <div class="copy-left">
+                            <ul><hr>
+                            <li>The Process: Think, Make, <strong>Check</strong></li>
+                            </ul>
+                        </div>
+                        <div class="copy-right bullet">
+                            <p><ul>
+                                <li>UI Design</li>
+                                <li>Site analytics</li>
+                                <li>Usability testing</li>
+                                <li>Feedback system</li>
+                                <li>User meetings</li> 
+                                <li>Digital guidelines</li>                            
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>               
+            </section>
+            <section id="second">               
+                <div class="container">
+                    <div class="video-1">
+                        
+                        <video width="100%" autoplay muted >
+                            <source src="./mp4/pinzutu_grid.mp4" type="video/mp4">
+                        </video>
+                    
+                    </div>
+                    <div class="spacer-2"></div>
+                    <div class="text-block">
+                        <div class="copy-left">
+                            <ul>
+                                <hr>
+                                <li>client:&nbsp;&nbsp;<span class="right">McArthurGlen</span></li>
+                                <li>role:&nbsp;&nbsp;<span class="right">UX · UI Designer</span></li>
+                                <li>collaborators:&nbsp;&nbsp;<span class="right">Manuele Rosario Pennisi
+                                </span></li>
+                                
+                            </ul>
+                        </div>
+                        
+                        <div class="copy-right">
+                            <p>Pinzutu Films is a media production agency, approached me to redesign their website. The
+                                primary requirement was to ensure that their video content was presented in the best
+                                possible way on all devices.
+                         
+                            </p>
+                            
+                            <button id="flip3">read more</button>
+                        </div>
+                    </div>
+                                            
+                    <div id="panel3" class="text-block">
+
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li><strong>the challenge</strong></li>
+                                    <li>problem to solve</li>
+                                    <li>solution</li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right">
+                                    <p>Overcome the technical challenges that video preview on mobile devices
+                                        involves.
+                                    </p>
+                                </div>
+
+                                <div class="spacer-1"></div>
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li>the challenge</li>
+                                    <li><strong>problem to solve</strong></li>
+                                    <li>solution</li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right bullet">
+                                    <p>
+                                    <ul>
+                                        <li>
+                                            Redesign the guidelines according to the user needs (B2B).
+                                        </li>
+                                        <li>
+                                            Align members of the business within different departments in the
+                                            understanding of the briefing process to designers.
+                                        </li>
+                                        <li>
+                                            Recreate the content of the guidelines that would include clear and
+                                            informative specifications
+                                            and visuals.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                           
+                                <div class="spacer-1"></div>
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li>the challenge</li>
+                                    <li>problem to solve</li>
+                                    <li><strong>solution</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right">
+                                    <p>Collaboration with both front-end and back-end developers to
+                                        ensure a seamless implementation of solutions to optimize the video preview on mobile
+                                        devices such as video transcoding and optimization, adaptive streaming support,
+                                        bandwidth management and using the content delivery network
+                                    </p>
+                                </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="video-2">
+                        <video width="100%" autoplay muted >
+                            <source src="./mp4/pinzutu_prototype.mp4" type="video/mp4">
+                        </video>
+                       
+                    </div>
+                    <div class="spacer-2"></div>
+                    <div class="video-3">
+                        <video width="100%" autoplay muted >
+                            <source src="./mp4/pinzutu_mobile.mp4" type="video/mp4">
+                        </video>
+                       
+                    </div>
+
+                    <div class="spacer-3"></div>
+                    <div class="text-block">
+                        <div class="copy-left">
+                            <ul>
+                                <hr>
+                                <li>The Process: Double Diamond</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="copy-right">
+                            <p>the double diamond ui process is a design framework that emphasizes
+                                divergent and convergent thinking to address user interface challenges effectively. it
+                                consists of four phases: discover, define, develop, and deliver. in the discover phase,
+                                designers immerse themselves in understanding user needs and challenges through research
+                                and exploration. this is followed by the define phase, where insights are synthesized to
+                                define clear problem statements and objectives. the develop phase involves ideation and
+                                prototyping, exploring various solutions and refining them based on user feedback.
+                                finally, in the deliver phase, the chosen solution is implemented and refined for
+                                release. this iterative process enables designers to explore a wide range of
+                                possibilities before converging on the best solution, ultimately leading to well-crafted
+                                user interfaces that meet user needs effectively.
+                            </p>
+                            
+                            <button id="flip4">read more</button>
+                        </div>
+                    </div>
+                                            
+                    <div id="panel4" class="text-block">
+                            <div class="copy-left">
+                                <ul><hr>
+                                <li>Discover: <strong>Research</strong></li>
+                                </ul>
+                            </div>
+                            <div class="copy-right bullet">
+                                <p>  <ul>
+                                    <li>Research</li>
+                                    <li>Contextual inquiry</li>
+                                    <li>Users interviews</li>
+                                    <li>Online Surveys</li>
+                                    <li>User personas</li>
+                                    <li>Competitive analysis</li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                        <div class="spacer-1"></div>
+                        <div class="copy-left">
+                            <ul><hr>
+                                <li>Define: <strong>Analysis</strong></li>
+                                </ul>
+                        </div>
+                        <div class="copy-right bullet">
+                            <p><ul>
+                                <li>Card sorting</li>
+                                <li>Feature prioritization</li>
+                                <li>Story mapping</li>
+                                <li>User stories</li>
+                                <li>Journey map</li>                            
+                            </ul>
+                            </p>
+                        </div>
+
+                        <div class="spacer-4"></div>
+                        <div class="copy-left">
+                            <ul><hr>
+                                <li>Develop: <strong>Ideation &
+                                    prototype</strong></li>
+                                </ul>
+                        </div>
+                        <div class="copy-right bullet">
+                            <p><ul>
+                                <li>Site map</li>
+                                <li>Information architecture</li>
+                                <li>Paper prototyping</li>
+                                <li>User flow</li>
+                                <li>Wireframes</li> 
+                                <li>Prototype low-fi</li> 
+                                <li>Usability testing</li>                            
+                            </ul>
+                            </p>
+                        </div>
+
+                        <div class="spacer"></div>
+                        <div class="copy-left">
+                            <ul><hr>
+                                <li>Deliver: <strong>Testing & UI</strong></li>
+                                </ul>
+                        </div>
+                        <div class="copy-right bullet">
+                            <p><ul>
+                                <li>UI design</li>
+                                <li>Visual mock-up</li>
+                                <li>Research report</li>                           
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>                
+            </section>
+            <section id="third">               
+                <div class="container">
+                    <div class="image-block-1">
+                        
+                        <div class="img-50">
+                            <img src="/img/parallax_3_full.jpg" alt="capital_gardens_logo" width="100%">
+                        </div>
+                    
+                    </div>
+                    <div class="spacer-3"></div>
+                    <div class="text-block">
+                        <div class="copy-left">
+                            <ul>
+                                <hr>
+                                <li>client:&nbsp;&nbsp;<span class="right">McArthurGlen</span></li>
+                                <li>role:&nbsp;&nbsp;<span class="right">UX · UI Designer</span></li>
+                                <li>collaborators:&nbsp;&nbsp;<span class="right">Manuele Rosario Pennisi
+                                </span></li>
+                                
+                            </ul>
+                        </div>
+                        
+                        <div class="copy-right">
+                            <p>Collaboration with Christie’s Art Director and Developers to create a
+                                design system for the inaugural website for the 1-54 Contemporary African Art Fair. Our
+                                goal was to organize and showcase the diverse works of all the exhibitors and artists in
+                                a visually compelling way
+                            </p>
+                            
+                            <button id="flip5">read more</button>
+                        </div>
+                    </div>
+                                            
+                    <div id="panel5" class="text-block">
+
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li><strong>the challenge</strong></li>
+                                    <li>problem to solve</li>
+                                    <li>solution</li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right">
+                                    <p>During the lock down, we faced the challenge of providing
+                                        buyers with a captivating experience to view artworks going up for auction on our website
+                                        since in-person viewings were not possible. This prompted us at Christie’s to
+                                        develop an innovative solution that would showcase the artworks in the best possible way.
+                                        For the first time, we introduced features such as scale, zoom, and live chat with
+                                        exhibitors to enhance the presentation of the works. One of the significant
+                                        challenges we encountered was categorizing and organizing over 1000 artworks effectively. We carefully formatted the extensive
+                                        amount of data into JSON files, ensuring that the specifications and details of
+                                        each artwork were accurately represented. This meticulous process was essential to
+                                        provide buyers with comprehensive and reliable information about the
+                                        artworks.
+                                    </p>
+                                </div>
+
+                                <div class="spacer-5"></div>
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li>the challenge</li>
+                                    <li><strong>problem to solve</strong></li>
+                                    <li>solution</li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right bullet">
+                                    <p>  Providing buyers with an engaging and interactive experience to view
+                                        artworks going up for auction online since in-person viewings were not
+                                        possible.
+                                    </p>
+                                </div>
+                           
+                                <div class="spacer-6"></div>
+                                <div class="copy-left">
+                                    <ul><hr>
+                                    <li>project overview</li>
+                                    <li>the challenge</li>
+                                    <li>problem to solve</li>
+                                    <li><strong>solution</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="copy-right">
+                                    <p>By implementing these features and overcoming the data
+                                        formatting challenge, we aimed to offer a seamless and immersive digital
+                                        experience for buyers to explore and engage with the artworks. This initiative represented
+                                        an exciting milestone for Christie’s, as we adapted to the circumstances and
+                                        pushed the boundaries of online art viewing, enabling buyers to make informed
+                                        decisions and appreciate the artworks despite the limitations imposed by the
+                                        lock down
+                                    </p>
+                                </div>
+                    </div>
+                    <div class="spacer-4"></div>
+                    
+                    <div  class="video-4">
+                        <video style="float: right;" width="100%" autoplay muted >
+                            <source src="./mp4/1-54.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                   
+        
+                    <div class="spacer-2"></div>
+                    <div class="text-block">
+                        <div class="copy-left">
+                            <ul>
+                                <hr>
+                                <li>The Process: Design Thinking</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="copy-right">
+                            <p> the design thinking process is a human-centered approach to innovation that
+                                places empathy for users at its core. it typically consists of five stages:
+                                empathize, define, ideate, prototype, and test.
+
+                                <br><br>in the empathize stage,designers seek to understand the needs, motivations, and
+                                pain points of the
+                                users by immersing themselves in their experiences. the define stage involves
+                                synthesizing gathered insights to define the core problems and opportunities for
+                                design. ideation follows, where designers generate a wide range of creative
+                                solutions without judgment. these ideas are then prototyped in the next stage,
+                                allowing designers to quickly iterate and visualize potential solutions.
+                                finally, in the test stage, prototypes are tested with users to gather feedback
+                                and iterate further, ensuring that the final solution effectively addresses user
+                                needs. this iterative and user-centric process encourages innovative
+                                problem-solving and leads to solutions that resonate deeply with users.
+                            </p>
+                            <div class="spacer-7"></div> 
+                        </div>
+                        
+                    </div>                                 
+                </div>               
+            </section>
+          
+        </div>
+    </div>
+
+    <!-- <footer>
+        <ul>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+        </ul>
+    </footer> -->
+
+</body>
+<script>
+    $('.content-wrapper').scrollSpy({
+        target: $('.menu a'),
+        activeClass: 'active'
+    }).scroll();
+</script>
+
+<script>
+    $('.content-wrapper').scrollSpy({
+        target: $('.menu a'),
+        activeClass: 'active'
+    }).scroll();
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip1").click(function() {
+            $("#panel1").slideToggle("slow");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip2").click(function() {
+            $("#panel2").slideToggle("slow");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip3").click(function() {
+            $("#panel3").slideToggle("slow");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip4").click(function() {
+            $("#panel4").slideToggle("slow");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#flip5").click(function() {
+            $("#panel5").slideToggle("slow");
+        });
+    });
+</script>
+
+</html>

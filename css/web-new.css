@@ -1,0 +1,207 @@
+button {
+    border: 1px solid #9a9a9a37;
+    outline: none;
+    width: 90px;
+    height: 34px;
+    margin: 2px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    background: transparent;
+    font-weight: 300;
+    transition: transform 0.2s;
+    color: rgb(126, 126, 126);
+}
+
+
+
+
+.spacer {
+  height: 26vh;
+  
+}
+
+.spacer-1 {
+  height: 22vh;
+  
+}
+
+
+.spacer-2 {
+  height: 3vh;
+  
+}
+
+.spacer-3 {
+  height: 12vh;
+  
+}
+
+
+.spacer-4 {
+  height: 20vh;
+  
+}
+
+
+.spacer-5 {
+  height: 30vh;
+  
+}
+
+
+.spacer-6 {
+  height: 18vh;
+  
+}
+
+
+.spacer-7 {
+  height: 6vh;
+  
+}
+
+
+
+.video-block-1 {
+  margin-top: -5vh;
+}
+
+.image-block-1 {
+ 
+    margin-top: 5vh;
+    margin-left: -3vh;
+  
+}
+
+video { 
+
+  margin: 0% -10%;
+  height: auto;
+  width: 80%;
+  /* IE */
+  flex: 0 2 calc(80% - 44px);
+}
+
+.video-1 { 
+
+  margin: 0% -5%;
+  height: auto;
+  width: 100%;
+  /* IE */
+  flex: 0 2 calc(100%);
+}
+
+.video-2 { 
+  margin: 0% 6%;
+  height: auto;
+  width: 60%;
+  /* IE */
+  flex: 0 2 calc(60% - 44px);
+}
+
+.video-3 { 
+  margin: 0% -10%;
+  height: auto;
+  width: 26%;
+  /* IE */
+  flex: 0 2 calc(26%);
+  align-self: flex-end;
+}
+
+.video-4 { 
+  margin: 0% 0% 0% 14%;
+  height: auto;
+  width: 80%;
+  /* IE */
+  flex: 0 2 calc(80% - 44px);
+
+  
+}
+
+.card {
+    width: 30%;
+    /* IE */
+    flex: 0 2 calc(30% - 44px);
+  }
+
+  .card_1 {
+    margin-top: 4vh;
+    width: 32%;
+    /* IE */
+    flex: 0 2 calc(32% - 44px);
+    float: right;
+  }
+
+
+
+  .card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 30%;
+    /* z-index: 99; */
+    background-color: transparent;
+
+  }
+
+
+.card_1 .img-top-1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    z-index: 0;
+    width: 32%;
+ 
+    /* z-index: 99; */
+    background-color: transparent;
+
+  }
+
+  .card:hover .img-top {
+    display: inline;
+    background-color: transparent;
+    z-index: 0;
+
+  }
+  
+  
+  .card_1:hover .img-top-1 {
+    display: inline;
+    background-color: transparent;
+    z-index: 0;
+  
+  }
+  
+  html:not(.mobile) .zoom:hover {
+    cursor: zoom-in;
+    transition: .5s;
+    transition-delay: 90s; /* how long before the img automatically returns to original size */
+    transition-property: -webkit-transform;
+    -webkit-transform: scale(0.5); 
+    z-index: 0; 
+    
+    position: sticky; /* this and z-index should ensure that the zoomed img is always displayed on top of any other element */
+  }
+
+  
+  /* html:not(.mobile) .zoom:active { 
+    cursor: zoom-out;
+    -overflow: auto; 
+    transition: 0s;
+    transition-delay: 0.05s;
+   
+    transition-property: -webkit-transform;
+    -webkit-transform: scale(1.5); 
+   
+    background-color: transparent;
+  
+    -webkit-transform-origin: 100%; 
+    z-index: 1000; 
+   } */

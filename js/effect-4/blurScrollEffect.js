@@ -47,8 +47,8 @@ export class BlurScrollEffect {
       stagger: 0.02, // Delay between starting animations for each word.
       scrollTrigger: {
         trigger: this.textElement, // Element that triggers the animation.
-        start: 'top bottom-=45%', // Animation starts when element hits bottom of viewport.
-        end: 'bottom center+=0%', // Animation ends in the center of the viewport.
+        start: 'top bottom-=70%', // Animation starts when element hits bottom of viewport.
+        end: 'bottom center+=40%', // Animation ends in the center of the viewport.
         scrub: true, // Animation progress tied to scroll position.
       },
     });

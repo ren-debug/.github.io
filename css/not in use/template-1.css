@@ -1,0 +1,274 @@
+body {
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    width: 92%;
+    padding-left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    background-color: aquamarine;
+}
+
+.content {
+    height: calc(100% - 44px);
+    background-color: rgb(255, 127, 225);
+    margin-top: 44px;
+}
+
+section {
+    height: 100vh;
+}
+
+.container {
+    background-color: blue;
+    height: calc(100% - 44px);
+     margin: 0% 5%;
+    padding: 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+.img-20 {
+    display: flex;
+    width: 34%;
+}
+
+.spacer {
+    height: 5%;
+}
+.img-60 {
+    display: flex;
+    width: 56%;
+    align-self: flex-end;
+}
+
+.text {
+    background-color: blueviolet;
+    height: fit-content;
+    margin: 0% 5%;
+
+
+}
+
+
+
+.copy-left {
+    float: left;
+    width: 40%;
+}
+
+.copy-right {
+    float: right;
+    width: 60%;
+    
+}
+
+@media screen and (max-width: 915px) and (min-width: 821px) {
+
+    
+    .container {
+        background-color: blue;
+        height: calc(100% - 44px);
+        margin: 0% 5%;
+        padding: 4% 0%;
+        display: flex;
+        justify-content: space-between;
+  
+    }
+
+    
+
+    section {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    
+
+    .img-20 {
+        display: flex;
+        width: 30%;
+    }
+    
+  
+    .img-60 {
+        display: flex;
+        width: 40%;
+        align-self: flex-end;
+    }
+
+    .text {
+        background-color: blueviolet;
+        height: fit-content;
+        margin: 0% 5%;
+    
+    
+    }
+
+
+  
+    
+    }
+
+    @media screen and (max-width: 820px) and (min-width: 601px) {
+
+        .container {
+            background-color: blue;
+            height: calc(100% - 44px);
+            margin: 0% 5%;
+            padding: 4% 0%;
+            display: flex;
+            justify-content: space-evenly;
+      
+        }
+    
+        
+    
+        section {
+            display: flex;
+            flex-direction: column;
+           
+        }
+    
+        
+    
+        .img-20 {
+            width: 36%;
+            /* IE */
+            flex: 0 2 calc(36% - 44px);
+        }
+        
+      
+        .img-60 {
+            width: 56%;
+            /* IE */
+            flex: 0 2 calc(56% - 44px);
+            align-self: flex-end;
+        }
+    
+        .text {
+            background-color: blueviolet;
+            height: fit-content;
+            margin: 0% 5%;
+        
+        
+        }
+    
+          
+        }
+
+        /* @media screen and (max-width: 799px) and (min-width: 780px) {
+
+         
+
+            .img-20 {
+                display: flex;
+                width: 30%;
+            }
+            
+            .spacer {
+                height: 2%;
+            }
+            .img-60 {
+                display: flex;
+                width: 40%;
+                align-self: flex-end;
+            }
+      
+        
+              
+            } */
+
+        
+/* @media screen and (max-width: 779px) and (min-width: 601px) {
+
+  
+      
+    } */
+
+      
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-color: blue; 
+        margin: 0% 5%;
+        height: fit-content;
+  
+    }
+
+    
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+       
+    }
+
+
+    .img-20 {
+        display: flex;
+        width: 100%;
+    }
+    
+
+    .img-60 {
+        padding-top: 8%;
+        display: flex;
+        width: 100%;
+        align-self: flex-end;
+    }
+
+
+
+
+ 
+    
+
+    
+  
+
+    .copy-left {
+        float: none;
+        width: 100%;
+    }
+    
+    .copy-right {
+        padding-top: 8px;
+        width: 100%;
+        float: none;
+       
+        
+    }
+  
+}
+
+@media screen and (max-width: 420px) {
+
+  
+
+}
+
+@media screen and (max-width: 393px) and (min-width: 361px) {
+
+ 
+
+}
+
+@media screen and (max-width: 360px) {
+
+ 
+}

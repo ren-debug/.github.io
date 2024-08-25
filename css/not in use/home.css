@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar {
+    display: block;
+}
+
+.content-wrapper {
+    min-height: 100%;
+    width: 94%;
+    padding-left: 0%;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(18, 212, 180);
+}
+
+.block {
+
+    background-color: blueviolet;
+    height: 70vh;
+    display: flex;
+width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}

@@ -1,96 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work</title>
+    <title>Web Design</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/work.css">
+    <link rel="stylesheet" href="./css/menu.css">
 
-    <link rel="stylesheet" href="/css/work.css">
-    <link rel="stylesheet" href="/css/portfolio_layout.css">
+
+
     <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css"
-    rel="stylesheet" />
-    <link rel="stylesheet" href="/fonts/fontawesome-free-6.5.2-web/css/all.css">
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/ezv7rpx.css">
     <link rel="stylesheet" href="/fonts/stylesheet.css">
+    <link rel="stylesheet" href="/fonts/fontawesome-free-6.5.2-web/css/all.css">
     <link rel="preconnect" href="https://cdn.fonts.net">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
- 
-   
 
-    <script
-    src="https://code.jquery.com/jquery-1.6.4.js"
-    integrity="sha256-VJZPi1gK15WpYvsnBmcV0yga4a0Toov4rt1diFnrrjc="
-    crossorigin="anonymous"></script>
+ 
+    <script src="https://code.jquery.com/jquery-1.6.4.js"
+        integrity="sha256-VJZPi1gK15WpYvsnBmcV0yga4a0Toov4rt1diFnrrjc=" crossorigin="anonymous"></script>
     <script src="/js/jquery.scroll-spy.js"></script>
 
 </head>
 
 <body>
+    <nav role="navigation">
+        <ul>
+        <li><a href="./index.html"><i class="fi fi-sr-house-chimney"></i></a></li>
+          <li class="active"><a href="./hello.html">About</a></li>
+          <li class="nav-center"><a href="./work.html">Work</a>
+            <ul class="dropdown">
+              <li><a href="./work-print.html">Print Design</a></li>
+              <li><a href="./work-web.html">Web Design</a></li>
+              <li><a href="./work-digital.html">Digital Design</a></li>
+            </ul>
+          </li>
+         
+        <li><span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span></li>
 
-    <navigation>
-        <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
-        <a href="about.html" class="active navigation">About</a>
-        <a href="work.html" class="navigation">Work</a>
-        <!-- <button class="hvr-push"><a href="about.html#contact">contact</a></button> -->
-        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
-    </navigation>
-
-<div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
-    <div class="overlay-content">
-    <ul>
-        <li><a href="about.html">about</a><li>
-        <li><a href="work.html">work</a></li>
-    </ul>   
-    </div>
-</div>
+        </ul>
+      </nav>
   
-  <script>
-    function openNav() {
-        document.getElementById("myNav").style.height = "100%";
-    }
-  
-    function closeNav() {
-        document.getElementById("myNav").style.height = "0%";
-    }
-  </script>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+        <div class="overlay-content">
+            <ul>
+                <li><a href="./hello.html">About</a><li>
+                <li><a href="./work.html">Work</a></li>
+                
+            </ul>
+            <div class="icons">
+                <div class="tooltip">
+                    <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
+                  
+                </div>
+                <div class="tooltip">
+                    <a href="tel:+447412604767"><i class="fi fi-sr-phone-call"></i></a>
+                   
+                </div>
+                <div class="tooltip">
+                    <a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fa-brands fa-linkedin-in"></i></a>
+                   
+                </div>
+                <div class="tooltip">
+                    <a href="https://www.instagram.com/ireneishi/"><i class="fa-brands fa-instagram"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+        
+    </script>
 
 
-<div id="wrapper">
-    <h1>
-      <ul>
-        <li><a href="digital.html">digital</a>
-        <li>
-        <li><a href="print.html">print</a></li>
-        <li><a href="web.html">web</a>
-        <li>
-      </ul>
-    </h1>
-</div>
+   <main>
+    <div class="work-index">
+        <ul>
+            <li><a href="./work-print.html">Print</a><li>
+            <li><a href="./work-web.html">Web</a></li>
+            <li><a href="./work-digital.html">Digital</a></li>
+        </ul>
+    </div>
+   </main>
 
-
-<footer>
-    <div class="tooltip">
-        <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
-        <div class="tooltiptext">irene.spalletti@gmail.com</div>
-    </div>
-    <div class="tooltip">
-        <a href="tel:+447412604767"><i class="fi fi-sr-phone-call"></i></a>
-        <div class="tooltiptext">+44&nbsp;(0)&nbsp;7412&nbsp;604&nbsp;767</div>
-    </div>
-    <div class="tooltip">
-        <a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fa-brands fa-linkedin-in"></i></a>
-        <div class="tooltiptext">linkedin</div>
-    </div>
-    <div class="tooltip">
-        <a href="https://www.instagram.com/ireneishi/"><i class="fa-brands fa-instagram"></i></a>
-        <div class="tooltiptext">instagram</div>
-    </div>
-</footer>
 
 
 </body>

@@ -1,3 +1,7 @@
+/* WEB DESIGN */
+/**************************/
+
+
 /* || Flip Buttons & Panels */
 
 #flip1,
@@ -9,8 +13,8 @@
 #flip7,
 #flip8,
 #flip9 {
-    margin-top: 32px;
-    margin-bottom: 0px;
+    /* margin-top: 32px; */
+    
     cursor: pointer;
 
 }
@@ -32,9 +36,30 @@
 
 }
 
-.block {
-  padding-top: 60px;
+.block p {
+    padding-top: 60px;
 }
+
+.block ul  {
+    padding-top: 60px;
+}
+
+.pad-0 p{
+    padding-top: 0px;
+}
+
+.pad-20 {
+    padding-top: 20px;
+}
+
+.pad-40 {
+    padding-top: 40px;
+}
+
+.pad-60 {
+    padding-top: 60px;
+}
+
 
 #panel2 .block:nth-child(2) {
   padding-top: 280px;
@@ -45,12 +70,12 @@
     margin-top: 0vh;
   }
   .card {
-    width: 30%;
+    width: 20%;
     /* height: 195px; */
     position: relative;
     background-color: transparent;
     /* display: inline; */
-    margin-left: 10vw;
+    margin-left: 20%;
     margin-top: 0vw;
 
   }
@@ -59,7 +84,7 @@
   .card_1 {
     /* width: 130px;
     height: 195px; */
-    width: 30%;
+    width: 20%;
     background-color: transparent;
 
     position: relative;
@@ -123,11 +148,3 @@
    z-index: 1000; 
   }
 
-  @media screen and (max-width: 720px) {
-
-    #panel2 .block:nth-child(2) {
-      padding-top: 40px;
-    }
-
-
-  }
