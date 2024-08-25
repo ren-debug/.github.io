@@ -179,7 +179,7 @@ i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
 
 
 .fa-instagram, .fa-linkedin-in {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 
@@ -190,11 +190,17 @@ i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
 }
 
 .title-letter {
-  font-size: calc(7vw + .5rem);
+  font-family: 'the_new_eleganceCnRg';
+  src: url('/fonts/the_new_elegance_condensed-webfont.woff2') format('woff2'),
+       url('/fonts/the_new_elegance_condensed-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: -20px;
+  /* font-size: calc(7vw + .5rem);
   margin-left: -2px;
   font-family: 'the_new_eleganceCnRg';
   font-weight: 100;
-  letter-spacing: 1px;
+  letter-spacing: 1px; */
 
 }
 
@@ -1057,14 +1063,19 @@ button {
 
   #title {
     position: relative;
-    top: 32%;
+    top: 36%;
   
   }
 
   p {
-    font-size: calc(2vw + 0.4rem);
-    letter-spacing: 0.5px;
-    font-weight: 200;
+    font-family: 'the_new_eleganceCnRg';
+    src: url('/fonts/the_new_elegance_condensed-webfont.woff2') format('woff2'),
+         url('/fonts/the_new_elegance_condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(2vw + 0.2rem);
+    letter-spacing: 1px;
+    font-weight: 100;
 
   }
 
@@ -1078,7 +1089,7 @@ button {
 
   #sub-title p {
     width: 90%;
-    top: 40%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -1087,15 +1098,15 @@ button {
 
   button {
  
-    width: 102px;
-    height: 34px;
+    width: 116px;
+    height: 38px;
  
   }
   
 
   .cta {
-    width: 70%;
-    top: 56%;
+    width: 68%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -1112,3 +1123,6 @@ button {
   }
 
 }
+
+
+
