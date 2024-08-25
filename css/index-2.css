@@ -294,37 +294,48 @@ p {
 
 
 @media screen and (max-width: 915px) and (min-width: 780px) and (orientation: landscape) {
-    /* #wrapper {
+  
+
+    body {
+        height: 100vh;
+        
+    }
+
+
+      #wrapper {
       
-        width: 100%;
-        height: 25dvh;
-        padding: 0% 0% 0% 0%;
-        position: absolute;
-        top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 34%;
+   
     }
 
     .icons {
  
-        position: absolute;
-        height: 70vh;
-        width: 40%;
+        height: 28vh;
+  
+ 
     
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-around;
-        background-color: transparent;
-        text-align: center;
-        left: 30%;
-        right: 30%;
-        top: 0%;
-      
+    }
+    
+    .cta {
+
+ 
+         top: 35%;
+    
+     
+     
+     
+     }
+
+     #sub-title p {
+
        
+        top: 11%;
+  
+  
     
-    } */
     
+    
+    }
 
 }
 
