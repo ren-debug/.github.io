@@ -40,10 +40,13 @@ body::-webkit-scrollbar {
 
 
 button {
-  color: black;
-  opacity: 1;
+
+font-weight: 500;
+font-size: 11px;
   width: 116px;
   height: 36px;
+  color: black;
+  opacity: 1;
 }
 
 
@@ -136,7 +139,7 @@ p {
   justify-content: space-around;
   color: #000000;
   opacity: 1;
-  width: 25%;
+  width: 20%;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -193,6 +196,34 @@ footer i {
 
 /* Media Queries */
 /**************************/
+
+@media screen and (max-width: 1920px) and (min-width: 1601px) { 
+  .cta {
+    width: 18%;
+
+  }
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1400px) { 
+  .cta {
+    width: 20%;
+
+  }
+
+
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1280px) {
+
+  .cta {
+    width: 22%;
+
+  }
+
+}
+
+
 
 @media screen and (max-width: 1180px) and (min-width: 962px) and (orientation: landscape) {
   #wrapper {
