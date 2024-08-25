@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  width: calc(100vw - var(--scrollbar-width));
+ 
 
 }
 
@@ -13,6 +13,7 @@ html {
 
 a {
   text-decoration: none;
+  color: rgb(126, 126, 126);
 }
 
 
@@ -63,9 +64,9 @@ nav ul {
   background-color: transparent;
 }
 
-.nav-center {
-  padding: 0% 12%;
-}
+
+
+
 
 nav li {
   /* width: inherit; */
@@ -78,22 +79,36 @@ nav li {
   letter-spacing: 0.75px;
   transition-duration: 0.5s;
 
+
   
   
 }
 
+.drop {
+  background-color: blue;
+  padding: 0% 10%;
+}
 
-.dropdown li {
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+visibility: visible;
+opacity: 1;
+display: flex;
+flex-direction: row;
+background-color: transparent;
+}
+
+/* .dropdown  {
+
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  padding: 1% 0%;
-
-  /* background-color: rgba(255, 255, 255, 0); */
-}
-
-.dropdown {
-  padding-top: 2%;
-  width: 100%;
-}
+  padding: 0% 0%;
+ 
+} */
 
 nav li:hover,
 nav li:focus-within {
@@ -117,22 +132,15 @@ nav ul li ul {
   right: 0%;
   left: 0;
   display: none;
+  
 }
 
-ul li:hover>ul,
-ul li:focus-within>ul,
-ul li ul:hover,
-ul li ul:focus {
-  visibility: visible;
-  opacity: 1;
-  display: flex;
-  flex-direction: row;
-  background-color: transparent;
-}
+
 
 ul li ul li {
   clear: both;
   width: 100%;
+  background-color: brown;
 }
 
 
@@ -187,27 +195,74 @@ nav .active {
 
  @media screen and (max-width: 915px) and (min-width: 821px) and (orientation: landscape) {
 
- 
+  .drop {
+    background-color: blue;
+    padding: 0% 18%;
+  }
+  
+  ul li:hover>ul,
+  ul li:focus-within>ul,
+  ul li ul:hover,
+  ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  }
 
 
  }
 
 @media screen and (max-width: 820px) and (min-width: 601px) and (orientation: portrait) {
-
-  .nav-center {
-    padding: 4% 24%;
+  .drop {
+    background-color: blue;
+    padding: 0% 10%;
   }
+  
+  ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+  
+  .dropdown  {
+  
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0% 0%;
+   
+  }
+
 
 
 }
 
 
 @media screen and (max-width: 820px) and (min-width: 601px) and (orientation: landscape) {
-  .nav-center {
-    padding: 0% 16%;
-  }
 
+  .drop {
+    background-color: blue;
+    padding: 0% 18%;
+  }
   
+  ul li:hover>ul,
+  ul li:focus-within>ul,
+  ul li ul:hover,
+  ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  }
 
 
 }
@@ -215,25 +270,33 @@ nav .active {
 @media screen and (max-width: 600px) {
 
  
-
-  .nav-center {
-    padding: 0% 0% 0% 2%;
+  .drop {
+    background-color: blue;
+    padding: 0% 10%;
   }
-
-  .dropdown li {
-    display: none;
   
-    }
-
-  /* .nav ul {
+  ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+  
+  .dropdown  {
+  
+    background-color: aqua;
     display: flex;
-
+    flex-direction: column;
+    text-align: center;
+    padding: 0% 0%;
+   
   }
 
-  .dropdown li {
-  display: none;
 
-  } */
 
   
 }
@@ -248,10 +311,6 @@ nav .active {
 
 
 
-  .dropdown li {
-    display: none;
-  
-    }
 
 
 }

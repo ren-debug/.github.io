@@ -8,6 +8,7 @@
 
 html {
   box-sizing: border-box;
+  color: rgb(126, 126, 126);
 }
 
 body {
@@ -19,7 +20,7 @@ body {
   line-height: 24px;
 
   text-align: justify;
-  color: rgb(143, 143, 143);
+ 
 }
 
 h2 {
@@ -60,6 +61,7 @@ p {
   letter-spacing: 0.75px;
   text-align: justify;
   text-align-last: left;
+  color: rgb(126, 126, 126);
 
 }
 
