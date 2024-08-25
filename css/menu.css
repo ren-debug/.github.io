@@ -1,21 +1,45 @@
+html {
+  box-sizing: border-box;
+  width: calc(100vw - var(--scrollbar-width));
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 a {
   text-decoration: none;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+
+
+
 
 
 nav {
 
   position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
+
   z-index: 2;
   height: 44px;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+   background-color: rgba(255, 255, 255, 0);
+  /* backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%); */
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  
+ 
+  
  
  
 }
@@ -36,6 +60,7 @@ nav ul {
   font-size: 1.1rem;
   display: flex;
   align-items: center;
+  background-color: transparent;
 }
 
 .nav-center {
@@ -52,8 +77,7 @@ nav li {
   font-weight: 400;
   letter-spacing: 0.75px;
   transition-duration: 0.5s;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+
   
   
 }
