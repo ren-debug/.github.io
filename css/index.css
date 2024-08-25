@@ -772,13 +772,14 @@ button {
 
   }
 
+
   button {
  
-    width: 102px;
-    height: 34px;
+    width: 112px;
+    height: 38px;
+    font-size: 11px;
  
   }
-
   
   .cta {
     width: 36%;
@@ -792,7 +793,7 @@ button {
   .icons {
 
     width: 30%;
-    bottom: 4%;
+    bottom: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
   
