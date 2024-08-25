@@ -85,7 +85,6 @@ button a {
 button {
   border: none;
   outline: none;
-
   font-size: 11px;
   width: 116px;
   height: 38px;
@@ -155,9 +154,7 @@ button {
 
 
 .icons {
-
   width: 20%;
-  /* height: 32%; */
   bottom: 0;
   text-align: center;
   display: flex;
@@ -190,7 +187,6 @@ i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
 }
 
 .title-letter {
-
   letter-spacing: -20px;
   font-size: calc(7vw + .5rem);
   margin-left: -2px;
@@ -204,7 +200,6 @@ i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
 
 p {
   font-size: 1.1rem;
-
   font-family: "neue-haas-grotesk-display", sans-serif;
   color: white;
   background-color: transparent;
@@ -257,7 +252,6 @@ p {
   position: absolute;
   display: flex;
   justify-content: space-around;
-
   width: 20%;
   top: 65%;
   left: 50%;
