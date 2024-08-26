@@ -206,7 +206,7 @@ nav .active {
 
  }
 
- @media screen and (max-width: 915px) and (min-width: 821px) and (orientation: landscape) {
+ @media screen and (max-width: 915px) and (min-width: 780px) and (orientation: landscape) {
 
   .drop {
    
@@ -224,6 +224,9 @@ nav .active {
   background-color: transparent;
   }
 
+  .menu li {
+    font-size: 7px;
+  }
 
  }
 
