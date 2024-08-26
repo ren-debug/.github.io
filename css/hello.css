@@ -365,8 +365,8 @@ button .tablinks {
          position: relative;
          margin: 0 auto;
          display: flex;
-         height: 56%;
-        
+         height: 55%;
+         background-color: aqua;
        
         
      
@@ -388,14 +388,14 @@ button .tablinks {
      }
      
      #first>* {
-         width: 42%;
+         width: 45%;
          height: 100vh;
         
      }
      
      
      #second>* {
-         width: 42%;
+         width: 45%;
          /* display: flex;
          flex-direction: column;
          justify-content: center; */
@@ -541,7 +541,7 @@ button .tablinks {
       
       
       #second>* {
-          width: 60%;
+          width: 80%;
           /* display: flex;
           flex-direction: column;
           justify-content: center; */
@@ -552,7 +552,7 @@ button .tablinks {
           position: relative;
           margin: 0 auto;
           display: flex;
-          height: 60%;
+          height: 45%;
         
       
       
@@ -576,7 +576,7 @@ button .tablinks {
     
     
     #second {
-        height: 200vh;
+        min-height: 100vh;
         padding: 8% 0%;
         padding-left: 5%;
 
@@ -602,12 +602,16 @@ button .tablinks {
 }
 
 
+
+
+
+
 @media screen and (max-width: 820px) and (min-width: 800px) and (orientation: portrait) {
 
 
      
     #second {
-        height: 100vh;
+        
          padding: 4% 0% 0% 5%;
           /* display: flex;
           flex-direction: column;
@@ -634,8 +638,8 @@ button .tablinks {
           display: flex;
           height: 40%;
     
+
      
-          background-color: antiquewhite;
          
       
       
@@ -654,12 +658,13 @@ button .tablinks {
     }
 
     #second {
-        height: 100vh;
+        min-height: 100vh;
        
          display: flex;
          flex-direction: column;
          justify-content: center;
-        
+       
+    
      
      }
 
@@ -671,8 +676,8 @@ button .tablinks {
 
    
     #second {
-        height: 100vh;
-         padding: 0% 0% 0% 6%;
+        min-height: 100vh;
+         padding: 10% 0% 10% 4%;
           /* display: flex;
           flex-direction: column;
           justify-content: space-evenly; */
@@ -689,7 +694,7 @@ button .tablinks {
       
       
       #second>* {
-          width: 80%;
+          width: 84%;
           /* display: flex;
           flex-direction: column;
           justify-content: center; */
@@ -700,8 +705,8 @@ button .tablinks {
           position: relative;
           margin: 0 auto;
           display: flex;
-          height: 43%;
-    
+          height: 80%;
+         
           
          
       
@@ -721,7 +726,7 @@ button .tablinks {
     }
 
     #second {
-        height: 100vh;
+    
        
          display: flex;
          flex-direction: column;
@@ -749,7 +754,7 @@ button .tablinks {
     
     
     #second {
-        height: 210vh;
+        min-height: 100vh;
         padding: 10% 0%;
         padding-left: 5%;
 
@@ -766,7 +771,7 @@ button .tablinks {
         position: relative;
         margin: 0 auto;
         display: flex;
-        height: 60%;
+        height: 50%;
        
     
     
@@ -792,7 +797,7 @@ button .tablinks {
     
     
     #second {
-        height: 210vh;
+        min-height: 100vh;
         padding: 10% 0%;
         padding-left: 5%;
 
@@ -843,9 +848,9 @@ button .tablinks {
     
     
     #second {
-        height: 90vh;
+        min-height: 90vh;
         padding: 20% 0%;
-        padding-left: 11%;
+        padding-left: 9%;
 
     }
 
@@ -860,7 +865,7 @@ button .tablinks {
         position: relative;
         margin: 0 auto;
         display: flex;
-        height: 58%;
+        height: 60%;
       
     
     
@@ -870,10 +875,7 @@ button .tablinks {
         padding-top: 8%;
     }
  
-      .skills-icons {
-         height: fit-content;
-         padding: 4% 0% 0% 0%;
-     }
+ 
 
 
 }
@@ -899,7 +901,7 @@ button .tablinks {
     
     
     #second {
-        height: 100vh;
+        min-height: 100vh;
         padding: 20% 0%;
         padding-left: 11%;
 
