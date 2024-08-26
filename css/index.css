@@ -157,7 +157,7 @@ button {
 
 .icons {
 
-    height: 45vh;
+    height: 35vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -176,7 +176,7 @@ button {
 
 i.fi.fi-sr-envelope,
 i.fi.fi-sr-phone-call {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 

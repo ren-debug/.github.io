@@ -85,7 +85,6 @@ nav li {
 }
 
 .drop {
-  background-color: blue;
   padding: 0% 10%;
 }
 
@@ -140,7 +139,6 @@ nav ul li ul {
 ul li ul li {
   clear: both;
   width: 100%;
-  background-color: brown;
 }
 
 
@@ -186,8 +184,23 @@ nav .active {
 
 }
 
-@media screen and (max-width: 915px) and (min-width: 821px) and (orientation: portrait) {
+@media screen and (max-width: 1400px) and (min-width: 916px)  {
 
+  .drop {
+ 
+    padding: 0% 22%;
+  }
+  
+  ul li:hover>ul,
+  ul li:focus-within>ul,
+  ul li ul:hover,
+  ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  }
 
 
 
@@ -196,7 +209,7 @@ nav .active {
  @media screen and (max-width: 915px) and (min-width: 821px) and (orientation: landscape) {
 
   .drop {
-    background-color: blue;
+   
     padding: 0% 18%;
   }
   
@@ -216,7 +229,7 @@ nav .active {
 
 @media screen and (max-width: 820px) and (min-width: 601px) and (orientation: portrait) {
   .drop {
-    background-color: blue;
+
     padding: 0% 10%;
   }
   
@@ -233,7 +246,7 @@ ul li ul:focus {
   
   .dropdown  {
   
-    background-color: aqua;
+ 
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -249,7 +262,6 @@ ul li ul:focus {
 @media screen and (max-width: 820px) and (min-width: 601px) and (orientation: landscape) {
 
   .drop {
-    background-color: blue;
     padding: 0% 18%;
   }
   
@@ -271,7 +283,6 @@ ul li ul:focus {
 
  
   .drop {
-    background-color: blue;
     padding: 0% 10%;
   }
   
@@ -288,7 +299,6 @@ ul li ul:focus {
   
   .dropdown  {
   
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     text-align: center;

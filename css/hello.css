@@ -15,11 +15,7 @@ body {
     width: calc(100vw - var(--scrollbar-width));
 }
 
-.content-wrapper {
 
-    overflow-y: scroll;
-    box-sizing: border-box;
-}
 
 .content {
     height: 100%;
@@ -366,7 +362,6 @@ button .tablinks {
          margin: 0 auto;
          display: flex;
          height: 55%;
-         background-color: aqua;
        
         
      
@@ -439,7 +434,8 @@ button .tablinks {
      
      
      #second>* {
-         width: 45%;
+         width: 68%;
+         padding-left: 0%;
          /* display: flex;
          flex-direction: column;
          justify-content: center; */
@@ -491,7 +487,8 @@ button .tablinks {
      
      
      #second>* {
-         width: 60%;
+         width: 55%;
+         padding-right: 6%;
          /* display: flex;
          flex-direction: column;
          justify-content: center; */
@@ -541,7 +538,10 @@ button .tablinks {
       
       
       #second>* {
-          width: 80%;
+          width: 70%;
+          padding-left: 0%;
+
+
           /* display: flex;
           flex-direction: column;
           justify-content: center; */
@@ -552,7 +552,7 @@ button .tablinks {
           position: relative;
           margin: 0 auto;
           display: flex;
-          height: 45%;
+          height: 50%;
         
       
       
@@ -629,6 +629,7 @@ button .tablinks {
       
       #second>* {
           width: 80%;
+          
         
       }
       
@@ -676,7 +677,7 @@ button .tablinks {
 
    
     #second {
-        min-height: 100vh;
+        min-height: 120vh;
          padding: 10% 0% 10% 4%;
           /* display: flex;
           flex-direction: column;
@@ -694,7 +695,8 @@ button .tablinks {
       
       
       #second>* {
-          width: 84%;
+          width: 75%;
+          
           /* display: flex;
           flex-direction: column;
           justify-content: center; */
@@ -705,7 +707,8 @@ button .tablinks {
           position: relative;
           margin: 0 auto;
           display: flex;
-          height: 80%;
+          height: 52%;
+         
          
           
          
@@ -833,7 +836,7 @@ button .tablinks {
   
 
     button.tablinks {
-        width: 88px;
+        width: 86px;
         height: 32px;
 
     }
@@ -865,7 +868,7 @@ button .tablinks {
         position: relative;
         margin: 0 auto;
         display: flex;
-        height: 60%;
+        height: 61%;
       
     
     
