@@ -54,11 +54,12 @@ section {
 }
 
 #second {
-    height: 120vh;
+   height: 100vh;
+   padding: 0% 0%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 12% 0%;
+   
 
 }
 
@@ -79,16 +80,17 @@ section {
     margin: 0 auto;
     display: flex;
     height: 45%;
+   
 
 
 }
 
 .container-items {
     position: absolute;
-    height: 35vh;
+    top: 0;
+    height: 45%;
     width: 100%;
-    /* top: 50%;
-    transform: translateY(-50%); */
+ 
 
 }
 
@@ -205,7 +207,7 @@ i.fa-brands.fa-css3-alt {
 }
 
 .opentab {
-    padding-top: 4%;
+    padding-top: 3%;
 }
 
 .tab {
@@ -279,22 +281,254 @@ button .tablinks {
 @media screen and (max-width: 1920px) and (min-width: 1601px) {
 
 
-    #first>* {
-        width: 35%;
+
+
+    .container-items {
+        position: absolute;
+        height: 46vh;
+        top: 4%;
+        width: 100%;
+      
+      
+        /* top: 50%;
+        transform: translateY(-50%); */
+    
+    }
+
+    .skills-icons {
+        height: fit-content;
+        padding: 1% 0% 2% 0%;
+    }
+
+    .lingue {
+    height: fit-content;    
+    }
+
+    #second {
         height: 100vh;
+       
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        
+     
+     }
+     
+     #first>* {
+         width:34%;
+         height: 100vh;
+        
+     }
+     
+     
+     #second>* {
+         width: 34%;
+         
+        
+    
+    
+        
+     }
+     
+
+
+
+}
+ 
+@media screen and (max-width: 1600px) and (min-width: 1400px) {
+    #second {
+        height: 100vh;
+        padding: 8% 0%;
+         /* display: flex;
+         flex-direction: column;
+         justify-content: space-evenly; */
+        
+     
+     }
+     
+     #first>* {
+         width: 42%;
+         height: 100vh;
+        
+     }
+     
+     
+     #second>* {
+         width: 44%;
+         /* display: flex;
+         flex-direction: column;
+         justify-content: center; */
+        
+     }
+     
+     .container {
+         position: relative;
+         margin: 0 auto;
+         display: flex;
+         height: 50%;
+       
+     
+     
+     }
+
+}
+
+ @media screen and (max-width: 1399px) and (min-width: 1281px) {
+ 
+    #second {
+       
+        padding: 6% 0%;
+         /* display: flex;
+         flex-direction: column;
+         justify-content: space-evenly; */
+        
+     
+     }
+     
+     #first>* {
+         width: 42%;
+         height: 100vh;
+        
+     }
+     
+     
+     #second>* {
+         width: 42%;
+         /* display: flex;
+         flex-direction: column;
+         justify-content: center; */
+        
+     }
+     
+     .container {
+         position: relative;
+         margin: 0 auto;
+         display: flex;
+         height: 58%;
+        
+     
+     
+     
+     }
+ 
+ 
+ 
+}
+
+
+@media screen and (max-width: 1280px) and (min-width: 963px) and (orientation: landscape) {
+    #second {
+       height: 110vh;
+        padding: 8% 0%;
+         /* display: flex;
+         flex-direction: column;
+         justify-content: space-evenly; */
+        
+     
+     }
+     
+     #first>* {
+         width: 45%;
+         height: 100vh;
+        
+     }
+     
+     
+     #second>* {
+         width: 60%;
+         /* display: flex;
+         flex-direction: column;
+         justify-content: center; */
+        
+     }
+     
+     .container {
+         position: relative;
+         margin: 0 auto;
+         display: flex;
+         height: 90%;
+     
+         
+        
+     
+     
+     
+     }
+
+     .skills-icons {
+        height: fit-content;
+        padding: 4% 0% 2% 0%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 962px) and (min-width: 916px) and (orientation: landscape) {
+    #second {
+        height: 136vh;
+         padding: 8% 0%;
+          /* display: flex;
+          flex-direction: column;
+          justify-content: space-evenly; */
+         
+      
+      }
+      
+      #first>* {
+          width: 55%;
+          height: 100vh;
+         
+      }
+      
+      
+      #second>* {
+          width: 60%;
+          /* display: flex;
+          flex-direction: column;
+          justify-content: center; */
+         
+      }
+      
+      .container {
+          position: relative;
+          margin: 0 auto;
+          display: flex;
+          height: 40%;
+         
+          
+         
+      
+      
+      
+      }
+ 
+      .skills-icons {
+         height: fit-content;
+         padding: 12% 0% 0% 0%;
+     }
+}
+ 
+
+@media screen and (max-width: 915px) and (min-width: 821px) and (orientation: landscape) {
+    #first>* {
+        width: 50%;
+        height: 100dvh;
+        padding-left: 5%;
        
     }
     
     
     #second {
-        height: 100vh;
-        padding: 5% 0%;
+        height: 200vh;
+        padding: 8% 0%;
+        padding-left: 5%;
 
     }
 
 
     #second>* {
-        width: 35%;
+        width: 70%;
         
        
     }
@@ -303,76 +537,163 @@ button .tablinks {
         position: relative;
         margin: 0 auto;
         display: flex;
-        height: 40%;
-       
-    
-    
-    }
-
-
-
-}
-
-@media screen and (max-width: 1600px) and (min-width: 1400px) {
-    #first>* {
-        width: 42%;
-        height: 100vh;
-       
-    }
-    
-    
-    #second>* {
-        width: 42%;
-       
-    }
-    
-    .container {
-        position: relative;
-        margin: 0 auto;
-        display: flex;
-        height: 45%;
-    
-    
-    }
-
-}
-
-@media screen and (max-width: 1399px) and (min-width: 1280px) {
-    #first>* {
-        width: 42%;
-        height: 100vh;
-       
-    }
-    
-    
-    #second>* {
-        width: 42%;
-       
-    }
-    
-    .container {
-        position: relative;
-        margin: 0 auto;
-        display: flex;
         height: 55%;
-    
+       
     
     
     }
+
 }
 
 
-@media screen and (max-width: 1280px) and (min-width: 963px) and (orientation: landscape) {
-    #first>* {
-        width: 60%;
+@media screen and (max-width: 820px) and (min-width: 800px) and (orientation: portrait) {
+
+
+     
+    #second {
         height: 100vh;
+         padding: 4% 0% 0% 5%;
+          /* display: flex;
+          flex-direction: column;
+          justify-content: space-evenly; */
+         
+      
+      }
+      
+      #first>* {
+          width: 60%;
+          height: 100vh;
+         
+      }
+      
+      
+      #second>* {
+          width: 80%;
+        
+      }
+      
+      .container {
+          position: relative;
+          margin: 0 auto;
+          display: flex;
+          height: 40%;
+    
+     
+          
+         
+      
+      
+      
+      }
+
+
+
+    .skills-icons {
+        height: fit-content;
+        padding: 8% 0% 8% 0%;
+    }
+
+    .lingue {
+    height: fit-content;    
+    }
+
+    #second {
+        height: 100vh;
+       
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        
+     
+     }
+
+}
+
+
+@media screen and (max-width: 799px) and (min-width: 602px) and (orientation: portrait) {
+
+
+   
+    #second {
+        height: 100vh;
+         padding: 0% 0% 0% 6%;
+          /* display: flex;
+          flex-direction: column;
+          justify-content: space-evenly; */
+         
+      
+      }
+      
+      #first>* {
+          width: 60%;
+          height: 100vh;
+          padding-left: 4%;
+         
+      }
+      
+      
+      #second>* {
+          width: 80%;
+          /* display: flex;
+          flex-direction: column;
+          justify-content: center; */
+         
+      }
+      
+      .container {
+          position: relative;
+          margin: 0 auto;
+          display: flex;
+          height: 43%;
+    
+          
+         
+      
+      
+      
+      }
+
+
+
+    .skills-icons {
+        height: fit-content;
+        padding: 6% 0% 6% 0%;
+    }
+
+    .lingue {
+    height: fit-content;    
+    }
+
+    #second {
+        height: 100vh;
+       
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        
+     
+     }
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 780px) and (orientation: landscape) {
+   
+    #first>* {
+        width: 68%;
+        height: 100dvh;
         padding-left: 5%;
        
     }
     
     
     #second {
-        height: 100vh;
+        height: 210vh;
         padding: 10% 0%;
         padding-left: 5%;
 
@@ -380,7 +701,7 @@ button .tablinks {
 
 
     #second>* {
-        width: 60%;
+        width: 80%;
         
        
     }
@@ -394,167 +715,28 @@ button .tablinks {
     
     
     }
+      
+
+
+
+  
 
 }
 
 
 
-@media screen and (max-width: 962px) and (min-width: 916px) and (orientation: landscape) {
+@media screen and (max-width: 779px) and (min-width: 601px) and (orientation: landscape) {
+   
     #first>* {
-        width: 65%;
-        height: 100vh;
-        padding-left: 5%;
+        width: 72%;
+        height: 100dvh;
+        padding-left: 11%;
        
     }
     
     
     #second {
-        height: 130vh;
-        padding: 10% 0%;
-        padding-left: 5%;
-
-    }
-
-
-    #second>* {
-        width: 65%;
-        
-       
-    }
-    
-    .container {
-        position: relative;
-        margin: 0 auto;
-        display: flex;
-        height: 100%;
-       
-    
-    
-    }
-}
-
-
-@media screen and (max-width: 915px) and (min-width: 821px) and (orientation: landscape) {
-    #first>* {
-        width: 70%;
-        height: 100vh;
-        padding-left: 5%;
-       
-    }
-    
-    
-    #second {
-        height: 200vh;
-        padding: 10% 0%;
-        padding-left: 5%;
-
-    }
-
-
-    #second>* {
-        width: 70%;
-        
-       
-    }
-    
-    .container {
-        position: relative;
-        margin: 0 auto;
-        display: flex;
-        height: 100%;
-       
-    
-    
-    }
-
-}
-
-
-@media screen and (max-width: 820px) and (min-width: 800px) and (orientation: portrait) {
-
-    #first>* {
-        width: 75%;
-        height: 100vh;
-        padding-left: 5%;
-       
-    }
-    
-    
-    #second {
-        height: 100vh;
-        padding: 10% 0%;
-        padding-left: 5%;
-
-    }
-
-
-    #second>* {
-        width: 75%;
-        
-       
-    }
-    
-    .container {
-        position: relative;
-        margin: 0 auto;
-        display: flex;
-        height: 30%;
-       
-    
-    
-    }
-
-}
-
-
-@media screen and (max-width: 799px) and (min-width: 601px) and (orientation: portrait) {
-    #first>* {
-        width: 75%;
-        height: 100vh;
-        padding-left: 5%;
-       
-    }
-    
-    
-    #second {
-        height: 100vh;
-        padding: 10% 0%;
-        padding-left: 5%;
-
-    }
-
-
-    #second>* {
-        width: 75%;
-        
-       
-    }
-    
-    .container {
-        position: relative;
-        margin: 0 auto;
-        display: flex;
-        height: 40%;
-       
-    
-    
-    }
-
-
-}
-
-
-@media screen and (max-width: 820px) and (min-width: 601px) and (orientation: landscape) {
-    #first>* {
-        width: 80%;
-        height: 100vh;
-        padding-left: 5%;
-       
-    }
-    
-    
-    #second {
-        height: 200vh;
+        height: 210vh;
         padding: 10% 0%;
         padding-left: 5%;
 
@@ -571,32 +753,183 @@ button .tablinks {
         position: relative;
         margin: 0 auto;
         display: flex;
-        height: 100%;
+        height: 60%;
        
     
     
     }
+      
+
+
+
+  
 
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
 
-    .container {
-        width: 75%;
-        margin: 0 auto;
-        padding-left: 4%;
-    }
+  
 
     button.tablinks {
-        width: 90px;
+        width: 88px;
         height: 32px;
 
     }
 
+     
+    #first>* {
+        width: 70%;
+        height: 100dvh;
+        padding-left: 9.5%;
+       
+    }
+    
+    
+    #second {
+        height: 90vh;
+        padding: 20% 0%;
+        padding-left: 11%;
 
+    }
+
+
+    #second>* {
+        width: 80%;
+        
+       
+    }
+    
+    .container {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        height: 58%;
+      
+    
+    
+    }
+      
+    .opentab {
+        padding-top: 8%;
+    }
+ 
+      .skills-icons {
+         height: fit-content;
+         padding: 4% 0% 0% 0%;
+     }
 
 
 }
 
-@media screen and (max-width: 390px) {}
+
+@media screen and (max-width: 393px) {
+
+
+    button.tablinks {
+        width: 86px;
+        height: 32px;
+
+    }
+
+     
+    #first>* {
+        height: 100vh;
+       
+        padding-left: 11%;
+        width: 72%;
+       
+    }
+    
+    
+    #second {
+        height: 100vh;
+        padding: 20% 0%;
+        padding-left: 11%;
+
+    }
+
+
+    #second>* {
+        width: 80%;
+        
+       
+    }
+    
+    .container {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        height: 56%;
+       
+       
+    
+    
+    }
+      
+    .opentab {
+        padding-top: 8%;
+    }
+ 
+      .skills-icons {
+         height: fit-content;
+         padding: 0% 0% 0% 0%;
+     }
+
+} 
+
+
+
+@media screen and (max-width: 360px) {
+
+
+    button.tablinks {
+        width: 80px;
+        height: 32px;
+
+    }
+
+     
+    #first>* {
+        width: 72%;
+        height: 100dvh;
+        padding-left: 11%;
+       
+    }
+    
+    
+    #second {
+        height: 100vh;
+        padding: 20% 0%;
+        padding-left: 11%;
+
+    }
+
+
+    #second>* {
+        width: 80%;
+        
+       
+    }
+    
+    .container {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        height: 60%;
+       
+       
+    
+    
+    }
+      
+    .opentab {
+        padding-top: 8%;
+    }
+ 
+      .skills-icons {
+         height: fit-content;
+         padding: 0% 0% 0% 0%;
+     }
+
+} 
