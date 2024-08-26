@@ -23,23 +23,22 @@ body {
   
 
 
-
 button {
-    border: 1px solid #9a9a9a37;
-    outline: none;
-    width: 90px;
-    height: 34px;
-    margin: 2px;
-    border-radius: 50px;
-    transition: 0.3s;
-    font-family: "neue-haas-grotesk-display", sans-serif;
-    font-style: normal;
-    font-size: 10px;
-    letter-spacing: 0.5px;
-    background: transparent;
-    font-weight: 300;
-    transition: transform 0.2s;
-    color: rgb(126, 126, 126);
+  border: 1px solid #9a9a9a37;
+  outline: none;
+  width: 106px;
+  height: 40px;
+  margin: 2px;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  background: transparent;
+  font-weight: 300;
+  transition: transform 0.2s;
+  color: rgb(126, 126, 126);
 }
 
 .content-wrapper {

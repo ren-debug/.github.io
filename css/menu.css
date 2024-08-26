@@ -224,9 +224,7 @@ nav .active {
   background-color: transparent;
   }
 
-  .menu li {
-    font-size: 7px;
-  }
+ 
 
  }
 
@@ -257,6 +255,8 @@ ul li ul:focus {
    
   }
 
+  
+
 
 
 }
@@ -279,6 +279,9 @@ ul li ul:focus {
   background-color: transparent;
   }
 
+  .menu li {
+    font-size: 7px;
+  }
 
 }
 
