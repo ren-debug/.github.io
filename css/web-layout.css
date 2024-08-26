@@ -320,6 +320,20 @@ img {
     }
 
    
+    .copy-left {
+        float: left;
+        width: 100%;
+    }
+
+    .copy-right {
+        float: right;
+        width: 100%;
+    }
+
+    /* .copy-right p {
+        padding-top: 40px;
+    } */
+
     #flip1,
 #flip2,
 #flip3,
@@ -361,12 +375,27 @@ img {
    
 
 
+
     .spacer {
         height: 10vh;
         
     }
 
-  
+   
+    .copy-left {
+        float: left;
+        width: 100%;
+    }
+
+    .copy-right {
+        float: right;
+        width: 100%;
+    }
+
+    /* .copy-right p {
+        padding-top: 40px;
+    } */
+
     #flip1,
 #flip2,
 #flip3,
@@ -481,7 +510,24 @@ img {
         
     }
 
+
+
+
    
+    .copy-left {
+        float: left;
+        width: 100%;
+    }
+
+    .copy-right {
+        float: right;
+        width: 100%;
+    }
+
+    /* .copy-right p {
+        padding-top: 40px;
+    } */
+
     #flip1,
 #flip2,
 #flip3,
