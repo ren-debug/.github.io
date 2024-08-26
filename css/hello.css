@@ -4,18 +4,26 @@ html {
 
 }
 
-
+nav {
+    background-color: white;
+}
 
 body {
     font-size: 9px;
     line-height: 20px;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.75px;
     color: rgb(126, 126, 126);
     width: calc(100vw - var(--scrollbar-width));
 }
 
 
+.blur p {
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 1.25px;
+    font-weight: 200;
+}
 
 .content {
     height: 100%;
@@ -27,6 +35,9 @@ h3 hr {
     margin-bottom: 4%;
 }
 
+h3 {
+    font-size: 12px;
+}
 
 
 
@@ -37,15 +48,16 @@ section {
 
 
 .blur {
-    margin: 0 auto;
-    height: 100vh;
+    /* margin: 0 auto; */
+    height: 100%;
 }
 
 
-.blur p {
+.blur {
+    width: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 90%;
+    left: 56%;
     transform: translate(-50%, -50%);
 }
 
@@ -59,9 +71,10 @@ section {
 
 }
 
-#first>* {
-    width: 45%;
-    height: 100vh;
+#first {
+
+    height: 130vh;
+  
    
 }
 
@@ -286,8 +299,6 @@ button .tablinks {
         width: 100%;
       
       
-        /* top: 50%;
-        transform: translateY(-50%); */
     
     }
 
@@ -335,9 +346,7 @@ button .tablinks {
     #second {
         height: 100vh;
         padding: 6% 0%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: space-evenly; */
+         
         
      
      }
@@ -351,9 +360,7 @@ button .tablinks {
      
      #second>* {
          width: 42%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: center; */
+     
         
      }
      
@@ -375,9 +382,7 @@ button .tablinks {
     #second {
        
         padding: 6% 0%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: space-evenly; */
+       
         
      
      }
@@ -391,9 +396,7 @@ button .tablinks {
      
      #second>* {
          width: 45%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: center; */
+     
         
      }
      
@@ -419,9 +422,7 @@ button .tablinks {
     #second {
        height: 114vh;
         padding: 12% 0%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: space-evenly; */
+        
         
      
      }
@@ -436,9 +437,7 @@ button .tablinks {
      #second>* {
          width: 68%;
          padding-left: 0%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: center; */
+    
         
      }
      
@@ -472,9 +471,7 @@ button .tablinks {
     #second {
        height: 100vh;
         padding: 8% 0%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: space-evenly; */
+       
         
      
      }
@@ -489,9 +486,7 @@ button .tablinks {
      #second>* {
          width: 55%;
          padding-right: 6%;
-         /* display: flex;
-         flex-direction: column;
-         justify-content: center; */
+     
         
      }
      
@@ -523,9 +518,7 @@ button .tablinks {
     #second {
         height: 124vh;
          padding: 8% 0%;
-          /* display: flex;
-          flex-direction: column;
-          justify-content: space-evenly; */
+ 
          
       
       }
@@ -541,10 +534,6 @@ button .tablinks {
           width: 70%;
           padding-left: 0%;
 
-
-          /* display: flex;
-          flex-direction: column;
-          justify-content: center; */
          
       }
       
@@ -613,9 +602,7 @@ button .tablinks {
     #second {
         
          padding: 4% 0% 0% 5%;
-          /* display: flex;
-          flex-direction: column;
-          justify-content: space-evenly; */
+     
          
       
       }
@@ -679,9 +666,7 @@ button .tablinks {
     #second {
         min-height: 120vh;
          padding: 10% 0% 10% 4%;
-          /* display: flex;
-          flex-direction: column;
-          justify-content: space-evenly; */
+         
          
       
       }
@@ -696,10 +681,7 @@ button .tablinks {
       
       #second>* {
           width: 75%;
-          
-          /* display: flex;
-          flex-direction: column;
-          justify-content: center; */
+
          
       }
       

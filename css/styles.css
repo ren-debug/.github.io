@@ -56,10 +56,10 @@ h5 {
 p {
 
   font-family: "neue-haas-grotesk-display", sans-serif;
-  font-size: 11px;
-  line-height: 24px;
+  font-size: 11.5px;
+  line-height: 26px;
   font-weight: 300;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.85px;
   text-align: justify;
   text-align-last: left;
   color: rgb(126, 126, 126);
@@ -112,21 +112,23 @@ a:hover {
 
 
 .overlay-content {
-  width: 100%;
+  /* width: 100%; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
-
+  text-align: center;
+  height: fit-content;
+  border: 3px solid green;
+  display: inline-block;
 
 }
 
 
 .overlay-content ul li a {
   color: white;
-  text-align: center;
+
+
 
 
  
@@ -141,14 +143,53 @@ a:hover {
   font-family: 'the_new_eleganceCnRg';
   font-weight: 100;
   letter-spacing: 1px;
-  line-height: 1.5;
+ 
   color: white;
   text-align: center;
+  line-height: 1.5;
+  
+  vertical-align: middle;
 
  
 
 
 }
+
+
+/* .overlay-content .icons {
+  height: auto;
+  width: 60%;
+ 
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  position: absolute;
+  background-color: transparent;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+} */
+
+
+i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
+  font-size: 16px;
+}
+
+
+
+.fa-instagram, .fa-linkedin-in {
+  font-size: 21px;
+}
+
+
+
+
+.icons i {
+  color: #ffffff;
+}
+
 
 .overlay-content .icons {
  
@@ -252,13 +293,13 @@ i.fi.fi-sr-phone-call {
 
 }
 
-i.fi.fi-sr-envelope {
+/* i.fi.fi-sr-envelope {
   font-size: 16px;
 }
 
 i.fi.fi-sr-phone-call {
   font-size: 16px;
-}
+} */
 
 ul {
   margin: 0;
