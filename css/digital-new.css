@@ -362,21 +362,6 @@ img {
 @media screen and (max-width: 1600px) and (min-width: 1400px) and (orientation: landscape) {
 
 
-    section#first {
-        height: 270vh;
-    }
-    
-    section#second {
-        height: 220vh;
-    }
-    
-    section#third {
-        height: 130vh;
-    }
-    
-    section#fourth {
-        height: 100vh;
-    }
     
 
 
@@ -422,22 +407,7 @@ img {
 
 
 
-    section#first {
-        height: 270vh;
-    }
-    
-    section#second {
-        height: 220vh;
-    }
-    
-    section#third {
-        height: 130vh;
-    }
-    
-    section#fourth {
-        height: 100vh;
-    }
-    
+
 
 
     .image-block-2 {
@@ -584,22 +554,6 @@ img {
 
 
 
-
-    section#first {
-        height: 250vh;
-    }
-    
-    section#second {
-        height: 200vh;
-    }
-    
-    section#third {
-        height: 120vh;
-    }
-    
-    section#fourth {
-        height: 100vh;
-    }
 
 
 
@@ -920,21 +874,6 @@ img {
 
 
 
-    section#first {
-        height: 280vh;
-    }
-    
-    section#second {
-        height: 200vh;
-    }
-    
-    section#third {
-        height: 150vh;
-    }
-    
-    section#fourth {
-        height: 100vh;
-    }
 
 
 
