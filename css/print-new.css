@@ -799,6 +799,7 @@ img {
         height: 60vh;
         justify-content: space-between;
         padding: 0%;
+      
 
     }
 
@@ -959,6 +960,7 @@ img {
 
         margin-left: 5.5%;
         padding: 6.5% 5% 0%;
+      
     }
 
 
@@ -1380,15 +1382,15 @@ img {
     }
 
     section#first {
-        height: 390vh;
+        height: 270vh;
     }
     
     section#second {
-        height: 290vh;
+        height: 210vh;
     }
     
     section#third {
-        height: 190vh;
+        height: 150vh;
     }
     
     section#fourth {
@@ -1436,6 +1438,7 @@ img {
         height: 80vh;
         justify-content: space-between;
         padding: 0%;
+       
   
 
     }
@@ -1569,6 +1572,8 @@ img {
 
 
 }
+
+
 
 
 
