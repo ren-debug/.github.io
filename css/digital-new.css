@@ -437,16 +437,16 @@ img {
     .container {
 
         margin-left: 3%;
-        padding: 6% 6% 0%;
+        padding: 5% 6% 0%;
     }
 
 
     section#first {
-        height: 120vh;
+        height: 130vh;
     }
     
     section#second {
-        height: 120vh;
+        height: 140vh;
     }
     
     section#third {
@@ -454,7 +454,7 @@ img {
     }
     
     section#fourth {
-        height: 140vh;
+        height: 150vh;
     }
     
     section#fifth {
@@ -468,7 +468,7 @@ img {
         flex-direction: column;
         width: 100%;
         padding: 0%;
-        height: 55vh;
+        height: 45vh;
      
     }
 
@@ -476,7 +476,7 @@ img {
     .image-block-2 {
         display: flex;
         flex-direction: row;
-        height: 82vh;
+        height: 85vh;
         justify-content: space-between;
         padding: 0%;
     
@@ -484,6 +484,19 @@ img {
     }
 
 
+    .img-25 {
+        width: 30%;
+        /* IE */
+        flex: 0 2 calc(30%);
+    }
+
+
+
+    .img-50 {
+        width: 40%;
+        /* IE */
+        flex: 0 2 calc(40%);
+    }
 
 
 
@@ -720,7 +733,7 @@ img {
     .image-block-2 {
         display: flex;
         flex-direction: row;
-        height: 65vh;
+        height: 70vh;
         justify-content: space-between;
         padding: 0%;
      
@@ -996,7 +1009,7 @@ img {
     .container {
 
         margin-left: 5.5%;
-        padding: 6.5% 5% 0%;
+        padding: 8% 5% 0%;
     }
 
 
@@ -1152,9 +1165,9 @@ img {
     }
 
     .img-50 {
-        width: 45%;
+        width: 50%;
         /* IE */
-        flex: 0 2 calc(45%);
+        flex: 0 2 calc(50%);
     }
 
     .img-55 {
@@ -1191,10 +1204,9 @@ img {
 
     .container {
 
-        margin-left: 5.5%;
-        padding: 6.5% 5% 0%;
+        margin-left: 6%;
+        padding: 6% 5% 0%;
     }
-
 
     section#first {
         height: 140vh;
@@ -1259,6 +1271,7 @@ img {
         height: 80vh;
         justify-content: space-between;
         padding: 0%;
+      
 
     }
 
@@ -1305,70 +1318,70 @@ img {
 
 
     .img-20 {
-        width: 25%;
+        width: 30%;
         /* IE */
-        flex: 0 2 calc(25%)
+        flex: 0 2 calc(30%)
     }
 
     .img-25 {
-        width: 25%;
-        /* IE */
-        flex: 0 2 calc(25% - 44px);
-    }
-
-
-    .img-30 {
-        width: 30%;
-        /* IE */
-        flex: 0 2 calc(30%);
-    }
-
-
-    .img-35 {
         width: 35%;
         /* IE */
         flex: 0 2 calc(35%);
     }
 
 
+    .img-30 {
+        width: 35%;
+        /* IE */
+        flex: 0 2 calc(35%);
+    }
 
-    .img-40 {
+
+    .img-35 {
         width: 40%;
         /* IE */
         flex: 0 2 calc(40%);
     }
 
-    .img-45 {
-        width: 65%;
-        /* IE */
-        flex: 0 2 calc(65%);
-    }
 
-    .img-50 {
+
+    .img-40 {
         width: 45%;
         /* IE */
         flex: 0 2 calc(45%);
     }
 
-    .img-55 {
-        width: 55%;
+    .img-45 {
+        width: 70%;
         /* IE */
-        flex: 0 2 calc(55%);
+        flex: 0 2 calc(70%);
+    }
+
+    .img-50 {
+        width: 50%;
+        /* IE */
+        flex: 0 2 calc(50%);
+    }
+
+    .img-55 {
+        width: 60%;
+        /* IE */
+        flex: 0 2 calc(60%);
     }
 
 
 
 
     .img-60 {
-        width: 60%;
+        width: 65%;
         /* IE */
-        flex: 0 2 calc(60% - 44px);
+        flex: 0 2 calc(65%);
     }
 
     .img-100 {
-        width: 60%;
+        width: 70%;
         /* IE */
-        flex: 0 2 calc(60% - 44px);
+        flex: 0 2 calc(70%);
     }
 
 
@@ -1379,38 +1392,41 @@ img {
 
 }
 
-@media screen and (max-width: 799px) and (min-width: 601px) and (orientation: portrait) {
+@media screen and (max-width: 799px) and (min-width: 620px) and (orientation: portrait) {
 
     .content-wrapper {
         width: 96%;
 
     }
 
+
+    .container {
+
+        margin-left: 6%;
+        padding: 12% 8% 0%;
+     
+    }
+
     section#first {
-        height: 100vh;
+        height: 110vh;
     }
     
     section#second {
-        height: 100vh;
+        height: 110vh;
     }
     
     section#third {
-        height: 100vh;
+        height: 110vh;
     }
     
     section#fourth {
-        height: 100vh;
+        height: 130vh;
     }
     
     section#fifth {
         height: 100vh;
     }
 
-    .container {
-
-        margin-left: 8%;
-        padding: 12% 8% 0%;
-    }
 
 
 
@@ -1424,7 +1440,7 @@ img {
 
 
     .text-block {
-        padding-top: 6vh;
+        padding-top: 8vh;
 
     }
 
@@ -1436,7 +1452,7 @@ img {
     .copy-right {
         float: right;
         width: 100%;
-        padding-bottom: 6vh;
+        padding-bottom: 8vh;
     }
 
 
@@ -1458,7 +1474,7 @@ img {
     .image-block-2 {
         display: flex;
         flex-direction: row;
-        height: 55vh;
+        height: 65vh;
         justify-content: space-between;
         padding: 0%;
    
@@ -1590,29 +1606,35 @@ img {
 }
 
 
-@media screen and (max-width: 799px) and (min-width: 601px) and (orientation: landscape) {
+@media screen and (max-width: 799px) and (min-width: 620px) and (orientation: landscape) {
+
+    .content-wrapper {
+        width: 96%;
+
+    }
+
 
     .container {
 
-        margin-left: 6%;
-        padding: 7% 5% 0%;
+        margin-left: 7%;
+        padding: 12% 8% 0%;
+     
     }
 
-
     section#first {
-        height: 170vh;
+        height: 120vh;
     }
     
     section#second {
-        height: 180vh;
+        height: 120vh;
     }
     
     section#third {
-        height: 170vh;
+        height: 120vh;
     }
     
     section#fourth {
-        height: 220vh;
+        height: 140vh;
     }
     
     section#fifth {
@@ -1621,22 +1643,20 @@ img {
 
 
 
-    .spacer {
-        height: 6vh;
 
-    }
+
+
 
     .spacer-rug {
-        height: 4vh;
+        height: 8vh;
 
     }
 
 
     .text-block {
-        padding-top: 12vh;
+        padding-top: 8vh;
 
     }
-
 
     .copy-left {
         float: left;
@@ -1646,12 +1666,21 @@ img {
     .copy-right {
         float: right;
         width: 100%;
-        padding-bottom: 12vh;
+        padding-bottom: 8vh;
     }
 
 
 
+    .image-block-1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
 
+     
+        height: 50vh;
+
+    }
 
 
 
@@ -1659,13 +1688,12 @@ img {
     .image-block-2 {
         display: flex;
         flex-direction: row;
-        height: 80vh;
+        height: 65vh;
         justify-content: space-between;
         padding: 0%;
-      
+   
 
     }
-
 
 
 
@@ -1675,23 +1703,9 @@ img {
         height: fit-content;
         justify-content: space-between;
         padding: 0%;
-       
+ 
 
     }
-
-
-    .image-block-1 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 0%;
-height: 100vh;
-     
-        height: fit-content;
-
-    }
-
-
 
 
 
@@ -1710,37 +1724,37 @@ height: 100vh;
 
 
     .img-20 {
-        width: 25%;
+        width: 30%;
         /* IE */
-        flex: 0 2 calc(25%)
+        flex: 0 2 calc(30%)
     }
 
     .img-25 {
-        width: 25%;
+        width: 45%;
         /* IE */
-        flex: 0 2 calc(25% - 44px);
+        flex: 0 2 calc(45%);
     }
 
 
     .img-30 {
-        width: 30%;
+        width: 45%;
         /* IE */
-        flex: 0 2 calc(30%);
+        flex: 0 2 calc(45% - 44px);
     }
 
 
     .img-35 {
-        width: 35%;
+        width: 55%;
         /* IE */
-        flex: 0 2 calc(35%);
+        flex: 0 2 calc(55% - 44px);
     }
 
 
 
     .img-40 {
-        width: 35%;
+        width: 55%;
         /* IE */
-        flex: 0 2 calc(35%);
+        flex: 0 2 calc(55% - 44px);
     }
 
     .img-45 {
@@ -1750,9 +1764,9 @@ height: 100vh;
     }
 
     .img-50 {
-        width: 40%;
+        width: 70%;
         /* IE */
-        flex: 0 2 calc(40%);
+        flex: 0 2 calc(70%);
     }
 
     .img-55 {
@@ -1765,9 +1779,9 @@ height: 100vh;
 
 
     .img-60 {
-        width: 60%;
+        width: 100%;
         /* IE */
-        flex: 0 2 calc(60% - 44px);
+        flex: 0 2 calc(100%);
     }
 
     .img-100 {
@@ -1778,16 +1792,11 @@ height: 100vh;
 
 
 
-
-
-
-
-
 }
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 619px) {
 
     .content-wrapper {
         height: 100vh;
