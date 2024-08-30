@@ -119,7 +119,7 @@ a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
   height: fit-content;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   display: inline-block;
 
 }
@@ -192,7 +192,7 @@ i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
 
 
 .overlay-content .icons {
- 
+
   width: 100%;
   position: absolute;
   top: 150%;
@@ -201,6 +201,7 @@ i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
  
 }
 
@@ -493,7 +494,146 @@ button {
 /* Media Queries */
 /**************************/
 
-@media screen and (max-width: 1920px) and (min-width: 1280px) {}
+
+
+
+@media screen and (max-width: 1920px) {
+  .overlay-content .icons {
+
+    width: 100%;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+  }
+
+}
+
+@media screen and (max-width: 1399px)  {
+  .overlay-content .icons {
+    top: 150%;
+
+   
+  }
+
+}
+
+@media screen and (max-width: 1279px)  {
+
+  .overlay-content ul li  {
+    font-size: calc(5vw + 3.5rem);
+    margin-left: -2px;
+    font-family: 'the_new_eleganceCnRg';
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+  
+  }
+
+
+  .overlay-content .icons {
+    top: 150%;
+
+   
+  }
+
+}
+
+
+@media screen and (max-width: 1079px)  {
+
+  .overlay-content ul li  {
+    font-size: calc(4.5vw + 3.5rem);
+    margin-left: -2px;
+    font-family: 'the_new_eleganceCnRg';
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+  
+  }
+
+
+  .overlay-content .icons {
+    top: 150%;
+
+   
+  }
+
+}
+
+
+@media screen and (max-width: 962px) and (orientation: landscape) {
+
+  .overlay-content ul li  {
+    font-size: calc(4vw + 3.5rem);
+    margin-left: -2px;
+    font-family: 'the_new_eleganceCnRg';
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+  
+  }
+
+  .overlay-content .icons {
+    top: 130%;
+
+   
+  }
+
+  
+}
+
+@media screen and (max-width: 962px) and (orientation: portrait) {
+
+  .overlay-content ul li  {
+    font-size: calc(4.5vw + 3.5rem);
+    margin-left: -2px;
+    font-family: 'the_new_eleganceCnRg';
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+  
+  }
+
+  .overlay-content .icons {
+    top: 220%;
+
+   
+  }
+
+  
+}
+
+@media screen and (max-width: 916px) and (orientation: landscape) {
+
+  .overlay-content ul li  {
+    font-size: calc(4vw + 2rem);
+    margin-left: -2px;
+    font-family: 'the_new_eleganceCnRg';
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+  
+  }
+
+  .overlay-content .icons {
+    top: 130%;
+
+   
+  }
+
+  
+}
 
 @media screen and (max-width: 1279px) and (min-width: 916px) {}
 
@@ -509,6 +649,8 @@ button {
 /* @media screen and (max-width: 840px) and (min-width: 801px) {
 
 } */
+
+
 
 @media screen and (max-width: 915px) and (min-width: 873px) {}
 

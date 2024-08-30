@@ -57,10 +57,15 @@ section {
     width: 100%;
     position: absolute;
     top: 90%;
-    left: 56%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
+
+.cv {
+    position: relative;
+    top: 52vh;
+}
 #second {
    height: 100vh;
    padding: 0% 0%;

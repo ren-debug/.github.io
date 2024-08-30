@@ -37,6 +37,9 @@ body::-webkit-scrollbar {
 }
 
 
+nav a {
+  color: white;
+}
 
 
 main {
@@ -74,4 +77,21 @@ main {
 
 
 
+}
+
+
+@media screen and (max-width: 961px) and (orientation: landscape) {
+
+  .work-index a {
+    font-size: calc(4vw + 1.5rem);
+    margin-left: -2px;
+    font-family: 'the_new_eleganceCnRg';
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+  
+  }
+
+  
 }
