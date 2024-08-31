@@ -229,7 +229,7 @@ nav .active {
 
  }
 
- @media screen and (max-width: 992px)  {
+ @media screen and (max-width: 1024px)  {
 
   .drop {
     padding: 0% 18%;
@@ -246,45 +246,25 @@ nav .active {
   background-color: transparent;
   }
 
-  .menu li {
-    font-size: 8px;
-  }
+
  
 
  }
 
 
-@media screen and (max-width: 820px) and (min-width: 601px) and (orientation: portrait) {
- 
+ /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 768px) and (orientation: landscape) {
 
-  
-
-
+.menu li {
+  display: none;
+}
 
 }
 
 
 
-@media screen and (max-width: 600px) {
 
- 
-
-
-
-
-  
-}
-
-
-
-
-
-@media screen and (max-width: 360px) {
-
-
-
-
-
-
-
-}
+ @media (min-width: 320px) and (max-width: 480px) {}

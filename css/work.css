@@ -121,7 +121,7 @@ main {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
 
   .work-index a {
     font-size: calc(3vw + 1.5rem);
@@ -145,7 +145,7 @@ main {
 
 
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 768px) and (orientation: landscape) {
 
   .work-index a {
     font-size: calc(1.5vw + 1rem);
