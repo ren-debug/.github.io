@@ -191,7 +191,7 @@ nav .active {
 
 }
 
-@media screen and (max-width: 1400px) and (min-width: 917px)  {
+@media screen and (max-width: 1400px)  {
 
   .drop {
  
@@ -214,7 +214,7 @@ nav .active {
 
  }
 
- @media screen and (max-width: 916px) and (min-width: 800px) and (orientation: landscape) {
+ /* @media screen and (max-width: 916px) and (min-width: 800px) and (orientation: landscape) {
 
   .drop {
     padding: 0% 18%;
@@ -237,9 +237,9 @@ nav .active {
   }
  
 
- }
+ } */
 
- @media screen and (min-width: 1024px)  {
+ @media screen and (max-width: 1025px)  {
 
   .drop {
     padding: 0% 18%;
@@ -279,6 +279,30 @@ background-color: transparent;
 }
 
 
+@media (max-width: 767px) and (landscape) {
+
+  .menu li, .vl {
+    display: none;
+  }
+  
+  ul li:hover>ul,
+  ul li:focus-within>ul,
+  ul li ul:hover,
+  ul li ul:focus {
+  visibility: hidden;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  }
+  
+  
+  
+  }
+
+
+
+@media (max-width: 600px) {}
 
 
  @media (min-width: 360px) and (max-width: 480px) {
@@ -298,9 +322,17 @@ nav ul {
  
 }
 
-/* .menu li {
-  font-size: 11px;
-} */
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+visibility: hidden;
+opacity: 1;
+display: flex;
+flex-direction: row;
+background-color: transparent;
+}
+
 
 
  }
@@ -322,6 +354,18 @@ nav ul {
   margin: 10px;
  
 }
+
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+visibility: hidden;
+opacity: 1;
+display: flex;
+flex-direction: row;
+background-color: transparent;
+}
+
   
 
  }

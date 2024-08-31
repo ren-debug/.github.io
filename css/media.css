@@ -502,11 +502,14 @@ img {
             display: none;
         }
 
-    .container {
-        margin-left: 0%;
-        padding: 8% 4% 0%;
-        height: 100%;
-    }
+        .container {
+
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 5% 3%;
+    
+    
+        }
 
 
 
