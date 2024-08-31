@@ -302,7 +302,29 @@ background-color: transparent;
 
 
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+
+  .menu li, .vl {
+    display: none;
+  }
+  
+  ul li:hover>ul,
+  ul li:focus-within>ul,
+  ul li ul:hover,
+  ul li ul:focus {
+  visibility: hidden;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  }
+  
+  
+  
+  }
+
+
+
 
 
  @media (min-width: 360px) and (max-width: 480px) {
