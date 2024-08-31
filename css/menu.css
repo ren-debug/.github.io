@@ -279,7 +279,7 @@ background-color: transparent;
 }
 
 
-@media (max-width: 767px) and (landscape) {
+@media (max-width: 767px) and (orientation: landscape) {
 
   .menu li, .vl {
     display: none;
