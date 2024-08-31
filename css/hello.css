@@ -64,8 +64,19 @@ section {
 
 .cv {
     position: absolute;
-    top: 50;
+    top: 100%;
+    left: 0%;
+   
 }
+
+.view {
+    float: right;
+}
+
+
+
+
+
 #second {
    height: 100vh;
    padding: 0% 0%;

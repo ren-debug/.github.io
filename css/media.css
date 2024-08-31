@@ -77,11 +77,13 @@ button {
 
 
 .container {
-    margin-left: 4%;
-    padding: 6% 6% 0%;
-    height: auto;
-}
 
+    margin-left: 48px;
+    margin-right: 0px;
+    padding: 4% 4%;
+
+
+}
 
 
 section {
@@ -115,7 +117,7 @@ section {
 
 .copy-left {
     float: left;
-    width: 30%;
+    width: 35%;
 }
 
 
