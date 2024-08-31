@@ -17,7 +17,7 @@ a {
 }
 
 
-nav a {
+/* nav a {
   mix-blend-mode: exclusion;
   color: rgb(39, 39, 39);
 }
@@ -26,7 +26,7 @@ nav a .active {
   mix-blend-mode:exclusion;
   color: rgb(39, 39, 39);
   opacity: 1;
-}
+} */
 
 nav {
 
@@ -40,7 +40,7 @@ nav {
   height: 44px;
   
 /* border: 1px solid rgba(255, 255, 255, 0.3); */
-   background-color: rgba(255, 255, 255, 0.385);
+   /* background-color: rgba(255, 255, 255, 0.385); */
   /* backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%); */
   -webkit-backdrop-filter: blur(8px);
@@ -311,6 +311,12 @@ background-color: transparent;
 
   }
 
+  .drop {
+    padding: 0% 4%;
+    margin-left: 0px;
+   
+  }
+  
 
 .menu {
   left: 6px;
@@ -342,6 +348,13 @@ background-color: transparent;
   .vl {
     margin-left: 38px;
 
+  }
+
+
+  .drop {
+    padding: 0% 4%;
+    margin-left: 0px;
+   
   }
 
 

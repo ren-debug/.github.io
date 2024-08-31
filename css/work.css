@@ -38,9 +38,30 @@ body::-webkit-scrollbar {
 
 
 nav a {
-  color: white;
+  mix-blend-mode: exclusion;
+  color: rgb(255, 255, 255);
 }
 
+nav a .active {
+  mix-blend-mode:exclusion;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+nav {
+
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+   background-color: rgb(29, 29, 29);
+  /* backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%); */
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  
+ 
+  
+ 
+ 
+}
 
 main {
   width: 100%;
@@ -148,7 +169,7 @@ main {
 @media (max-width: 768px) and (orientation: landscape) {
 
   .work-index a {
-    font-size: calc(1.5vw + 1rem);
+    font-size: calc(3.5vw + 2rem);
     margin-left: -2px;
     font-family: 'the_new_eleganceCnRg';
     font-weight: 100;
