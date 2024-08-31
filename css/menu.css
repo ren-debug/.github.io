@@ -13,13 +13,20 @@ html {
 
 a {
   text-decoration: none;
-  color: rgb(126, 126, 126);
+ 
 }
 
 
+nav a {
+  mix-blend-mode: exclusion;
+  color: rgb(39, 39, 39);
+}
 
-
-
+nav a .active {
+  mix-blend-mode:exclusion;
+  color: rgb(39, 39, 39);
+  opacity: 1;
+}
 
 nav {
 
@@ -31,13 +38,13 @@ nav {
 
   z-index: 2;
   height: 44px;
-
+  
 /* border: 1px solid rgba(255, 255, 255, 0.3); */
-   background-color: rgba(255, 255, 255, 0);
+   background-color: rgba(255, 255, 255, 0.385);
   /* backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%); */
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   
  
   
@@ -48,13 +55,16 @@ nav {
 nav ul {
   list-style: none;
   height: 28px;
- 
+
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 12px;
   text-align: center;
 }
+
+
 
 .fi-sr-house-chimney,
 .fi-br-menu-burger {
@@ -75,8 +85,8 @@ nav li {
   text-align: center;
   font-size: 11px;
   line-height: 24px;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
   transition-duration: 0.5s;
  
   
@@ -88,7 +98,7 @@ nav li {
 
 .drop {
   padding: 0% 14%;
-  margin-left: 1%;
+  margin-left: 18px;
  
 }
 
@@ -235,16 +245,7 @@ nav .active {
     padding: 0% 18%;
   }
   
-  ul li:hover>ul,
-  ul li:focus-within>ul,
-  ul li ul:hover,
-  ul li ul:focus {
-  visibility: hidden;
-  opacity: 1;
-  display: flex;
-  flex-direction: row;
-  background-color: transparent;
-  }
+
 
 
  
@@ -261,6 +262,19 @@ nav .active {
 .menu li, .vl {
   display: none;
 }
+
+ul li:hover>ul,
+ul li:focus-within>ul,
+ul li ul:hover,
+ul li ul:focus {
+visibility: hidden;
+opacity: 1;
+display: flex;
+flex-direction: row;
+background-color: transparent;
+}
+
+
 
 }
 
@@ -284,9 +298,9 @@ nav ul {
  
 }
 
-.menu li {
+/* .menu li {
   font-size: 11px;
-}
+} */
 
 
  }
