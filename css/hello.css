@@ -63,8 +63,8 @@ section {
 
 
 .cv {
-    position: relative;
-    top: 52vh;
+    position: absolute;
+    top: 50;
 }
 #second {
    height: 100vh;
