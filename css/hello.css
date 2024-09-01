@@ -336,7 +336,7 @@ button .tablinks {
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
     #second>* {
         width: 45%;
        
@@ -352,13 +352,110 @@ button .tablinks {
     
     
     }
+
+    .container-items {
+        position: absolute;
+        top: 0;
+        height: max-content;
+        width: 100%;
+        background-color: bisque;
+      
+     
+    
+    }
+
+
+.skills-icons {
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+top: 8%;
+    height: auto;
+    background-color: aqua;
 
 
 }
 
 
 
-@media screen and (max-width: 1280px) {
+
+.lingue {
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+    height: 150px;
+top: 0%;
+background-color: aqua;
+margin-bottom: 6vh;
+
+
+
+}
+
+
+}
+
+@media screen and (min-width: 1400px) {
+    #second>* {
+        width: 45%;
+       
+    }
+    
+    .container {
+        /* position: relative;
+        margin: 0 auto;
+        display: flex; */
+        height: 45%;
+        width: 45%;
+     
+    
+    
+    }
+
+    .container-items {
+        position: absolute;
+        top: 0;
+        height: max-content;
+        width: 100%;
+        background-color: bisque;
+      
+     
+    
+    }
+
+
+.skills-icons {
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+top: 0%;
+    height: auto;
+    background-color: aqua;
+
+
+}
+
+
+
+
+.lingue {
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+    height: 150px;
+top: 0%;
+background-color: aqua;
+margin-bottom: 6vh;
+
+
+
+}
+
+
+
+}
+
+@media screen and (min-width: 1280px) {
     #second>* {
         width: 60%;
        
@@ -374,6 +471,47 @@ button .tablinks {
     
     
     }
+
+
+    .container-items {
+        position: absolute;
+        top: 0;
+        height: max-content;
+        width: 100%;
+        background-color: rgb(255, 196, 234);
+      
+     
+    
+    }
+
+    
+    .skills-icons {
+        position: relative;
+        margin: 0 auto;
+        width: 45%;
+    top: 26%;
+        height: auto;
+        background-color: aqua;
+    
+    
+    }
+    
+    
+    
+    
+    .lingue {
+        position: relative;
+        margin: 0 auto;
+        width: 45%;
+        height: 150px;
+    top: 8%;
+    background-color: aqua;
+    margin-bottom: 6vh;
+    
+    
+    
+    }
+
 
 
 }
@@ -395,7 +533,13 @@ button .tablinks {
     }
 
 
-
+    .blur {
+        /* margin: 0 auto; */
+        height: 100%;
+        width: 60%;
+        margin-left: 22px;
+    
+    }
 
 
 
@@ -467,9 +611,9 @@ button .tablinks {
         /* margin: 0 auto; */
         height: 100%;
         width: 80%;
+        margin-left: 22px;
     
     }
-    
 
 
 
@@ -494,7 +638,13 @@ button .tablinks {
         display: none;
     }
 
-
+    .blur {
+        /* margin: 0 auto; */
+        height: 100%;
+        width: 80%;
+        margin-left: 22px;
+    
+    }
 
 
     
@@ -551,6 +701,7 @@ button .tablinks {
         /* margin: 0 auto; */
         height: 100%;
         width: 80%;
+        margin-left: 22px;
     
     }
     
@@ -560,7 +711,7 @@ button .tablinks {
 
 }
 
-@media screen and (max-width: 600px) and (orientation: portrait) {
+@media screen and (max-width: 601px) and (orientation: portrait) {
 
  
 
@@ -576,7 +727,18 @@ button .tablinks {
     }
 
 
-
+    #second>* {
+        width: 80%;
+       
+    }
+    
+    .blur {
+        /* margin: 0 auto; */
+        height: 100%;
+        width: 80%;
+        margin-left: 22px;
+    
+    }
 
 
  
@@ -612,6 +774,7 @@ button .tablinks {
         /* margin: 0 auto; */
         height: 100%;
         width: 80%;
+        margin-left: 20px;
     
     }
     
@@ -637,7 +800,13 @@ button .tablinks {
         display: none;
     }
 
-
+    .blur {
+        /* margin: 0 auto; */
+        height: 100%;
+        width: 80%;
+        margin-left: 20px;
+    
+    }
 
 
 

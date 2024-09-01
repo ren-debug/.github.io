@@ -185,7 +185,7 @@ i.fi.fi-sr-phone-call {
 
 
 p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "neue-haas-grotesk-display", sans-serif;
   color: white;
   background-color: transparent;
@@ -651,12 +651,12 @@ p {
   #title {
   
     position: relative;
-    top: 20%;
+    top: 40%;
   }
 
 
   p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 200;
     letter-spacing: 1px;
 
@@ -664,12 +664,12 @@ p {
   }
 
 .title-letter {
-  font-size: calc(3.5vw + 2rem);
+  font-size: calc(3.5vw + 3rem);
 }
 
   #sub-title p {
     position: relative;
-    top: 18%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -681,9 +681,9 @@ p {
 
 
   .cta {
-    width: 29%;
+    width: 35%;
     position: relative;
-    top: 30%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -701,7 +701,7 @@ p {
 
 
   button {
-
+font-size: 11px;
     width: 102px;
     height: 34px;
 
@@ -816,11 +816,11 @@ p {
 
   #wrapper {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    height: 80%;
+    height: 90%;
     width: 100%;
     display: inline-block;
 
@@ -830,7 +830,7 @@ p {
   #title {
    
     position: relative;
-    top: 40%;
+    top: 45%;
   }
 
   .title-letter {
@@ -838,9 +838,9 @@ p {
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
 
   }
@@ -849,48 +849,56 @@ p {
 
   #sub-title p {
     position: relative;
-    top: 38%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 
   }
 
+
+
+
+
+
+
+  .icons {
+    bottom: 0%;
+    width: 30%;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
 
 
 
 
   .cta {
-    width: 35%;
+    width: 45%;
     position: relative;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 
   }
 
-  .icons {
-    bottom: 0%;
-    width: 25%;
 
-    left: 50%;
-    transform: translate(-50%, -50%);
 
+  i.fi.fi-sr-envelope,
+  i.fi.fi-sr-phone-call {
+    font-size: 11px;
+    padding: 0%;
   }
 
 
 
-
-
-  button {
-
-    font-size: 13px;
-    width: 120px;
-    height: 40px;
-
+  .fa-instagram,
+  .fa-linkedin-in {
+    font-size: 14px;
+    padding: 0%;
   }
-
 
 
 }
@@ -902,7 +910,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    height: 80%;
+    height: 90%;
     width: 100%;
     display: inline-block;
 
@@ -912,25 +920,25 @@ p {
   #title {
   
     position: relative;
-    top: 40%;
+    top: 35%;
   }
 
 
   p {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
 
   }
 
 .title-letter {
-  font-size: calc(4vw + 2.5rem);
+  font-size: calc(4vw + 2rem);
 }
 
   #sub-title p {
     position: relative;
-    top: 38%;
+    top: 34%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -942,7 +950,7 @@ p {
 
 
   .cta {
-    width: 45%;
+    width: 55%;
     position: relative;
     top: 45%;
     left: 50%;
@@ -953,7 +961,7 @@ p {
 
   .icons {
     bottom: 0%;
-    width: 25%;
+    width: 35%;
 
     left: 50%;
     transform: translate(-50%, -50%);
@@ -963,14 +971,28 @@ p {
 
 
 
-
   button {
-
-    font-size: 13px;
-    width: 120px;
-    height: 40px;
+font-size: 11px;
+    width: 104px;
+    height: 34px;
 
   }
+
+  i.fi.fi-sr-envelope,
+  i.fi.fi-sr-phone-call {
+    font-size: 11px;
+    padding: 0%;
+  }
+
+
+
+  .fa-instagram,
+  .fa-linkedin-in {
+    font-size: 14px;
+    padding: 0%;
+  }
+
+
 }
 
 @media screen and (min-width: 360px) and (max-width: 480px) and (orientation: portrait) {
