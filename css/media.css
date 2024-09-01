@@ -1,5 +1,22 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid green;
+   
+  
+  }
+
+
+
 body {
-    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    
+    height: 100%;
+    overflow: hidden;
     color: rgb(126, 126, 126);
     opacity: 1;
 

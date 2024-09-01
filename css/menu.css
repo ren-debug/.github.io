@@ -288,7 +288,7 @@ nav .active {
 
 
 
- @media screen and (min-width: 360px) and (max-width: 600px) and (orientation: portrait) {
+ @media screen and (min-width: 360px) and (max-width: 480px) and (orientation: portrait) {
   .vl {
     margin-left: 38px;
 
