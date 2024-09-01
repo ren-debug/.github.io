@@ -279,7 +279,7 @@ background-color: transparent;
 }
 
 
-@media (max-width: 767px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
 
   .menu li, .vl {
     display: none;
@@ -307,7 +307,7 @@ background-color: transparent;
 
 
 
- @media (min-width: 360px) and (max-width: 600px) {
+ @media (min-width: 360px) and (max-width: 480px) and (orientation: portrait) {
   .vl {
     margin-left: 38px;
 
@@ -367,7 +367,13 @@ background-color: transparent;
 
 .menu {
   left: 6px;
+ 
+  
 
+}
+
+.menu li {
+font-size: 9px;
 }
 
 nav ul {
