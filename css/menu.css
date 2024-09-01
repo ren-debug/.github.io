@@ -339,6 +339,11 @@ background-color: transparent;
    
   }
   
+  .menu li, .vl {
+    display: inline;
+  }
+
+
 
 .menu {
   left: 6px;
