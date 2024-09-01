@@ -23,14 +23,6 @@ body {
 }
 
 
-body {
-    font-size: 9px;
-    line-height: 20px;
-    font-weight: 300;
-    letter-spacing: 0.75px;
-    color: rgb(126, 126, 126);
-    width: calc(100vw - var(--scrollbar-width));
-}
 
 
 nav {
