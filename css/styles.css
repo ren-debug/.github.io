@@ -198,7 +198,7 @@ i.fi.fi-sr-envelope, i.fi.fi-sr-phone-call {
 
   width: 100%;
   position: absolute;
-  top: 150%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
