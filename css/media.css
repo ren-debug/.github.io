@@ -80,7 +80,7 @@ button {
 
     margin-left: 48px;
     margin-right: 0px;
-    padding: 4% 4%;
+    padding: 0% 4%;
 
 
 }
@@ -362,12 +362,7 @@ img {
 
 @media (min-width: 768px) and (max-width: 1025px){ 
 
-    .content-wrapper {
-        height: 100vh;
-        width: 98%;
-        overflow-y: scroll;
-        box-sizing: border-box;
-    }
+
 
 
       /* Hide scrollbar for Chrome, Safari and Opera */
@@ -386,7 +381,7 @@ img {
 
         margin-left: 62px;
         margin-right: 0px;
-        padding: 8% 2%;
+        padding: 0% 2%;
 
 
     }
@@ -488,12 +483,7 @@ img {
 
 @media (max-width: 960px) and (orientation: landscape) {
 
-    .content-wrapper {
-        height: 100vh;
-        width: 96%;
-        overflow-y: scroll;
-        box-sizing: border-box;
-    }
+
 
 
         /* Hide scrollbar for Chrome, Safari and Opera */
@@ -511,7 +501,7 @@ img {
 
             margin-left: 36px;
             margin-right: 0px;
-            padding: 6% 1%;
+            padding: 0% 1%;
     
     
         }
@@ -608,13 +598,7 @@ img {
 
     @media (max-width: 768px) and (orientation: landscape) {
 
-        .content-wrapper {
-            height: 100vh;
-            width: 98%;
-            overflow-y: scroll;
-            box-sizing: border-box;
-        }
-    
+ 
     
           /* Hide scrollbar for Chrome, Safari and Opera */
           ::-webkit-scrollbar {
@@ -632,7 +616,7 @@ img {
 
             margin-left: 14px;
             margin-right: 0px;
-            padding: 8% 2%;
+            padding: 0% 2%;
     
     
         }
@@ -728,12 +712,7 @@ img {
 
     @media (min-width: 360px) and (max-width: 600px) and (orientation: portrait) {
 
-    .content-wrapper {
-        height: 100vh;
-        width: 96%;
-        overflow-y: scroll;
-        box-sizing: border-box;
-    }
+
 
     /* Hide scrollbar for Chrome, Safari and Opera */
     ::-webkit-scrollbar {
@@ -750,7 +729,7 @@ img {
 
         margin-left: 56px;
         margin-right: 0px;
-        padding: 14% 2%;
+        padding: 0% 2%;
 
 
     }
@@ -922,12 +901,7 @@ img {
 
 @media (max-width: 360px)  and (orientation: portrait)  {
 
-    .content-wrapper {
-        height: 100vh;
-        width: 96%;
-        overflow-y: scroll;
-        box-sizing: border-box;
-    }
+ 
 
     /* Hide scrollbar for Chrome, Safari and Opera */
     ::-webkit-scrollbar {
@@ -944,7 +918,7 @@ img {
 
         margin-left: 52px;
         margin-right: 0px;
-        padding: 14% 1%;
+        padding: 0% 1%;
 
 
     }
