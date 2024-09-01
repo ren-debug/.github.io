@@ -726,7 +726,7 @@ img {
 
 
 
-    @media (min-width: 360px) and (max-width: 480px) and (orientation: portrait) {
+    @media (min-width: 360px) and (max-width: 600px) and (orientation: portrait) {
 
     .content-wrapper {
         height: 100vh;
