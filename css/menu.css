@@ -17,16 +17,16 @@ a {
 }
 
 
-/* nav a {
+nav a {
   mix-blend-mode: exclusion;
-  color: rgb(39, 39, 39);
+  /* color: rgb(39, 39, 39); */
 }
 
 nav a .active {
   mix-blend-mode:exclusion;
-  color: rgb(39, 39, 39);
+  /* color: rgb(39, 39, 39); */
   opacity: 1;
-} */
+}
 
 nav {
 
@@ -98,7 +98,7 @@ nav li {
 
 .drop {
   padding: 0% 14%;
-  margin-left: 18px;
+  margin-left: 36px;
  
 }
 

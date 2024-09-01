@@ -104,9 +104,12 @@ button {
 
 section {
     height: auto;
-    padding-top: 6vh;
+    padding-top: 16vh;
 }
 
+section#first {
+    padding-top: 6vh;
+}
 
 .spacer {
     height: 4vh;
