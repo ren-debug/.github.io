@@ -350,7 +350,7 @@ background-color: transparent;
 
  }
 
- @media (max-width: 360px)  {
+ @media (max-width: 360px) and (orientation: portrait)  {
 
   .vl {
     margin-left: 38px;
