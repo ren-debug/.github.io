@@ -246,7 +246,16 @@ nav .active {
   }
   
 
-
+  ul li:hover>ul,
+  ul li:focus-within>ul,
+  ul li ul:hover,
+  ul li ul:focus {
+  visibility: hidden;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  }
 
  
 
