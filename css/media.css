@@ -490,7 +490,7 @@ img {
 
     .content-wrapper {
         height: 100vh;
-        width: 100%;
+        width: 96%;
         overflow-y: scroll;
         box-sizing: border-box;
     }
@@ -509,9 +509,9 @@ img {
 
         .container {
 
-            margin-left: 0px;
+            margin-left: 36px;
             margin-right: 0px;
-            padding: 6% 3% 0% 3%;
+            padding: 6% 1%;
     
     
         }
